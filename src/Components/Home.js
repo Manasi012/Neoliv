@@ -21,11 +21,11 @@ const Home = () => {
 <Herosection />
 <About />
 <OurPurpose />
-<Founder />
+{/* <Founder />
 <ThreePillars />
 <Team />
 <Insignia />
-<NewsInsights />
+<NewsInsights /> */}
 <Footer />
 <FooterLinks />
     </>
