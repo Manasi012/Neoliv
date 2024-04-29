@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat";
+}
+.bg_indigo{
+    background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer_box{
+    background-color: #364b7d7e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card_bg{
+    background-color: #F3F3F8;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg_light{
+    background-color: #F4F4FB;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-custom{
+    background-image: url('./Assets/imgs/pillarsbg.jpg');
 }
