@@ -5,10 +5,10 @@ import Herosection from './Herosection';
 import About from './About';
 import OurPurpose from './OurPurpose';
 import Founder from './Founder';
-import ThreePillars from './ThreePillars';
-import Team from './Team';
-import Insignia from './Insignia';
-import NewsInsights from './NewsInsights';
+// import ThreePillars from './ThreePillars';
+// import Team from './Team';
+// import Insignia from './Insignia';
+// import NewsInsights from './NewsInsights';
 import Footer from './Footer';
 import FooterLinks from './FooterLinks';
 
