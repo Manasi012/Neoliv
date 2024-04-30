@@ -24,9 +24,9 @@ const Founder = () => {
       </div>
     </div>
     </div>
-    <div className='flex justify-center bg_light py-16'>
+    {/* <div className='flex justify-center bg_light py-16'>
         <img src={FounderImage} alt="FounderImage" className='md:w-[50%] w-full'/>
-    </div>
+    </div> */}
     </>
   )
 }
