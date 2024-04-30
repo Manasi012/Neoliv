@@ -19,3 +19,6 @@ body{
 .bg-custom{
     background-image: url('./Assets/imgs/pillarsbg.jpg');
 }
+.slick_slide{
+    max-height: 80rem;
+}

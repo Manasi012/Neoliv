@@ -1,16 +1,21 @@
 import './App.css';
-import Bluenavbar from './Components/Bluenavbar';
-import Footer from './Components/Footer';
-import FooterLinks from './Components/FooterLinks';
-import Header from './Components/Header';
+import Bluenavbar from '../src/Components/Bluenavbar';
+import Header from '../src/Components/Header';
 import Home from './Components/Home';
-import Slider from './Components/Slider';
+import Footer from '../src/Components/Footer';
+import FooterLinks from '../src/Components/FooterLinks';
+import Responsive from '../src/Components/Responsive';
+import NewsInsights from './Components/NewsInsights';
+
 
 function App() {
   return (
       <div className="App overflow-hidden">
+        <Bluenavbar />
+        <Header />
         <Home />
-        <Slider/>
+        <Footer />
+      <FooterLinks />
     </div>
   );
 }

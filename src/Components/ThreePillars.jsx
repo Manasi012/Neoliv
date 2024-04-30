@@ -9,14 +9,14 @@ const ThreePillars = () => {
         <div className="flex flex-wrap mx-16">
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#9C9AAc]">1</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">1</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Professionally <br />Built</p>
         </div>
         <div className='my-10 text-white'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
-                Founded by Mohit Malhotra (former MD & CEO of Godrej Properties
+                Founded by Mohit Malhotra former MD & CEO of Godrej Properties
                 </li>
                 <li>
                 100+ years cumulative experience
@@ -31,7 +31,7 @@ const ThreePillars = () => {
     
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#9C9AAc]">2</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">2</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Financially <br />Secure</p>
         </div>
@@ -53,7 +53,7 @@ const ThreePillars = () => {
     
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#9C9AAc]">3</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">3</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Customer <br />Centric</p>
         </div>

@@ -7,7 +7,7 @@ const Herosection = () => {
   return (
     <>
     <div className='py-20 md:mx-20'>
-        <h1 className='uppercase md:text-4xl md:leading-[60px] font-[500] ml-8  text-2xl leading-[auto]'>India’s foremost integrated fund led
+        <h1 className='uppercase md:text-4xl md:leading-[60px] font-[500] ml-8 md:ml-0 text-2xl leading-[auto]'>India’s foremost integrated fund led
         <span className='block'>residential real estate developer</span>
         </h1>
     </div>

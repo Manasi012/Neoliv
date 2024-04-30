@@ -33,7 +33,7 @@ let [isOpen, SetisOpen]= useState(false)
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto left-0 w-full md:w-auto md:pl-0 pl-8 me-8 transition-all duration-500 ease-out ${isOpen ? 'top-32' : 'top-[-490px]'}`}>
                 {
                     Links.map((link) => (
-                    <li className='md:ml-6 md:my-0 my-7 font-normal tracking-wide'>
+                    <li className='md:ml-6 md:my-0 my-7 font-medium tracking-wide'>
                         <a href={link.link} className='text-white md:text-black hover:text-blue-700 duration-500'>{link.name}</a>
                     </li>))
                 }

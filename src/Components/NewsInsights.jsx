@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Responsive from './Responsive';
 
 
 const NewsInsights = () => {
@@ -37,15 +38,24 @@ const NewsInsights = () => {
         </button>
       </div>
 
-      {/* Tab Content */}
-      <div className="bg-gray-100 rounded-b-lg p-4">
+      <div className="rounded-b-lg p-4">
         {activeTab === 1 && 
         <div>
-            
+          <Responsive />
         </div>}
-        {activeTab === 2 && <div>Content of Tab 2</div>}
-        {activeTab === 3 && <div>Content of Tab 3</div>}
-        {activeTab === 4 && <div>Content of Tab 4</div>}
+        {activeTab === 2 && 
+        <div>
+          <Responsive />
+        </div>}
+        {activeTab === 3 &&
+        <div>
+          <Responsive />
+        </div>}
+        {activeTab === 4 && 
+        <div>
+          <Responsive />
+        </div>
+          }
       </div>
     </div>
   )
