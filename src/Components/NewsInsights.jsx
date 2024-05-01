@@ -1,7 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import Responsive from './Responsive';
-
+import AllNews from './Slider/AllNews';
+import CeoLetter from './Slider/CeoLetter';
+import Events from './Slider/Events';
+import News from './Slider/News';
 
 const NewsInsights = () => {
 
@@ -11,7 +13,7 @@ const NewsInsights = () => {
   return (
     <div>
       {/* Tab Pills */}
-      <div className="flex space-x-7 md:mx-96 mx-5">
+      <div className="flex md:space-x-7 space-x-4 md:mx-96 mx-5 pt-8">
         <button
           className={`flex-1 rounded-full border border-indigo-500  ${activeTab === 1 ? 'bg-indigo-500 text-white' : 'bg-white'}`}
           onClick={() => setActiveTab(1)}
@@ -41,19 +43,19 @@ const NewsInsights = () => {
       <div className="rounded-b-lg p-4">
         {activeTab === 1 && 
         <div>
-          <Responsive />
+          <AllNews />
         </div>}
-        {activeTab === 2 && 
+         {activeTab === 2 && 
         <div>
-          <Responsive />
+          <CeoLetter />
         </div>}
         {activeTab === 3 &&
         <div>
-          <Responsive />
+          <Events />
         </div>}
         {activeTab === 4 && 
         <div>
-          <Responsive />
+          <News />
         </div>
           }
       </div>

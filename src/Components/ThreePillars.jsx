@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Accordion from './Accordian';
 
 const ThreePillars = () => {
   return (
-    <div className='bg-custom bg-cover bg-center md:h-screen h-auto'>
+    <div className='bg-custom bg-cover bg-center md:h-screen h-auto px-8 py-20'>
         <div className='text-center py-10'>
         <h4 className='text-3xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
         </div>
-        <div className="flex flex-wrap mx-16">
+
+       <div className=''>
+       <div className="flex flex-wrap mx-16">
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
       <div className="p-6 rounded-lg">
         <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">1</h2>
@@ -72,7 +75,12 @@ const ThreePillars = () => {
         </div>
       </div>
     </div>
-  </div>
+        </div>
+       </div>
+
+        {/* <div className='md:hidden'>
+          <Accordion />
+        </div> */}
     </div>
   )
 }

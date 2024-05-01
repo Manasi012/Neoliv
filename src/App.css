@@ -22,3 +22,6 @@ body{
 .slick_slide{
     max-height: 80rem;
 }
+.slider-container button{
+    display: none !important;
+}

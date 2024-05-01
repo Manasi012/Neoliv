@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../Assets/imgs/neoliv_logo.jpeg';
+import Logo from '../../Assets/imgs/neoliv_logo.jpeg';
 
 const Header = () => {
 let Links=[
