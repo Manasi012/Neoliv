@@ -1,32 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Card from './Card'
+import Card from './Card';
 
-const AllNews = () => {
-  const cardData = [
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-  ];
+const newsData = [
+  { description: 'CEO’s Letter April 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+  { description: 'CEO’s Letter July 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/CEO_Letter_July2023.pdf' },
+  { description: 'CEO’s Letter November 2023', buttonText:'Ceo Letter', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+  { description: 'March 2024- First close of USD 150 mn Fund', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4k2psls4vqbr3349x260-2.jpg', buttonText:'Events', pdfUrl: 'https://neoliv.in/docs/NeoLiv%20Press%20Release%20-%20March%202024.pdf' },
+  { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4k2psls4vqbr3349x260-2.jpg', buttonText:'Events', pdfUrl: 'https://neoliv.in/docs/NEOLIVLaunchEvent.pdf' },
+];
 
-  // let sliderRef = useRef(null);
-  // const play = () => {
-  //   sliderRef.slickPlay();
-  // };
-  // const pause = () => {
-  //   sliderRef.slickPause();
-  // };
+function AllNewsComponent() {
+  const [selectedPdf, setSelectedPdf] = useState(null);
 
-  var settings = {
+  const handleCardClick = (pdfUrl) => {
+    window.open(pdfUrl, '_blank');
+    setSelectedPdf(pdfUrl);
+  };
+
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    autoplay:true,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     initialSlide: 0,
@@ -58,36 +56,22 @@ const AllNews = () => {
     ]
   };
 
-  // const settings = {
-  //   // dots: true,
-  //   infinite: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 2,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000
-  // };
-
-      
   return (
-    <div className="slider-container py-10 md:mx-20 mx-10 text-center">
-     <Slider {...settings}>
-      {cardData.map((card, index) => (
-        <div className='px-5' key={index}>
-          <Card description={card.description} imageUrl={card.imageUrl} buttonText={card.buttonText}/>
-        </div>
-      ))}
-    </Slider>
-
-    {/* <div style={{ textAlign: "center" }}>
-      <button className="button" onClick={play}>
-        Play
-      </button>
-      <button className="button" onClick={pause}>
-        Pause
-      </button>
-    </div> */}
-  </div>
-  )
+    <div className="slider-container py-10 text-center">
+      <Slider className='md:mx-14' {...settings}>
+        {newsData.map((card, index) => (
+          <div className='md:px-2 my-6' key={index}>
+            <Card 
+              description={card.description} 
+              imageUrl={card.imageUrl} 
+              buttonText={card.buttonText} 
+              onClick={() => handleCardClick(card.pdfUrl)} 
+            />
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
 }
 
-export default AllNews
+export default AllNewsComponent;

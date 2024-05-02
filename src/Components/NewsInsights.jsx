@@ -55,7 +55,8 @@ const NewsInsights = () => {
         </div>}
         {activeTab === 4 && 
         <div>
-          <News />
+          <h1 className='text-center text-3xl text-blue-900 font-bold py-10'>News</h1>
+          {/* <News /> */}
         </div>
           }
       </div>

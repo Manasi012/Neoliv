@@ -3,12 +3,12 @@ import Accordion from './Accordian';
 
 const ThreePillars = () => {
   return (
-    <div className='bg-custom bg-cover bg-center md:h-screen h-auto px-8 py-20'>
+    <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20'>
         <div className='text-center py-10'>
-        <h4 className='text-3xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
+        <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
         </div>
 
-       <div className=''>
+       <div className='hidden md:block'>
        <div className="flex flex-wrap mx-16">
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
       <div className="p-6 rounded-lg">
@@ -78,9 +78,9 @@ const ThreePillars = () => {
         </div>
        </div>
 
-        {/* <div className='md:hidden'>
+        <div className='md:hidden'>
           <Accordion />
-        </div> */}
+        </div>
     </div>
   )
 }

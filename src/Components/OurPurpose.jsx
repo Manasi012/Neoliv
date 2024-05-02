@@ -9,7 +9,7 @@ const OurPurpose = () => {
       </div>
       <div className="md:w-1/2 md:p-20 p-8 bg_indigo md:-ml-4 md:rounded-none rounded-xl md:-m-0 -mt-5 space-y-9 text-white">
         <h2 className="text-3xl font-normal">Our Purpose</h2>
-        <p className='pt-28 pb-4 md:pe-28 text-xl leading-8'>To re-ignite the joy of home owning and living experience, by being themost customer-centric developer in India</p>
+        <p className='pt-20 pb-4 md:pe-28 lg:pe-0 text-xl leading-8'>To re-ignite the joy of home owning and living experience, by being themost customer-centric developer in India</p>
       </div>
     </div>
   )

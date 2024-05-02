@@ -39,7 +39,7 @@ const About = () => {
       <div className="hidden md:block">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
               <img src={Founder} alt="" />
@@ -55,7 +55,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Unique
@@ -76,7 +76,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Financial
@@ -96,7 +96,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Projects</h2>
               <img src={project} alt="" />
@@ -111,7 +111,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Professionally
@@ -131,7 +131,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Presence</h2>
               <img src={presence} alt="" />
@@ -149,12 +149,12 @@ const About = () => {
 
       <div className="slider-container text-center md:hidden">
       <Slider  {...settings}>
-      <div className="card_bg  shadow-md p-5 h-auto border border-indigo-300">
+      <div className="card_bg shadow-md py-5 px-4 h-auto border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
               <img src={Founder} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 Founded by Mohit Malhotra, ex MD & CEO of Godrej Properties,
                 who transformed Godrej Properties into a market leader in his 12
@@ -162,7 +162,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Unique
@@ -173,14 +173,14 @@ const About = () => {
               </h2>
               <img src={Platform} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 A unique integrated residential platform with both fund
                 management business and its own development arm
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Financial
@@ -189,7 +189,7 @@ const About = () => {
               </h2>
               <img src={Security} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 The platform has secured funding from UHNI family offices and
                 360 ONE - India’s leading wealth firm withmore than USD 50
@@ -197,19 +197,19 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Projects</h2>
               <img src={project} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 All projects are backed by SEBI approved equity AIF Fund
                 ensuring financial security and assurance of timely delivery
               </p>
             </div>
         </div>
-        <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+        <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Professionally
@@ -218,7 +218,7 @@ const About = () => {
               </h2>
               <img src={build} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 Built by industry experts with 100+ years of experience of
                 capital raise, land investments & 200 Mn Sq ft project execution
@@ -226,12 +226,12 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md p-10 h-auto md:h-[26rem] border border-indigo-300">
+          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Presence</h2>
               <img src={presence} alt="" />
             </div>
-            <div className="pt-24 pb-5 leading-7">
+            <div className="pt-24 pb-5 leading-7 text-left">
               <p>
                 Opened offices and setup teams in Mumbai and Delhi NCR with
                 focus on mid income residential projects in both cities 

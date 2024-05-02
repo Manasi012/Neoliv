@@ -12,6 +12,7 @@ body{
 
 .card_bg{
     background-color: #F3F3F8;
+    border-radius: 1rem;
 }
 .bg_light{
     background-color: #F4F4FB;
@@ -22,6 +23,6 @@ body{
 .slick_slide{
     max-height: 80rem;
 }
-.slider-container button{
+.slider-container .next-btn, .slider-container .prev-btn{
     display: none !important;
 }

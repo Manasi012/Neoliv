@@ -1,35 +1,35 @@
-import React from 'react';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import {useRef, buttonText} from 'react';
-import Card from './Card'
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import Card from './Card';
 
-const CeoLetter = () => {
-  const cardData = [
-    { description: 'CEO’s Letter April 2024', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmect61ceoo.png', buttonText:'Ceo Letter' },
-    { description: 'March 2024: First close of USD 150 mn Fund', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'NeoLiv raises additional capital from bain capital backed 360 ONE wealth', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmedrtkvcccircle.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-    { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvmede3kcapfund.png', buttonText:'Ceo Letter' },
-  ];
+const cardData = [
+  { description: 'CEO’s Letter April 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+  { description: 'CEO’s Letter July 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/CEO_Letter_July2023.pdf' },
+  { description: 'CEO’s Letter November 2023', buttonText:'Ceo Letter', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+];
+
+function CeoLetter() {
+  const [selectedPdf, setSelectedPdf] = useState(null);
+
+  const handleCardClick = (pdfUrl) => {
+    window.open(pdfUrl, '_blank');
+    setSelectedPdf(pdfUrl);
+  };
 
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     autoplay:true,
-    slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -51,28 +51,24 @@ const CeoLetter = () => {
       }
     ]
   };
-
-      
   return (
-    <div className="slider-container py-10 md:mx-20 mx-10 text-center">
-     <Slider {...settings}>
-      {cardData.map((card, index) => (
-        <div className='px-5' key={index}>
-          <Card description={card.description} imageUrl={card.imageUrl} buttonText={card.buttonText} />
-        </div>
-      ))}
-    </Slider>
+    <div>
+      <Slider className='md:mx-10' {...settings}>
+        {cardData.map((card, index) => (
+          <div className='text-center md:mx-20 my-6' key={index}>
+            <Card 
+              description={card.description} 
+              imageUrl={card.imageUrl} 
+              buttonText={card.buttonText} 
+              onClick={() => handleCardClick(card.pdfUrl)} 
+            />
+          </div>
+        ))}
+      </Slider>
 
-    {/* <div style={{ textAlign: "center" }}>
-      <button className="button" onClick={play}>
-        Play
-      </button>
-      <button className="button" onClick={pause}>
-        Pause
-      </button>
-    </div> */}
-  </div>
-  )
+     
+    </div>
+  );
 }
 
-export default CeoLetter
+export default CeoLetter;
