@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Neoliv/static/css/main.469c5efc.css",
-    "main.js": "/Neoliv/static/js/main.bda3a743.js",
+    "main.js": "/Neoliv/static/js/main.28d27f16.js",
     "static/js/453.4d8dd497.chunk.js": "/Neoliv/static/js/453.4d8dd497.chunk.js",
     "static/media/birdsfly.png": "/Neoliv/static/media/birdsfly.2fc8a27c65e94eae4a37.png",
     "static/media/mohit28.png": "/Neoliv/static/media/mohit28.3951d29a9c518f29e592.png",
@@ -28,11 +28,11 @@
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
     "main.469c5efc.css.map": "/Neoliv/static/css/main.469c5efc.css.map",
-    "main.bda3a743.js.map": "/Neoliv/static/js/main.bda3a743.js.map",
+    "main.28d27f16.js.map": "/Neoliv/static/js/main.28d27f16.js.map",
     "453.4d8dd497.chunk.js.map": "/Neoliv/static/js/453.4d8dd497.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.469c5efc.css",
-    "static/js/main.bda3a743.js"
+    "static/js/main.28d27f16.js"
   ]
 }
