@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.2872cf5b.css",
-    "main.js": "/Neoliv/static/js/main.cccae502.js",
+    "main.css": "/Neoliv/static/css/main.7285af06.css",
+    "main.js": "/Neoliv/static/js/main.923c8145.js",
     "static/js/453.4d8dd497.chunk.js": "/Neoliv/static/js/453.4d8dd497.chunk.js",
-    "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
     "static/media/birdsfly.png": "/Neoliv/static/media/birdsfly.2fc8a27c65e94eae4a37.png",
     "static/media/mohit28.png": "/Neoliv/static/media/mohit28.3951d29a9c518f29e592.png",
+    "static/media/bannerdesk.jpg": "/Neoliv/static/media/bannerdesk.8e1b014c38af71be03f5.jpg",
     "static/media/neoliv_logo_blue.png": "/Neoliv/static/media/neoliv_logo_blue.29b1c4b9a349bba74825.png",
     "static/media/founder_bg.png": "/Neoliv/static/media/founder_bg.a920f8ea13360b08c170.png",
     "static/media/Mohit_mob.png": "/Neoliv/static/media/Mohit_mob.09ef771e45f694837276.png",
-    "static/media/pillarsbg.jpg": "/Neoliv/static/media/pillarsbg.ee3291468868ecc60b98.jpg",
+    "static/media/pillarsbg.jpg": "/Neoliv/static/media/pillarsbg.8f7cb8c7cf3081a43bee.jpg",
     "static/media/neoliv_logo.jpeg": "/Neoliv/static/media/neoliv_logo.0aaa6fa033d06fd30b11.jpeg",
+    "static/media/build.png": "/Neoliv/static/media/build.0307b52dec9223a16b61.png",
+    "static/media/platfoem.png": "/Neoliv/static/media/platfoem.339fe3c670e3ec4d474c.png",
+    "static/media/Founder.png": "/Neoliv/static/media/Founder.07d86e57761fb496e761.png",
+    "static/media/presence.png": "/Neoliv/static/media/presence.ff9edb4f885efeb6708d.png",
+    "static/media/Security.png": "/Neoliv/static/media/Security.669e0e86adc7b9e15fa2.png",
+    "static/media/project.png": "/Neoliv/static/media/project.cbce37c454ec08c88d19.png",
+    "static/media/NeoLivInsignia.png": "/Neoliv/static/media/NeoLivInsignia.6d74e80ec2fffb75b4db.png",
     "static/media/Group4.png": "/Neoliv/static/media/Group4.06c92fe2f071cc7b8573.png",
     "static/media/Group1.png": "/Neoliv/static/media/Group1.f6be5aef2afcab907a28.png",
     "static/media/Group3.png": "/Neoliv/static/media/Group3.55a76b7c493fd834aae1.png",
@@ -20,12 +27,12 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.2872cf5b.css.map": "/Neoliv/static/css/main.2872cf5b.css.map",
-    "main.cccae502.js.map": "/Neoliv/static/js/main.cccae502.js.map",
+    "main.7285af06.css.map": "/Neoliv/static/css/main.7285af06.css.map",
+    "main.923c8145.js.map": "/Neoliv/static/js/main.923c8145.js.map",
     "453.4d8dd497.chunk.js.map": "/Neoliv/static/js/453.4d8dd497.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2872cf5b.css",
-    "static/js/main.cccae502.js"
+    "static/css/main.7285af06.css",
+    "static/js/main.923c8145.js"
   ]
 }
