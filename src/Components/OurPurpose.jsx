@@ -1,10 +1,17 @@
 import React from 'react';
 import Birdsfly from '../Assets/imgs/birdsfly.png';
 import FinalLogo from '../Assets/imgs/NeoLivInsignia.png';
+import MiddleShawdo from '../Assets/imgs/MiddleShawdo.png';
+
+
 
 const OurPurpose = () => {
   return (
-    <div className="flex flex-col md:flex-row md:mx-40 px-3">
+
+    <div className="flex flex-col md:flex-row md:mx-40 px-3 relative">
+          <div>
+    <img src={MiddleShawdo} alt="" className="absolute md:-top-80 -top-52"/>
+</div>
       <div className="md:w-1/2">
         <img src={Birdsfly} alt="purpose" className='w-full md:h-[500px] h-auto' />
       </div>

@@ -100,7 +100,7 @@ function AllNewsComponent() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 17/15,
           slidesToScroll: 1,
           initialSlide: 2
         }
@@ -108,7 +108,7 @@ function AllNewsComponent() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 17/15,
           slidesToScroll: 1
         }
       }
@@ -123,7 +123,7 @@ function AllNewsComponent() {
     <div className="slider-container md:py-10 py-4 text-center relative">
       <Slider className='md:mx-14' {...settings}>
         {newsData.map((card, index) => (
-          <div className='md:px-2 my-6' key={index}>
+          <div className='md:px-2 my-6 md:ml-0 ml-8 px-3' key={index}>
             <Card 
               description={card.description} 
               imageUrl={card.imageUrl} 

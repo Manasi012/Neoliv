@@ -37,7 +37,7 @@ function CeoLetter() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 17/15,
           slidesToScroll: 1,
           initialSlide: 2
         }
@@ -45,7 +45,7 @@ function CeoLetter() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 17/15,
           slidesToScroll: 1
         }
       }
@@ -55,7 +55,7 @@ function CeoLetter() {
     <div className='py-10'>
       <Slider className='md:mx-10' {...settings}>
         {cardData.map((card, index) => (
-          <div className='text-center md:mx-20 my-6' key={index}>
+          <div className='text-center md:mx-20 my-6 md:ml-0 md:px-0 ml-8 px-3' key={index}>
             <Card 
               description={card.description} 
               imageUrl={card.imageUrl} 

@@ -1,10 +1,10 @@
 import React from 'react';
-import FinalLogo from '../Assets/imgs/Whitelogo.png';
+import FinalLogo from '../Assets/imgs/NeoLivInsignia.png';
 
 const Insignia = () => {
   return (
-    <div className='bg-white flex justify-center'>
-      <img src={FinalLogo} alt="Insignia" className='md:w-2/6 w-full' />
+    <div className='bg-white flex justify-center relative'>
+      <img src={FinalLogo} alt="Insignia" className='md:w-2/6 w-full -top-[32rem] opacity-70 absolute' />
     </div>
     
   )

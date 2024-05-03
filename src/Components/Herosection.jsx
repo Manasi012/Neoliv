@@ -1,6 +1,7 @@
 import React from 'react';
+import BannerImagee from '../Assets/imgs/banner.jpeg';
 import BannerImage from '../Assets/imgs/bannerdesk.jpg';
-import WhiteLogo from '../Assets/imgs/Whitelogo.png'
+import WhiteLogo from '../Assets/imgs/Whitelogo.png';
 
 
 const Herosection = () => {
@@ -11,9 +12,13 @@ const Herosection = () => {
         <span className='md:block'> residential real estate developer</span>
         </h1>
     </div>
-    <div>
-        <img src={BannerImage} alt="bannerimage" className='w-full h-auto]' />
+    <div className='hidden md:block'>
+        <img src={BannerImage} alt="bannerimage" className='w-full md:h-auto k' />
     </div>
+    <div className='md:hidden'>
+        <img src={BannerImagee} alt="bannerimage" className='w-full md:h-auto' />
+    </div>
+
     <div className='py-20 bg_indigo'>
       <div className='flex justify-center'>
       <img src={WhiteLogo} alt="whitelogo" className='"place-self-center'/>

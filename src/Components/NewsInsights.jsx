@@ -12,7 +12,7 @@ const NewsInsights = () => {
 
   return (
     <>
-      <div className='text-center py-8'>
+      <div className='text-center py-3'>
     <h4 className='md:text-4xl text-4xl text-blue-950 font-medium'>News & Insights</h4>
     </div>
 

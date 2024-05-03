@@ -5,10 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Founder from "../Assets/imgs/Founder.png";
 import Platform from "../Assets/imgs/platfoem.png";
-import Security from '../Assets/imgs/Security.png'
-import project from '../Assets/imgs/project.png'
-import build from '../Assets/imgs/build.png'
-import presence from '../Assets/imgs/presence.png'
+import Security from '../Assets/imgs/Security.png';
+import project from '../Assets/imgs/project.png';
+import build from '../Assets/imgs/build.png';
+import presence from '../Assets/imgs/presence.png';
+import leftshawdo from '../Assets/imgs/leftshawdo.png';
 
 const About = () => {
 
@@ -23,15 +24,20 @@ const About = () => {
   const settings = {
     // dots: true,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 17/15,
+    // slidesToShow:1,
+        slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000
   };
 
   return (
-    <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20">
-      <div className="text-center space-y-6 text-blue-950 pb-8">
+    
+    <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20 relative">
+      <div>
+      <img src={leftshawdo} alt="" className="-mt-[57rem] absolute -left-[44rem] -top-96 w-full z-10 opacity-100"/>
+</div>
+      <div className="text-center space-y-10 text-blue-950 pb-14">
         <h4 className="tracking-wide">ABOUT</h4>
         <h2 className="text-4xl">Who Are We?</h2>
       </div>
@@ -39,7 +45,7 @@ const About = () => {
       <div className="hidden md:block">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
+          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] z-20 border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
               <img src={Founder} alt="" className="md:w-32 w-28"/>
@@ -148,7 +154,8 @@ const About = () => {
       </div>
 
       <div className="slider-container text-center md:hidden">
-      <Slider  {...settings}>
+      <Slider   {...settings}>
+      <div className="px-4 ml-8">
       <div className="card_bg shadow-md py-5 px-4 h-auto border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
@@ -162,7 +169,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+      </div>
+         <div className="px-4 ml-8">
+         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Unique
@@ -180,7 +189,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         </div>
+         <div className="px-5 ml-8">
+         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Financial
@@ -197,7 +208,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         </div>
+         <div className="px-5 ml-8">
+         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Projects</h2>
               <img src={project} alt="" className="md:w-32 w-28"/>
@@ -209,7 +222,9 @@ const About = () => {
               </p>
             </div>
         </div>
-        <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         </div>
+       <div className="px-5 ml-8">
+       <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">
                 Professionally
@@ -226,7 +241,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+       </div>
+         <div className="px-5 ml-8">
+         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-28"/>
@@ -238,6 +255,7 @@ const About = () => {
               </p>
             </div>
           </div>
+         </div>
       </Slider>
     </div>
       

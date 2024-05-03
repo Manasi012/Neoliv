@@ -19,7 +19,7 @@ const Home = () => {
  <Founder />
 <ThreePillars />
 <Team />
-<Insignia />
+{/* <Insignia /> */}
 <NewsInsights />
     </>
   )

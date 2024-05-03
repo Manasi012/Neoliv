@@ -11,15 +11,15 @@ function App() {
   return (
     <Router>
       <div className="App overflow-hidden">
-        <Bluenavbar />
-        <Header />
-        <Home />
-        <Footer />
-      <FooterLinks />
-      
-      <Routes>
-      <Route path="/" component={FooterLinks} />
-      </Routes>
+          <Bluenavbar />
+          <Header />
+          <Home />
+          <Footer />
+        <FooterLinks />
+        
+        <Routes>
+        <Route path="/" component={FooterLinks} />
+        </Routes>
       
     </div>
     </Router>

@@ -39,7 +39,9 @@ let [isOpen, SetisOpen]= useState(false)
                 }
             </ul>
        </div>
+       <hr className='mt-2' />
     </div>
+
   )
 }
 

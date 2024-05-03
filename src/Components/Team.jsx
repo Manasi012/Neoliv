@@ -1,6 +1,9 @@
 import React from "react";
 import Mohit from "../Assets/imgs/mohit28.png";
 import ReadMore from './ReadMore'
+import Shadow from "../Assets/imgs/Shadow.png";
+import Insignia from "./Insignia";
+
 
 const Team = () => {
   return (
@@ -9,7 +12,7 @@ const Team = () => {
       <div className="md:w-1/2  z-40">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 md:-mt-0 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
+      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
         {/* <p className="md:pt-8 pe-5 font-light leading-8">
           With a singular vision to create India’s Foremost Residential Real
@@ -28,8 +31,8 @@ const Team = () => {
       </div>
       </div>
     
-<div className="flex flex-col md:flex-row md:mx-40 md:py-20 py-0">
-<div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 text-white rounded-l-2xl">
+<div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
+<div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl">
   <h2 className="text-3xl font-medium">Partnership Model</h2>
   <ul className='md:pt-16 pe-10 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li>
@@ -44,7 +47,7 @@ const Team = () => {
   </ul>
 </div>
 
-<div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg -ml-4 space-y-9 text-blue-950">
+<div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
   <ul className='md:pt-16 md:ml-0 ml-4 pe-10 font-medium list-disc leading-8 space-y-7'>
     <li>
@@ -59,6 +62,13 @@ const Team = () => {
   </ul>
 </div>
 </div>
+
+<div>
+<img src={Shadow} alt="" className="md:-mt-[57rem] -mt-[16rem] w-full z-10 opacity-100"/>
+<Insignia />
+
+</div>
+ 
 </>
   );
 };
