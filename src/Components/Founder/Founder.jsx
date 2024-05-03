@@ -7,7 +7,7 @@ const Founder = () => {
   return (
     <>
     
-    <div className='md:px-28 px-10 bg_light pt-24 mt-20'>
+    <div className='md:px-28 px-3 bg_light pt-24 mt-20'>
     <div className="grid grid-cols-1 md:grid-cols-2 items-center">
   <div className="md:w-96">
     <div className="text-center md:text-left">

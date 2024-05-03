@@ -9,15 +9,15 @@ const ResponsiveSlider = () => {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 2000
     };
 
     return (
-        <div className="slider-container bg_light px-5">
+        <div className="slider-container bg_light md:px-5">
         <Slider {...settings}>
-            <div className="mx-4 px-8">
-                <div className="bg-white -ml-8 px-2 py-4 w-fit shadow-lg rounded-lg my-5">
+            <div className="md:mx-4 md:px-8">
+                <div className="bg-white md:-ml-8 px-2 py-4 w-fit shadow-lg rounded-lg my-5">
                     <p className='md:ps-3'>Joined Godrej Properties in 2010, stepped down on December 31, 2022</p>
                 </div>
             </div>

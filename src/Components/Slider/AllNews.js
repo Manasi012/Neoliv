@@ -51,19 +51,22 @@ function AllNewsComponent() {
   };
 
   const CustomPrevArrow = ({ onClick }) => (
-    <button
+   <div>
+ <button
       className="absolute md:-top-20 left-0 top-1/2 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center text-blue-950 items-center"
       onClick={onClick}
     >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
 </svg>
 
     </button>
+   </div>
   );
 
   const CustomNextArrow = ({ onClick }) => (
-    <button
+   <div className='hidden md:block'>
+     <button
       className="absolute right-0 md:-top-20 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center items-center"
       onClick={onClick}
     >
@@ -72,6 +75,8 @@ function AllNewsComponent() {
 </svg>
 
     </button>
+   </div>
+    
   );
 
   const settings = {
@@ -115,7 +120,7 @@ function AllNewsComponent() {
 
 
   return (
-    <div className="slider-container py-10 text-center relative">
+    <div className="slider-container md:py-10 py-4 text-center relative">
       <Slider className='md:mx-14' {...settings}>
         {newsData.map((card, index) => (
           <div className='md:px-2 my-6' key={index}>

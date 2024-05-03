@@ -5,11 +5,11 @@ import ReadMore from './ReadMore'
 const Team = () => {
   return (
 <>
-<div className="flex flex-col md:flex-row md:mx-52 pt-20">
+<div className="flex flex-col md:flex-row md:mx-52 pt-20 md:px-0 px-4">
       <div className="md:w-1/2  z-40">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
+      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 md:-mt-0 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
         {/* <p className="md:pt-8 pe-5 font-light leading-8">
           With a singular vision to create India’s Foremost Residential Real
@@ -31,7 +31,7 @@ const Team = () => {
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 py-0">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 text-white rounded-l-2xl">
   <h2 className="text-3xl font-medium">Partnership Model</h2>
-  <ul className='md:pt-16 pe-10 font-normal list-disc leading-8 space-y-7'>
+  <ul className='md:pt-16 pe-10 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li>
     NeoLiv inducts senior leadership talent as equity partners in the firm.
     </li>
@@ -46,7 +46,7 @@ const Team = () => {
 
 <div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg -ml-4 space-y-9 text-blue-950">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
-  <ul className='md:pt-16 pe-10 font-medium list-disc leading-8 space-y-7'>
+  <ul className='md:pt-16 md:ml-0 ml-4 pe-10 font-medium list-disc leading-8 space-y-7'>
     <li>
     Collective 100+ years in capital raise, business development, corporate governance, project execution and customer satisfaction.
     </li>
