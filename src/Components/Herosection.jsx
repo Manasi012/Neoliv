@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImage from '../Assets/imgs/banner.jpeg';
+import BannerImage from '../Assets/imgs/bannerdesk.jpg';
 import WhiteLogo from '../Assets/imgs/Whitelogo.png'
 
 

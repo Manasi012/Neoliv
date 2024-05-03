@@ -5,21 +5,33 @@ import Card from './Card';
 const cardData = [
   { 
     description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Limited, where he served as MD and CEO for 6 years.', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh6acw4dVCCircle.png', 
-    buttonText: 'CEO Letter', 
-    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' // Add the iframe URL
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
   },
   { 
-    description: 'CEO’s Letter July 2023', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', 
-    buttonText: 'CEO Letter', 
-    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' // Add the iframe URL
+    description: 'Mohit Malhotra, sharing his expert opinion and future trends on ‘What Consumer Wants’ at India’s leading editorial Dainik Bhaskar Realty Conclave 2023 telecasted.', 
+    buttonText: 'News', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg', 
+    iframeUrl: 'https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4' // Add the iframe URL
   },
   { 
-    description: 'CEO’s Letter November 2023', 
-    buttonText: 'CEO Letter', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', 
-    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' // Add the iframe URL
+    description: 'Mohit Malhotra (ex MD and CEO of Godrej Properties Ltd) shares his vision of Building NeoLiv - India’s Foremost Residential Real Estate Platform .', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/dainik_bhaskar.mp4' 
+  },
+  { 
+    description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Properties Limited, where he served as MD and CEO for 6 years.', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
+  },
+  { 
+    description: 'Mohit Malhotra, the former managing director and CEO of Godrej Properties, has set up a property development and investment company called NeoLiv.', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg', 
+    buttonText: 'News', 
+    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
   },
 ];
 
@@ -33,11 +45,11 @@ function News() {
   };
 
   var settings = {
-    // dots: true,
+    dots: true,
     infinite: true,
     speed: 500,
-    // autoplay:true,
-    slidesToShow: 3,
+    autoplay:true,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -68,10 +80,10 @@ function News() {
     ]
   };
   return (
-    <div>
-      <Slider className='md:mx-10' {...settings}>
-        {cardData.map((card, index) => (
-          <div className='text-center md:mx-20 my-6' key={index}>
+    <div className="slider-container py-10 text-center">
+    <Slider className='md:mx-14' {...settings}>
+      {cardData.map((card, index) => (
+        <div className='md:px-2 my-6' key={index}>
             <Card 
               description={card.description} 
               imageUrl={card.imageUrl} 

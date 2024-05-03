@@ -11,6 +11,11 @@ const NewsInsights = () => {
 
 
   return (
+    <>
+      <div className='text-center py-8'>
+    <h4 className='md:text-4xl text-4xl text-blue-950 font-medium'>News & Insights</h4>
+    </div>
+
     <div>
       {/* Tab Pills */}
       <div className="flex md:space-x-7 space-x-4 md:mx-96 mx-5 pt-8">
@@ -55,12 +60,13 @@ const NewsInsights = () => {
         </div>}
         {activeTab === 4 && 
         <div>
-          <h1 className='text-center text-3xl text-blue-900 font-bold py-10'>News</h1>
-          {/* <News /> */}
+          {/* <h1 className='text-center text-3xl text-blue-900 font-bold py-10'>News</h1> */}
+          <News />
         </div>
           }
       </div>
     </div>
+    </>
   )
 }
 

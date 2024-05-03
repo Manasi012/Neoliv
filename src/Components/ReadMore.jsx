@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="mt-8 leading-7">
-      <ReadMore text={longText} maxLength={260} />
+      <ReadMore text={longText} maxLength={360} />
     </div>
   );
 };

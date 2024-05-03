@@ -10,6 +10,36 @@ const newsData = [
   { description: 'CEO’s Letter November 2023', buttonText:'Ceo Letter', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
   { description: 'March 2024- First close of USD 150 mn Fund', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4k2psls4vqbr3349x260-2.jpg', buttonText:'Events', pdfUrl: 'https://neoliv.in/docs/NeoLiv%20Press%20Release%20-%20March%202024.pdf' },
   { description: 'June 2023: 360 ONE Launch event', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4k2psls4vqbr3349x260-2.jpg', buttonText:'Events', pdfUrl: 'https://neoliv.in/docs/NEOLIVLaunchEvent.pdf' },
+   { 
+    description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Limited, where he served as MD and CEO for 6 years.', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
+  },
+  { 
+    description: 'Mohit Malhotra, sharing his expert opinion and future trends on ‘What Consumer Wants’ at India’s leading editorial Dainik Bhaskar Realty Conclave 2023 telecasted.', 
+    buttonText: 'News', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg', 
+    iframeUrl: 'https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4' // Add the iframe URL
+  },
+  { 
+    description: 'Mohit Malhotra (ex MD and CEO of Godrej Properties Ltd) shares his vision of Building NeoLiv - India’s Foremost Residential Real Estate Platform .', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/dainik_bhaskar.mp4' 
+  },
+  { 
+    description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Properties Limited, where he served as MD and CEO for 6 years.', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg', 
+    buttonText: 'News', 
+    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
+  },
+  { 
+    description: 'Mohit Malhotra, the former managing director and CEO of Godrej Properties, has set up a property development and investment company called NeoLiv.', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg', 
+    buttonText: 'News', 
+    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  },
 ];
 
 function AllNewsComponent() {
@@ -19,6 +49,30 @@ function AllNewsComponent() {
     window.open(pdfUrl, '_blank');
     setSelectedPdf(pdfUrl);
   };
+
+  const CustomPrevArrow = ({ onClick }) => (
+    <button
+      className="absolute md:-top-20 left-0 top-1/2 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center text-blue-950 items-center"
+      onClick={onClick}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+</svg>
+
+    </button>
+  );
+
+  const CustomNextArrow = ({ onClick }) => (
+    <button
+      className="absolute right-0 md:-top-20 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center items-center"
+      onClick={onClick}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6  text-blue-950">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+</svg>
+
+    </button>
+  );
 
   const settings = {
     dots: true,
@@ -53,11 +107,15 @@ function AllNewsComponent() {
           slidesToScroll: 1
         }
       }
-    ]
+    ],
+    prevArrow: <CustomPrevArrow />, // Custom prev arrow
+    nextArrow: <CustomNextArrow /> // Custom next arrow
   };
 
+
+
   return (
-    <div className="slider-container py-10 text-center">
+    <div className="slider-container py-10 text-center relative">
       <Slider className='md:mx-14' {...settings}>
         {newsData.map((card, index) => (
           <div className='md:px-2 my-6' key={index}>

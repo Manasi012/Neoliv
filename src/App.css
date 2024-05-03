@@ -9,6 +9,13 @@ body{
 .footer_box{
     background-color: #364b7d7e;
 }
+.bg_blue-950{
+    background-color: #112E50 !important;
+}
+  
+.text-blue-950{
+    color: #112E50;
+}
 
 .card_bg{
     background-color: #F3F3F8;
@@ -23,6 +30,6 @@ body{
 .slick_slide{
     max-height: 80rem;
 }
-.slider-container .next-btn, .slider-container .prev-btn{
+/* .slider-container .next-btn, .slider-container .prev-btn{
     display: none !important;
-}
+} */

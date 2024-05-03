@@ -51,7 +51,7 @@ function Events() {
     ]
   };
   return (
-    <div>
+    <div className='py-10'>
       <Slider className='md:mx-64' {...settings}>
         {cardData.map((card, index) => (
           <div className='md:mx-20 my-6' key={index}>

@@ -8,22 +8,22 @@ const Footer = () => {
     <>
    <div className='bg-blue-950 w-screen'>
    <div className='py-8 md:flex md:justify-between justify-center items-center'>
-      <div className='md:w-52 md:ml-12'>
+      <div className='md:w-52 md:ml-20'>
         <img src={Bluelogo} alt="" />
       </div>
-      <div className='md:me-24 flex text-center justify-center md:px-0 px-7  text-white'>
+      <div className='md:me-40 flex text-center justify-center md:px-0 px-7  text-white'>
         <h6 className='md:text-lg text-4xl'>India’s foremost  fund led developer</h6>
       </div>
     </div>
-    <hr className='md:mx-24 mx-10 mt-12 md:mt-0'/>
+    <hr className='md:mx-32 mx-10 mt-12 md:mt-0 md:me-40'/>
      <div className='text-white flex md:justify-start justify-center md:pt-12 pt-20'>
-     <div className='md:ml-24'>
+     <div className='md:ml-32'>
          <h3 className='text-2xl pb-6'>Our Addresses</h3>
      </div>
    </div>
 
-   <div className="flex flex-wrap justify-center text-white">
-      <div className="w-full md:w-1/3 footer_box p-10 rounded-lg m-10">
+   <div className="flex flex-wrap justify-between text-white mx-20">
+      <div className="w-full md:w-[40%] footer_box p-10 rounded-lg mx-10 m-10">
       <div className='flex'>
        <img src={LocationIcon} alt=""/>
         <h1 className='ps-3'>Mumbai MMR</h1>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-1/3 footer_box p-10 rounded-lg m-10">
+      <div className="w-full md:w-[40%] footer_box p-10 rounded-lg m-10 mx-20">
       <div className='flex'>
        <img src={LocationIcon} alt=""/>
         <h1 className='ps-3'>Delhi NCR</h1>

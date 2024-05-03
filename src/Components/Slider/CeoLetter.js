@@ -52,7 +52,7 @@ function CeoLetter() {
     ]
   };
   return (
-    <div>
+    <div className='py-10'>
       <Slider className='md:mx-10' {...settings}>
         {cardData.map((card, index) => (
           <div className='text-center md:mx-20 my-6' key={index}>

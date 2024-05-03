@@ -6,10 +6,10 @@ const Team = () => {
   return (
 <>
 <div className="flex flex-col md:flex-row md:mx-52 pt-20">
-      <div className="md:w-1/2">
-        <img src={Mohit} alt="mohit" className="md:w-3/4 w-full z-10" />
+      <div className="md:w-1/2  z-40">
+        <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-0 py-20 px-10 md:px-24 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
+      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
         {/* <p className="md:pt-8 pe-5 font-light leading-8">
           With a singular vision to create India’s Foremost Residential Real

@@ -42,7 +42,7 @@ const About = () => {
           <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
-              <img src={Founder} alt="" />
+              <img src={Founder} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -64,7 +64,7 @@ const About = () => {
                 <br />
                 Platform
               </h2>
-              <img src={Platform} alt="" />
+              <img src={Platform} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -83,7 +83,7 @@ const About = () => {
                 <br />
                 Security
               </h2>
-              <img src={Security} alt="" />
+              <img src={Security} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -99,7 +99,7 @@ const About = () => {
           <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Projects</h2>
-              <img src={project} alt="" />
+              <img src={project} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -118,7 +118,7 @@ const About = () => {
                 <br />
                 Built
               </h2>
-              <img src={build} alt="" />
+              <img src={build} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -134,7 +134,7 @@ const About = () => {
           <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Presence</h2>
-              <img src={presence} alt="" />
+              <img src={presence} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7">
               <p>
@@ -152,7 +152,7 @@ const About = () => {
       <div className="card_bg shadow-md py-5 px-4 h-auto border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Founder</h2>
-              <img src={Founder} alt="" />
+              <img src={Founder} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
@@ -171,7 +171,7 @@ const About = () => {
                 <br />
                 Platform
               </h2>
-              <img src={Platform} alt="" />
+              <img src={Platform} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
@@ -187,7 +187,7 @@ const About = () => {
                 <br />
                 Security
               </h2>
-              <img src={Security} alt="" />
+              <img src={Security} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
@@ -200,7 +200,7 @@ const About = () => {
           <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Projects</h2>
-              <img src={project} alt="" />
+              <img src={project} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
@@ -216,7 +216,7 @@ const About = () => {
                 <br />
                 Built
               </h2>
-              <img src={build} alt="" />
+              <img src={build} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
@@ -229,7 +229,7 @@ const About = () => {
           <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2">Presence</h2>
-              <img src={presence} alt="" />
+              <img src={presence} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7 text-left">
               <p>
