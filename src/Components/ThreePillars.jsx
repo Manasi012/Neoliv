@@ -2,7 +2,8 @@ import React from 'react';
 import Accordion from './Accordian';
 
 const ThreePillars = () => {
-  return (
+  return (    
+   <>
     <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20'>
         <div className='text-center py-10'>
         <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
@@ -82,6 +83,7 @@ const ThreePillars = () => {
           <Accordion />
         </div>
     </div>
+   </>
   )
 }
 

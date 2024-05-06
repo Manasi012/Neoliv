@@ -156,7 +156,7 @@ const About = () => {
       <div className="slider-container text-center md:hidden">
       <Slider   {...settings}>
       <div className="px-2 ml-10">
-      <div className="card_bg shadow-md py-5 px-4 h-auto border border-indigo-300">
+      <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">Founder</h2>
               <img src={Founder} alt="" className="md:w-32 w-16"/>
@@ -171,7 +171,7 @@ const About = () => {
           </div>
       </div>
          <div className="px-2 ml-10">
-         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">
                 Unique
@@ -191,7 +191,7 @@ const About = () => {
           </div>
          </div>
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">
                 Financial
@@ -210,7 +210,7 @@ const About = () => {
           </div>
          </div>
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">Projects</h2>
               <img src={project} alt="" className="md:w-32 w-16"/>
@@ -224,7 +224,7 @@ const About = () => {
         </div>
          </div>
        <div className="px-5 ml-8">
-       <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+       <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">
                 Professionally
@@ -243,7 +243,7 @@ const About = () => {
           </div>
        </div>
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-auto md:h-[28rem] border border-indigo-300">
+         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2">Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-16"/>

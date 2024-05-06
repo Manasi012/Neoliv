@@ -51,7 +51,7 @@ function AllNewsComponent() {
   };
 
   const CustomPrevArrow = ({ onClick }) => (
-   <div>
+   <div className='hidden md:block'>
  <button
       className="absolute md:-top-20 left-0 top-1/2 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center text-blue-950 items-center"
       onClick={onClick}

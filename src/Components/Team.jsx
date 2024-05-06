@@ -34,7 +34,7 @@ const Team = () => {
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl">
   <h2 className="text-3xl font-medium">Partnership Model</h2>
-  <ul className='md:pt-16 pe-10 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
+  <ul className='md:pt-16 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li>
     NeoLiv inducts senior leadership talent as equity partners in the firm.
     </li>
@@ -49,7 +49,7 @@ const Team = () => {
 
 <div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
-  <ul className='md:pt-16 md:ml-0 ml-4 pe-10 font-medium list-disc leading-8 space-y-7'>
+  <ul className='md:pt-16 md:ml-0 ml-4 md:pe-10 pe-2 font-medium list-disc leading-8 space-y-7'>
     <li>
     Collective 100+ years in capital raise, business development, corporate governance, project execution and customer satisfaction.
     </li>
