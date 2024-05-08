@@ -13,16 +13,19 @@ const Herosection = () => {
       </h2>
     </div>
     <div className='md:mx-20'>
-        <h1 className='absolute md:top-[24rem] top-[22rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl'>India’s foremost integrated fund led
+        <h1 className='absolute text-white md:top-[24rem] top-[22rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl'>India’s foremost integrated fund led
         <span className='md:block'> residential real estate developer</span>
         </h1> 
     </div>
-    <div className='hidden md:block relative'>
+<div className='relative'>
+<div className='hidden md:block'>
         <img src={BannerImage} alt="bannerimage" className='w-full md:h-[525px]' />
     </div>
     <div className='md:hidden'>
         <img src={BannerImagee} alt="bannerimage" className='w-full h-72' />
     </div>
+    <div className="absolute inset-0 bg-black opacity-50"></div>
+</div>
 
     <div className='py-20 bg_indigo'>
       <div className='flex justify-center'>
