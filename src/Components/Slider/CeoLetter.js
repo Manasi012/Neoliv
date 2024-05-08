@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import Card from './Card';
 
 const cardData = [
-  { description: 'CEO’s Letter April 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
-  { description: 'CEO’s Letter July 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/CEO_Letter_July2023.pdf' },
-  { description: 'CEO’s Letter November 2023', buttonText:'Ceo Letter', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwli8not2gUntitled%20design%20-%202023-05-29T150626.356.png', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+  { description: 'CEO’s Letter April 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
+  { description: 'CEO’s Letter July 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/CEO_Letter_July2023.pdf' },
+  { description: 'CEO’s Letter November 2023', buttonText:'Ceo Letter', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
 ];
 
 function CeoLetter() {

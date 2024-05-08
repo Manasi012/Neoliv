@@ -11,7 +11,7 @@ const Card = ({ imageUrl, description, buttonText, onClick }) => {
 
   return (
     <div className="max-w-sm cursor-pointer md:h-[25rem] h-auto rounded hover:underline overflow-hidden shadow-lg relative" onClick={onClick}>
-      <img className="w-full" src={imageUrl} alt="Card" />
+      <img className="w-full border border-gray-300" src={imageUrl} alt="Card" />
       <button 
         className="absolute -mt-10 left-5 bg_indigo text-white font-bold py-1 px-3 rounded-xl text-[13px]" 
         onClick={handleButtonClick} // Call handleButtonClick when button is clicked

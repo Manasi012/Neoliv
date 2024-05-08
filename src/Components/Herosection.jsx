@@ -7,7 +7,7 @@ import WhiteLogo from '../Assets/imgs/Whitelogo.png';
 const Herosection = () => {
   return (
     <>
-    <div className='md:py-20 py-14 md:mx-20'>
+    <div className='md:py-8 py-14 md:mx-20'>
         <h1 className='uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[500] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-2xl'>India’s foremost integrated fund led
         <span className='md:block'> residential real estate developer</span>
         </h1>

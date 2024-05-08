@@ -30,6 +30,7 @@ body{
 .slick_slide{
     max-height: 80rem;
 }
-/* .slider-container .next-btn, .slider-container .prev-btn{
-    display: none !important;
-} */
+.hide-arrows .slick-next,
+.hide-arrows .slick-prev {
+  display: none !important; /* Important to override default styles */
+}

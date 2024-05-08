@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
    <div className='bg-blue-950 w-screen'>
-   <div className='py-8 md:flex md:justify-between justify-center items-center'>
+   <div className='py-3 md:flex md:justify-between justify-center items-center'>
       <div className='md:w-52 md:ml-20'>
         <img src={Bluelogo} alt="" />
       </div>
@@ -16,9 +16,9 @@ const Footer = () => {
       </div>
     </div>
     <hr className='md:mx-32 mx-10 mt-12 md:mt-0 md:me-40'/>
-     <div className='text-white flex md:justify-start justify-center md:pt-12 pt-20'>
+     <div className='text-white flex md:justify-start justify-center md:pt-5 pt-20'>
      <div className='md:ml-32'>
-         <h3 className='text-2xl pb-6'>Our Addresses</h3>
+         <h3 className='text-2xl pb-0'>Our Addresses</h3>
      </div>
    </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
        <img src={LocationIcon} alt=""/>
         <h1 className='ps-3'>Mumbai MMR</h1>
        </div>
-        <div className='pt-10'>
+        <div className='pt-5'>
         <p className='md:pe-10 md:ps-3'>4th Floor, First International Financial Center, Plot Nos. C-54 and C-55, G Block, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051</p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Footer = () => {
        <img src={LocationIcon} alt=""/>
         <h1 className='ps-3'>Delhi NCR</h1>
        </div>
-        <div className='pt-10'>
+        <div className='pt-5'>
         <p className='md:pe-10 md:ps-3'>Level 6, Two Horizon Centre, Golf Course Road, DLF Phase 5, Gurugram, Haryana-122002, India</p>
         </div>
       </div>

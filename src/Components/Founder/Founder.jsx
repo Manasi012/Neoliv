@@ -15,7 +15,7 @@ const Founder = () => {
       <h4 className='text-indigo-500 font-semibold text-3xl py-4'>Mohit Malhotra</h4>
     </div>
   </div>
-  <ResponsiveSlider />
+  <ResponsiveSlider/>
 </div>
 
         </div>
