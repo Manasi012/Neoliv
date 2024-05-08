@@ -1,11 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import Mohit from "../Assets/imgs/mohit28.png";
+import partners_neoliv from "../Assets/imgs/partners_neoliv.jpg";
 import ReadMore from './ReadMore'
 import Shadow from "../Assets/imgs/Shadow.png";
 import Insignia from "./Insignia";
 
 
 const Team = () => {
+
+  const [isImageVisible, setIsImageVisible] = useState(false);
+ 
+  const toggleImageVisibility = () => {
+    setIsImageVisible(!isImageVisible);
+  };
+
   return (
 <>
 <div className="flex flex-col md:flex-row md:mx-52 pt-20 md:px-0 px-4">
@@ -27,9 +36,13 @@ const Team = () => {
           two decades.
         </p> */}
         <ReadMore />
-        <button className="border cursor-pointer px-5 py-2 rounded-full">See ALL MEMBERS</button>
+        <button onClick={toggleImageVisibility} className="border cursor-pointer px-5 py-2 rounded-full">See ALL MEMBERS</button>
       </div>
       </div>
+
+      <div className="w-full md:p-10 p-3 z-40">
+          {isImageVisible && <img src={partners_neoliv} alt="mohit" className="w-full transition-height duration-5000" />}
+        </div>
     
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl">

@@ -12,7 +12,7 @@ let Links=[
 let [isOpen, SetisOpen]= useState(false)
 
   return (
-    <div className='py-5 w-screen'>
+    <div className='pt-5 w-screen'>
        <div className='md:px-10 px-7 md:flex justify-between items-center md:mx-6'>
        <div className='w-48'>
             <img src={Logo} alt="" />
@@ -30,7 +30,7 @@ let [isOpen, SetisOpen]= useState(false)
 
         </div>
 
-        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto left-0 w-full md:w-auto md:pl-0 pl-8 me-8 transition-all duration-500 ease-out ${isOpen ? 'top-32' : 'top-[-490px]'}`}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto z-20 left-0 w-full md:w-auto md:pl-0 pl-8 me-8 transition-all duration-500 ease-out ${isOpen ? 'top-32' : 'top-[-490px]'}`}>
                 {
                     Links.map((link) => (
                     <li className='md:ml-6 md:my-0 my-7 font-medium tracking-wide'>
