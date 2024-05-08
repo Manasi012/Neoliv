@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.e61ef551.css",
-    "main.js": "/Neoliv/static/js/main.403f0a37.js",
+    "main.css": "/Neoliv/static/css/main.f6011320.css",
+    "main.js": "/Neoliv/static/js/main.9870053c.js",
     "static/js/453.e06765d3.chunk.js": "/Neoliv/static/js/453.e06765d3.chunk.js",
     "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
     "static/media/Shadow.png": "/Neoliv/static/media/Shadow.199e5a805ce1a108c075.png",
@@ -31,12 +31,12 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.e61ef551.css.map": "/Neoliv/static/css/main.e61ef551.css.map",
-    "main.403f0a37.js.map": "/Neoliv/static/js/main.403f0a37.js.map",
+    "main.f6011320.css.map": "/Neoliv/static/css/main.f6011320.css.map",
+    "main.9870053c.js.map": "/Neoliv/static/js/main.9870053c.js.map",
     "453.e06765d3.chunk.js.map": "/Neoliv/static/js/453.e06765d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61ef551.css",
-    "static/js/main.403f0a37.js"
+    "static/css/main.f6011320.css",
+    "static/js/main.9870053c.js"
   ]
 }
