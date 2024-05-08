@@ -22,7 +22,7 @@ const Footer = () => {
      </div>
    </div>
 
-   <div className="flex flex-wrap justify-between text-white md:mx-20">
+   {/* <div className="flex flex-wrap justify-between text-white md:mx-20">
       <div className="w-full md:w-[40%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10">
       <div className='flex'>
        <img src={LocationIcon} alt=""/>
@@ -43,7 +43,30 @@ const Footer = () => {
         </div>
       </div>
 
+    </div> */}
+
+<div className="flex flex-wrap justify-between text-white md:mx-20">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10">
+    <div className='flex items-center'>
+      <img src={LocationIcon} alt=""/>
+      <h1 className='ps-3'>Mumbai MMR</h1>
     </div>
+    <div className='pt-5'>
+      <p className='md:pe-10 md:ps-3'>4th Floor, First International Financial Center, Plot Nos. C-54 and C-55, G Block, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051</p>
+    </div>
+  </div>
+
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg m-10 md:ml-0">
+    <div className='flex items-center'>
+      <img src={LocationIcon} alt=""/>
+      <h1 className='ps-3'>Delhi NCR</h1>
+    </div>
+    <div className='pt-5'>
+      <p className='md:pe-10 md:ps-3'>Level 6, Two Horizon Centre, Golf Course Road, DLF Phase 5, Gurugram, Haryana-122002, India</p>
+    </div>
+  </div>
+</div>
+
 
 
    {/* <div class="md:flex flex-row md:mx-16 text-white">

@@ -4,31 +4,31 @@ import Card from './Card';
 
 const cardData = [
   { 
-    description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Limited, where he served as MD and CEO for 6 years.', 
+    description: 'Mohit Malhotra’s official confirmationon....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png', 
     buttonText: 'News', 
     iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
   },
   { 
-    description: 'Mohit Malhotra, sharing his expert opinion and future trends on ‘What Consumer Wants’ at India’s leading editorial Dainik Bhaskar Realty Conclave 2023 telecasted.', 
+    description: 'Mohit Malhotra, sharing his expert opinion....', 
     buttonText: 'News', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg', 
     iframeUrl: 'https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4' // Add the iframe URL
   },
   { 
-    description: 'Mohit Malhotra (ex MD and CEO of Godrej Properties Ltd) shares his vision of Building NeoLiv - India’s Foremost Residential Real Estate Platform .', 
+    description: 'Mohit Malhotra (ex MD and CEO of Godrej Prop....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg', 
     buttonText: 'News', 
     iframeUrl: 'https://neoliv.in/dainik_bhaskar.mp4' 
   },
   { 
-    description: 'Mohit Malhotra’s official confirmation on his new venture post his resignation from Godrej Properties Limited, where he served as MD and CEO for 6 years.', 
+    description: 'Mohit Malhotra’s official confirmation on....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg', 
     buttonText: 'News', 
     iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
   },
   { 
-    description: 'Mohit Malhotra, the former managing director and CEO of Godrej Properties, has set up a property development and investment company called NeoLiv.', 
+    description: 'Mohit Malhotra, the former managing director....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg', 
     buttonText: 'News', 
     pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 

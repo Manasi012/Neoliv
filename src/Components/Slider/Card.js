@@ -10,7 +10,7 @@ const Card = ({ imageUrl, description, buttonText, onClick }) => {
   };
 
   return (
-    <div className="max-w-sm cursor-pointer md:h-[25rem] h-auto rounded hover:underline overflow-hidden shadow-lg relative" onClick={onClick}>
+    <div className="max-w-sm cursor-pointer md:h-[18rem] h-[15rem] rounded hover:underline overflow-hidden shadow-lg relative" onClick={onClick}>
       <img className="w-full border border-gray-300" src={imageUrl} alt="Card" />
       <button 
         className="absolute -mt-10 left-5 bg_indigo text-white font-bold py-1 px-3 rounded-xl text-[13px]" 
@@ -19,7 +19,7 @@ const Card = ({ imageUrl, description, buttonText, onClick }) => {
         {buttonText}
       </button>
       <div className="px-6 py-4">
-        <p className="font-medium p-4">{description}</p>
+        <p className="font-medium">{description}</p>
       </div>
     </div>
   );
