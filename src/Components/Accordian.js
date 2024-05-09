@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const AccordionItem = ({ title, content, isOpen, toggleAccordion }) => {
   return (
-    <div className="border-b bg-white rounded-3xl">
+    <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" className="border-b bg-white rounded-3xl">
       <button
         className="flex justify-between items-center rounded-3xl w-full px-8 py-6 bg-white focus:outline-none"
         onClick={toggleAccordion}
@@ -33,7 +33,7 @@ const Accordion = () => {
 
   return (
     <div className="mx-2 mt-8 space-y-8 relative">
-      <AccordionItem data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" className="bg-white"
+      <AccordionItem data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="bg-white"
         title={<h2 className="text-7xl text-left font-extrabold mb-2 text-[#CCCCCC]">1 <span className='text-xl -mt-14 -ml-10 text-black font-semibold'>Professionally Built</span></h2>
       }  
       
@@ -56,7 +56,7 @@ const Accordion = () => {
         toggleAccordion={() => toggleAccordion(0)}
       />
 
-<AccordionItem data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000" className="bg-white"
+<AccordionItem data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" className="bg-white"
         title={<h2 className="text-7xl text-left font-extrabold mb-2 text-[#CCCCCC]">2<span className='text-xl -mt-14 -ml-10 text-black font-semibold'>Financially Secure</span></h2>
       }
         content={
@@ -78,7 +78,7 @@ const Accordion = () => {
         toggleAccordion={() => toggleAccordion(1)}
       />
 
-<AccordionItem   data-aos="fade-up" data-aos-delay="1600" data-aos-duration="1000" className="bg-white"
+<AccordionItem   data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" className="bg-white"
  title={<h2 className="text-7xl text-left font-extrabold mb-2 text-[#CCCCCC]">3<span className='text-xl -mt-14 -ml-10 text-black font-semibold'>Customer Centric</span></h2>
 }
         content={

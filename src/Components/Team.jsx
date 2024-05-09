@@ -18,10 +18,10 @@ const Team = () => {
   return (
 <>
 <div className="flex flex-col md:flex-row md:mx-52 pt-20 md:px-0 px-4">
-      <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
+      <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white"  data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000">
+      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
         {/* <p className="md:pt-8 pe-5 font-light leading-8">
           With a singular vision to create India’s Foremost Residential Real
@@ -45,7 +45,7 @@ const Team = () => {
         </div>
     
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
-<div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000">
+<div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
   <h2 className="text-3xl font-medium"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">Partnership Model</h2>
   <ul className='md:pt-16 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
@@ -60,7 +60,7 @@ const Team = () => {
   </ul>
 </div>
 
-<div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950"  data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
+<div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
   <ul className='md:pt-16 md:ml-0 ml-4 md:pe-10 pe-2 font-medium list-disc leading-8 space-y-7'>
     <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">

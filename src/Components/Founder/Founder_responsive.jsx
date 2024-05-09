@@ -10,10 +10,10 @@ const Founder_responsive = () => {
   return (
     <div className='px-10' style={{ textAlign: 'center' }}>
       <img src={MohitImg} alt="MohitImg" style={{ display: 'block', margin: 'auto' }}/>
-      <img src={Group1} alt="Group1" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"/>
-      <img src={Group2} alt="Group2" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000"/>
-      <img src={Group3} alt="Group3" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000"/>
-      <img src={Group4} alt="Group4" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="1000"/>
+      <img src={Group1} alt="Group1" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"/>
+      <img src={Group2} alt="Group2" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000"/>
+      <img src={Group3} alt="Group3" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"/>
+      <img src={Group4} alt="Group4" style={{ display: 'block', margin: 'auto' }} className='pb-9 w-96' data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"/>
     </div>
   )
 }

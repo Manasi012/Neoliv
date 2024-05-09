@@ -8,7 +8,7 @@ const Footer = () => {
     <>
    <div className='bg-blue-950 w-screen'>
    <div className='py-3 md:flex md:justify-between justify-center items-center'>
-      <div className='md:w-52 md:ml-20' data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+      <div className='md:w-52 md:ml-20' data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
         <img src={Bluelogo} alt="" />
       </div>
       <div className='md:me-40 flex text-center justify-center md:px-0 px-0 text-white' data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
@@ -46,7 +46,7 @@ const Footer = () => {
     </div> */}
 
 <div className="flex flex-wrap justify-between text-white md:mx-20">
-  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10"  data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10"  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
     <div className='flex items-center'>
       <img src={LocationIcon} alt=""/>
       <h1 className='ps-3'>Mumbai MMR</h1>
