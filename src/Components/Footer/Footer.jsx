@@ -8,16 +8,16 @@ const Footer = () => {
     <>
    <div className='bg-blue-950 w-screen'>
    <div className='py-3 md:flex md:justify-between justify-center items-center'>
-      <div className='md:w-52 md:ml-20'>
+      <div className='md:w-52 md:ml-20' data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
         <img src={Bluelogo} alt="" />
       </div>
-      <div className='md:me-40 flex text-center justify-center md:px-0 px-0 text-white'>
+      <div className='md:me-40 flex text-center justify-center md:px-0 px-0 text-white' data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
         <h6 className='md:text-lg text-3xl'>India’s foremost  fund led developer</h6>
       </div>
     </div>
     <hr className='md:mx-32 mx-10 mt-12 md:mt-0 md:me-40'/>
      <div className='text-white flex md:justify-start justify-center md:pt-5 pt-20'>
-     <div className='md:ml-32'>
+     <div className='md:ml-32'  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
          <h3 className='text-2xl pb-0'>Our Addresses</h3>
      </div>
    </div>
@@ -46,7 +46,7 @@ const Footer = () => {
     </div> */}
 
 <div className="flex flex-wrap justify-between text-white md:mx-20">
-  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10"  data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
     <div className='flex items-center'>
       <img src={LocationIcon} alt=""/>
       <h1 className='ps-3'>Mumbai MMR</h1>
@@ -56,7 +56,7 @@ const Footer = () => {
     </div>
   </div>
 
-  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg m-10 md:ml-0">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg m-10 md:ml-0" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
     <div className='flex items-center'>
       <img src={LocationIcon} alt=""/>
       <h1 className='ps-3'>Delhi NCR</h1>

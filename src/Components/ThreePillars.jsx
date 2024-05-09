@@ -5,13 +5,13 @@ const ThreePillars = () => {
   return (    
    <>
     <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20'>
-        <div className='text-center py-10'>
+        <div className='text-center py-10'  data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
         <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
         </div>
 
        <div className='hidden md:block'>
        <div className="flex flex-wrap mx-16">
-    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
+    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
       <div className="p-6 rounded-lg">
         <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">1</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
@@ -33,7 +33,7 @@ const ThreePillars = () => {
       </div>
     </div>
     
-    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
+    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="1500" data-aos-duration="800">
       <div className="p-6 rounded-lg">
         <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">2</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
@@ -55,7 +55,7 @@ const ThreePillars = () => {
       </div>
     </div>
     
-    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28">
+    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="1900" data-aos-duration="1000">
       <div className="p-6 rounded-lg">
         <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">3</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>

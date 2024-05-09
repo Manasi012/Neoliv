@@ -10,7 +10,7 @@ const Founder = () => {
     <div className='md:px-28 px-3 bg_light pt-24 mt-20'>
     <div className="grid grid-cols-1 md:grid-cols-2 items-center">
   <div className="md:w-96">
-    <div className="text-center md:text-left">
+    <div className="text-center md:text-left" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
       <span className='text-blue-950 font-semibold'>FOUNDER & CEO</span>
       <h4 className='text-indigo-500 font-semibold text-3xl py-4'>Mohit Malhotra</h4>
     </div>
@@ -21,7 +21,7 @@ const Founder = () => {
         </div>
 
    <div className='hidden md:block'>
-   <div className='flex justify-center bg_light py-16'>
+   <div className='flex justify-center bg_light py-16' data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
         <img src={FounderImage} alt="FounderImage" className='md:w-[50%] w-full'/>
     </div>
    </div>

@@ -42,33 +42,42 @@ const newsData = [
   },
 
   // Media Links
-  // { 
-  //   description: 'June - Media Links', 
-  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpmdk5nm1.png', 
-  //   buttonText: 'News', 
-  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  // },
-  // { 
-  //   description: 'October - Media Links', 
-  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpmdk5nm1.png', 
-  //   buttonText: 'News', 
-  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  // },
-  // { 
-  //   description: 'November - Media Links', 
-  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpmdk5nm1.png', 
-  //   buttonText: 'News', 
-  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  // },
+  { 
+    description: 'June - Media Links', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+    buttonText: 'News', 
+    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  },
+  { 
+    description: 'October - Media Links', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+    buttonText: 'News', 
+    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  },
+  { 
+    description: 'November - Media Links', 
+    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+    buttonText: 'News', 
+    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  },
 ];
 
 function AllNewsComponent() {
-  const [selectedPdf, setSelectedPdf] = useState(null);
+  const [selectedUrl, setSelectedUrl] = useState(null);
 
-  const handleCardClick = (pdfUrl) => {
+  const handleCardClick = (pdfUrl, iframeUrl) => {
+  if (pdfUrl) {
+    // If PDF URL exists, open it in a new tab
     window.open(pdfUrl, '_blank');
-    setSelectedPdf(pdfUrl);
-  };
+  } else if (iframeUrl) {
+    // If iframe URL exists, create an anchor element and open it in a new tab
+    const a = document.createElement('a');
+    a.href = iframeUrl;
+    a.target = '_blank';
+    a.click();
+  }
+  setSelectedUrl(pdfUrl ? pdfUrl : iframeUrl);
+};
 
   const CustomPrevArrow = ({ onClick }) => (
    <div className='hidden md:block'>
@@ -141,7 +150,7 @@ function AllNewsComponent() {
 
   return (
     <div className="slider-container md:py-10 py-4 text-center relative">
-      <Slider className='md:mx-14' {...settings}>
+      <Slider className='md:mx-14 md:pb-0 pb-10' {...settings}>
         {newsData.map((card, index) => (
           <div className='md:px-2 my-6 md:ml-0 ml-8 px-3' key={index}>
             <Card 
