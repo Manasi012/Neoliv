@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../../Assets/imgs/neoliv_logo.jpeg';
 import { HashLink} from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -19,11 +19,10 @@ let [isOpen, SetisOpen]= useState(false)
     <div className='pt-5 w-screen'>
        <div className='md:px-10 px-7 md:flex justify-between items-center md:mx-6'>
        <div className='w-48'>
-       <Link to="/"
-        className="underline hover:underline cursor-pointer"
-      >
+       <NavLink to="/"
+        className="underline hover:underline cursor-pointer">
             <img src={Logo} alt="" />
-      </Link>
+      </NavLink>
         </div>
 
         <div onClick={()=> SetisOpen(!isOpen)} className='absolute right-8 top-16 cursor-pointer md:hidden'>
