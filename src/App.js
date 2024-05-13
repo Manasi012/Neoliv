@@ -25,8 +25,9 @@ function App() {
 
         <Bluenavbar />
         <Header />
+        <Home />
         <Routes>
-          <Route path='/' element={<Home />}/>
+          {/* <Route path='/' element={<Home />}/> */}
           <Route path='/sustainability' element={<Sustainability />}/>
           <Route path='/career' element={<Career />}/>
           <Route path='/professionallybuilt' element={<ProfessionallyBuilt />}/>
