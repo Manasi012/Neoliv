@@ -17,24 +17,12 @@ const Team = () => {
 
   return (
 <>
-<div className="flex flex-col md:flex-row md:mx-52 pt-20 md:px-0 px-4">
+<div className="flex flex-col md:flex-row md:mx-52 pt-20 md:px-0 px-4" id="team">
       <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
       <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
-        {/* <p className="md:pt-8 pe-5 font-light leading-8">
-          With a singular vision to create India’s Foremost Residential Real
-          Estate Platform in the vast opportunity that real estate investment
-          and development offers, Mohit is the mind, body, and soul behind the
-          formation of NeoLiv.
-        </p>
-        <p className="pe-5 font-light leading-8">
-          A leader with an impeccable ability to effectively envision and
-          execute “Large-scale” business, Mohit has deep expertise in capital
-          management, project development, and property management over the past
-          two decades.
-        </p> */}
         <ReadMore />
         <button onClick={toggleImageVisibility} className="border cursor-pointer px-5 py-2 rounded-full"  data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">See ALL MEMBERS</button>
       </div>

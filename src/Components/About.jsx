@@ -33,9 +33,9 @@ const About = () => {
 
   return (
     
-    <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20 relative">
+    <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20 relative" id="about">
       <div>
-      <img src={leftshawdo} alt="" className="-mt-[57rem] absolute -left-[44rem] -top-96 w-full z-10 opacity-100"/>
+      <img src={leftshawdo} alt="" className="-mt-[57rem] absolute -left-[44rem] -top-96 w-full -z-10 opacity-100"/>
 </div>
       <div className="text-center space-y-10 text-blue-950 pb-14">
         <h4 className="tracking-wide" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">ABOUT</h4>
@@ -45,7 +45,7 @@ const About = () => {
       <div className="hidden md:block">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] z-20 border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] z-20 border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder</h2>
               <img src={Founder} alt="" className="md:w-32 w-28"/>
@@ -61,7 +61,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Unique
@@ -82,7 +82,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Financial
@@ -102,7 +102,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Projects</h2>
               <img src={project} alt="" className="md:w-32 w-28"/>
@@ -117,7 +117,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Professionally
@@ -137,7 +137,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-1/3 p-4">
-          <div className="card_bg shadow-md p-10 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+          <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-28"/>

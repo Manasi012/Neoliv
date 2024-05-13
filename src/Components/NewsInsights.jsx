@@ -12,7 +12,7 @@ const NewsInsights = () => {
 
   return (
     <>
-      <div className='text-center py-3'  data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
+      <div className='text-center py-3'  data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" id="news&insights">
     <h4 className='md:text-4xl text-4xl text-blue-950 font-medium'>News & Insights</h4>
     </div>
 

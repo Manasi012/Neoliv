@@ -26,8 +26,11 @@
 
 
 import React from 'react'
+import { useNavigate, NavLink } from 'react-router-dom'
 
 const Bluenavbar = () => {
+    const history = useNavigate();
+
   return (
     <div className='bg_indigo w-screen h-9 text-white'>
         <ul className='flex md:justify-end items-center justify-center pt-2 md:me-24 space-x-7 '>
@@ -35,10 +38,12 @@ const Bluenavbar = () => {
                 <a href="">SEBI Approval</a>
             </li>
             <li>
-                <a href="">Sustainability</a>
+                {/* <a href="">Sustainability</a> */}
+                <NavLink to="/sustainability">Sustainability</NavLink>
             </li>
             <li>
-                <a href="">Career</a>
+                {/* <a href="">Career</a> */}
+                <NavLink to="/career">Career</NavLink>
             </li>
         </ul>
     </div>

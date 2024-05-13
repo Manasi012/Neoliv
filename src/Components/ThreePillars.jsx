@@ -1,10 +1,13 @@
 import React from 'react';
 import Accordion from './Accordian';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 const ThreePillars = () => {
   return (    
    <>
-    <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20'>
+    <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20' id="threePillars">
         <div className='text-center py-10'  data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
         <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
         </div>
@@ -30,6 +33,12 @@ const ThreePillars = () => {
                 </li>
             </ul>
         </div>
+        <NavLink to="/professionallybuilt" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-4 px-4 rounded md:absolute bottom-0">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </NavLink>
       </div>
     </div>
     
@@ -52,6 +61,12 @@ const ThreePillars = () => {
                 </li>
             </ul>
         </div>
+        <NavLink to="/financiallysecure" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-4 px-4 rounded md:absolute bottom-0">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </NavLink>
       </div>
     </div>
     
@@ -74,6 +89,12 @@ const ThreePillars = () => {
                 </li>
             </ul>
         </div>
+        <NavLink to="/customercentric" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-4 px-4 rounded md:absolute bottom-0">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </NavLink>
       </div>
     </div>
         </div>

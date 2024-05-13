@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from "react";
+import { Link } from 'react-router-dom';
+
 
 const AccordionItem = ({ title, content, isOpen, toggleAccordion }) => {
   return (
@@ -50,6 +52,12 @@ const Accordion = () => {
                 Equity partnership for key management
                 </li>
             </ul>
+            <Link to="/ProfessionallyBuilt" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-8 px-4 rounded">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </Link>
           </>
         }
         isOpen={openIndex === 0}
@@ -72,6 +80,12 @@ const Accordion = () => {
                 Amongst top developers of India
                 </li>
             </ul>
+            <Link to="/ProfessionallyBuilt" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-8 px-4 rounded">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </Link>
           </>
         }
         isOpen={openIndex === 1}
@@ -94,6 +108,12 @@ const Accordion = () => {
                 Relationship mindset & long-term commitment
                 </li>
             </ul>
+            <Link to="/ProfessionallyBuilt" className="inline-flex items-center hover:text-white text-indigo-800 font-semibold pt-8 px-4 rounded">
+      Discover
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+    </Link>
           </>
         }
         isOpen={openIndex === 2}
