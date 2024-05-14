@@ -1,8 +1,4 @@
 import React from 'react';
-import Bluenavbar from '../Components/Header/Bluenavbar';
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
-import FooterLinks from '../Components/Footer/FooterLinks';
 import career from '..//Assets/imgs/career.jpg';
 import NeoliferWhite from '..//Assets/imgs/NeoliferBlue.png';
 
@@ -11,8 +7,6 @@ import NeoliferWhite from '..//Assets/imgs/NeoliferBlue.png';
 const Career = () => {
   return (
     <div>
-       {/* <Bluenavbar />
-      <Header /> */}
 
       <div className='relative'>
         <img src={career} alt="sustainability" className='md:w-screen w-full'/>

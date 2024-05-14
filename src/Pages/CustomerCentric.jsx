@@ -1,9 +1,4 @@
 import React from "react";
-import Bluenavbar from "../Components/Header/Bluenavbar";
-import Header from "../Components/Header/Header";
-import Footer from "../Components/Footer/Footer";
-import Shadow from "../Assets/imgs/Shadow.png";
-import FooterLinks from "../Components/Footer/FooterLinks";
 
 const CustomerCentric = () => {
   const videoStyle = {

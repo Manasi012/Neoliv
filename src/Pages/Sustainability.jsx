@@ -1,8 +1,4 @@
 import React from 'react';
-import Bluenavbar from '../Components/Header/Bluenavbar';
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
-import FooterLinks from '../Components/Footer/FooterLinks';
 import sustainability from '..//Assets/imgs/sustainability.jpg';
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 

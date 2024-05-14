@@ -1,8 +1,4 @@
 import React from 'react'
-import Bluenavbar from '../Components/Header/Bluenavbar'
-import Header from '../Components/Header/Header'
-import Footer from '../Components/Footer/Footer'
-import FooterLinks from '../Components/Footer/FooterLinks'
 import Shadow from "../Assets/imgs/Shadow.png"
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 
@@ -26,7 +22,7 @@ const ProfessionallyBuilt = () => {
   return (
     <div>
 
-      <img src={Shadow} alt="" className="md:-mt-[6rem] md:block hidden -mt-[16rem] w-screen z-10 opacity-100"/>
+      <img src={Shadow} alt="" className="md:-mt-[6rem] md:block hidden -mt-[16rem] w-screen -z-10 opacity-100"/>
 
         {/* <div className='py-10 mx-20 text-center space-y-5 absolute top-36'>
             <h3 className='text-4xl text-blue-950'>Professionally Built</h3>
