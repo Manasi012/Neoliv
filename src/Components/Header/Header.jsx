@@ -19,7 +19,7 @@ let [isOpen, SetisOpen]= useState(false)
     <div className='pt-5 w-screen'>
        <div className='md:px-10 px-7 md:flex justify-between items-center md:mx-6'>
        <div className='w-48'>
-       <NavLink to="/"
+       <NavLink to="/Neoliv"
         className="underline hover:underline cursor-pointer">
             <img src={Logo} alt="" />
       </NavLink>
