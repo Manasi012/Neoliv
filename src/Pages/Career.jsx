@@ -16,12 +16,9 @@ const Career = () => {
             alt="NeoliferWhite"
             className="w-96 md:ml-16"
           />
-        </div>
-        <div className="py-10 text-center">
-          <div className="flex justify-center">
-            <button
+           <button
               onClick={() => (window.location.href = "mailto:admin@neoliv.in")}
-              className="flex items-center bg_indigo px-6 py-2 rounded-xl text-white text-lg font-medium"
+              className="flex items-center bg_indigo md:ml-32 mt-8 px-6 py-3 rounded-xl text-white text-lg font-medium"
             >
               Connect With Us
               <svg
@@ -39,8 +36,12 @@ const Career = () => {
                 />
               </svg>
             </button>
-          </div>
         </div>
+        {/* <div className="py-10 text-center">
+          <div className="flex justify-center">
+           
+          </div>
+        </div> */}
       </div>
     </div>
   );

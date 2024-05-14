@@ -115,7 +115,7 @@ function AllNewsComponent() {
     dots: true,
     infinite: true,
     speed: 500,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     initialSlide: 0,
@@ -164,13 +164,15 @@ function AllNewsComponent() {
             />
           </div>
         ))}
-        <div className="mt-6 max-w-sm cursor-pointer md:h-[19rem] h-[16rem] rounded hover:underline overflow-hidden shadow-lg relative">
-      <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg" className="w-full" alt="Image description" />
-      <div className="card-body font-medium block pt-3 space-y-11">
+        <div className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded hover:underline overflow-hidden shadow-lg relative">
+          <div className='my-6 md:ml-0  px-2'>
+          <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw6n57teUntitled%20design%20-%202024-05-14T223225.439.png" className="w-full border border-gray-300" alt="Image description" />
+      <div className="card-body h-10 font-medium block pt-3 space-y-11">
         <NavLink to="/Junemedia" >June Media</NavLink><br />
         <NavLink to={MyPDF} target="_blank">October Media</NavLink><br />
        <NavLink to="/novembermedia">November Media</NavLink>
       </div>
+          </div>
     </div>
       </Slider>
     </div>

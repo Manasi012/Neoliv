@@ -89,7 +89,7 @@ const JuneMedia = () => {
         linkUrl: 'https://www.latestly.com/agency-news/latest-news-neoliv-to-raise-usd-150-mn-aif-to-take-residential-bets-gets-funding-from-360-one-5236637.html'
       },
       { 
-        description: '360 ONE REVOLUTIONIZES INDIAS RESIDENTIAL REAL ESTATE SECTOR WITH STRATEGIC INVESTMENT IN NEOLIV', 
+        description: '360 ONE REVOLUTIONIZES INDIAS RESIDENTIAL REAL ESTATE SECTOR WITH.....', 
         imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmih72gUntitled%20design%20-%202023-07-03T120513.574.png', 
         date: 'June 30, 2023',
         linkUrl: 'https://realtynxt.com/residential-news/2023-06-30/360-one-revolutionizes-indias-residential-real-estate-sector-with-strategic-investment-in-neoliv'
@@ -101,19 +101,19 @@ const JuneMedia = () => {
         linkUrl: 'https://businesswebnews.blogspot.com/2023/06/360-one-enters-into-strategic.html'
       },
       { 
-        description: '360 ONE REVOLUTIONIZES INDIAS RESIDENTIAL REAL ESTATE SECTOR WITH STRATEGIC INVESTMENT IN NEOLIV', 
+        description: '360 ONE REVOLUTIONIZES INDIAS RESIDENTIAL REAL ESTATE SECTOR WITH ....', 
         imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmpbeiqN_LOGO1.png', 
         date: 'June 30, 2023',
         linkUrl: 'https://nationalheraldnews.com/360-one-enters-into-strategic-partnership-with-neoliv-with-minority-entity-level-investment-amidst-neolivs-planned-aif-fund-raise-of-us-150-mn/'
       },
       { 
-        description: '360 ONE TODAY ANNOUNCED A STRATEGIC EQUITY INVESTMENT IN NEOLIV- INDIA’S FOREMOST RESIDENTIAL PLATFORM', 
+        description: '360 ONE TODAY ANNOUNCED A STRATEGIC EQUITY INVESTMENT IN NEOLIV- INDIA’S FOREMOST RESIDENTIAL....', 
         imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmpd07scropped-Mumbai_News_Express_.png', 
         date: 'June 30, 2023',
         linkUrl: 'https://mumbainewsexpress.com/360-one-today-announced-a-strategic-equity-investment-in-neoliv-indias-foremost-residential-platform/'
       },
       { 
-        description: '360 ONE ENTERS INTO STRATEGIC PARTERSHIP WITH NEOLIV WITH MINORITY ENTITY LEVEL INVESTMENT AMIDST NEOLIV`S PLANNED AIF FUND RAISE OF US$ 150 MN', 
+        description: '360 ONE ENTERS INTO STRATEGIC PARTERSHIP WITH NEOLIV WITH MINORITY ENTITY LEVEL INVESTMENT....', 
         imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmi5pxrUntitled%20design%20-%202023-07-03T120718.332.png', 
         date: 'June 30, 2023',
         linkUrl: 'https://investmentguruindia.com/IndustryNews/360-One-enters-into-strategic-partership-with-NeoLiv-with-Minority-entity-level-investment-amidst-NeoLivs-planned-AIF-Fund-raise-of-US-150-Mn'

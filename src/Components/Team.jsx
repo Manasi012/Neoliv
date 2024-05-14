@@ -34,7 +34,7 @@ const Team = () => {
 
 <div class="text-center my-20 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
   <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">All Partners</h4>
-        <img src={partners_neoliv} alt="mohit" className="w-full md:px-20 transition-height duration-5000" />
+        <img src={partners_neoliv} alt="mohit" className="w-full md:px-20 px-4 transition-height duration-5000" />
 </div>
     
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
