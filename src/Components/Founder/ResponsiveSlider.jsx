@@ -15,7 +15,7 @@ const ResponsiveSlider = () => {
     };
 
     return (
-        <div className="slider-container bg_light md:px-5 md:-ml-24" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+        <div className="md:hidden slider-container bg_light md:px-5 md:-ml-24" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
         <Slider {...settings} className='hide-arrows'>
           <div className="flex justify-center md:justify-start items-center md:items-start md:mx-2 md:px-4">
             <div className="bg-white ml-16 md:h-24 h-36 px-5 py-4 w-full shadow-lg rounded-lg my-5">

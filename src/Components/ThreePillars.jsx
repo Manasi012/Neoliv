@@ -9,7 +9,7 @@ const ThreePillars = () => {
    <>
     <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20' id="threePillars">
         <div className='text-center py-10'  data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
-        <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Three Pillars</h4>
+        <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Pillars</h4>
         </div>
 
        <div className='hidden md:block'>

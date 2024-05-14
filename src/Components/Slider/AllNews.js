@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { NavLink } from 'react-router-dom';
 import Card from './Card';
+import MyPDF from '../../Assets/pdf/NeoLiv_Tracking.pdf';
+
 
 const newsData = [
   { description: 'CEO’s Letter April 2023', imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg', buttonText:'Ceo Letter', pdfUrl: 'https://neoliv.in/docs/NeoLivUpdate-April2023.pdf' },
@@ -41,25 +44,25 @@ const newsData = [
     pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
   },
 
-  // Media Links
-  { 
-    description: 'June - Media Links', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
-    buttonText: 'News', 
-    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  },
-  { 
-    description: 'October - Media Links', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
-    buttonText: 'News', 
-    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  },
-  { 
-    description: 'November - Media Links', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
-    buttonText: 'News', 
-    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
-  },
+  // // Media Links
+  // { 
+  //   description: 'June - Media Links', 
+  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+  //   buttonText: 'News', 
+  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  // },
+  // { 
+  //   description: 'October - Media Links', 
+  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+  //   buttonText: 'News', 
+  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  // },
+  // { 
+  //   description: 'November - Media Links', 
+  //   imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg', 
+  //   buttonText: 'News', 
+  //   pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+  // },
 ];
 
 function AllNewsComponent() {
@@ -161,6 +164,14 @@ function AllNewsComponent() {
             />
           </div>
         ))}
+        <div className="mt-6 max-w-sm cursor-pointer md:h-[19rem] h-[16rem] rounded hover:underline overflow-hidden shadow-lg relative">
+      <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvywkulhMedia-Link.jpg" className="w-full" alt="Image description" />
+      <div className="card-body font-medium block pt-3 space-y-11">
+        <NavLink to="/Junemedia" >June Media</NavLink><br />
+        <NavLink to={MyPDF} target="_blank">October Media</NavLink><br />
+       <NavLink to="/novembermedia">November Media</NavLink>
+      </div>
+    </div>
       </Slider>
     </div>
   );

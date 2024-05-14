@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import Bluenavbar from '../src/Components/Header/Bluenavbar';
 import Header from '../src/Components/Header/Header';
 import Home from './Components/Home';
@@ -10,6 +11,10 @@ import CustomerCentric from './Pages/CustomerCentric';
 import Footer from '../src/Components/Footer/Footer';
 import FooterLinks from '../src/Components/Footer/FooterLinks';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import JuneMedia from './Pages/JuneMedia';
+import NovemberMedia from './Pages/NovemberMedia';
+import ScrollToTopOnPageChange from './Components/ScrollToTopOnPageChange';
+
 
 
 function App() {
@@ -23,8 +28,12 @@ function App() {
           <Footer />
         <FooterLinks /> */}
 
+
         <Bluenavbar />
         <Header />
+
+        <ScrollToTopOnPageChange />
+
         {/* <Home /> */}
         <Routes>
           <Route path='/Neoliv' element={<Home />}/>
@@ -33,6 +42,9 @@ function App() {
           <Route path='/professionallybuilt' element={<ProfessionallyBuilt />}/>
           <Route path='/financiallysecure' element={<FinanciallySecure />}/>
           <Route path='/customercentric' element={<CustomerCentric />}/>
+          <Route path='/junemedia' element={<JuneMedia />}/>
+          <Route path='/novembermedia' element={<NovemberMedia />}/>
+
         </Routes>
         <Footer />
         <FooterLinks />

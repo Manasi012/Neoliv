@@ -37,7 +37,7 @@ const CustomerCentric = () => {
       <div className="md:flex justify-center gap-10 py-10 md:px-20 px-5">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
-            className="w-52 rounded-t-lg h-auto md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+            className="w-52 rounded-t-lg h-auto md:h-auto md:w-32 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkftooIcons-01neo.png"
             alt=""
           />
@@ -52,7 +52,7 @@ const CustomerCentric = () => {
         </div>
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
-            className="w-52 rounded-t-lg h-auto md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+            className="w-52 rounded-t-lg h-auto md:h-auto md:w-32 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkg1vxIcons-02neo.png"
             alt=""
           />
@@ -69,7 +69,7 @@ const CustomerCentric = () => {
       <div className="md:flex justify-center gap-10 pb-10 md:px-20 px-5">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
-            className="w-52 rounded-t-lg h-auto md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+            className="w-52 rounded-t-lg h-auto md:h-auto md:w-32 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkgampIcons-03neo.png"
             alt=""
           />
@@ -84,7 +84,7 @@ const CustomerCentric = () => {
         </div>
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
-            className="w-52 rounded-t-lg h-auto md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+            className="w-52 rounded-t-lg h-auto md:h-auto md:w-32 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkftooIcons-01neo.png"
             alt=""
           />

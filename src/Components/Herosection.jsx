@@ -7,13 +7,13 @@ import WhiteLogo from '../Assets/imgs/Whitelogo.png';
 const Herosection = () => {
   return (
     <>
-    <div className='py-7 md:mx-20'>
+    {/* <div className='py-7 md:mx-20'>
       <h2 className='md:font-[500] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 md:text-xl text-sm' data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
       A Venture backed by SEBI Approved fund, 360 ONE(formerly IIFL Wealth) and Mohit Malhotra (Ex MD and CEO of Godrej Properties)
       </h2>
-    </div>
+    </div> */}
     <div className='md:mx-20'>
-        <h1 className='absolute text-white md:top-[22rem] top-[20rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl' data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">India’s foremost integrated fund led
+        <h1 className='absolute text-white md:top-[20rem] top-[20rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl' data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">India’s foremost integrated fund led
         <span className='md:block'> residential real estate developer</span>
         </h1> 
     </div>

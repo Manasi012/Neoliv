@@ -9,7 +9,7 @@ const FinanciallySecure = () => {
 
       <div className="text-center md:py-10 py-6 space-y-4"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
       <div>
-      <img src={leftshawdo} alt="" className="-mt-[52rem] absolute md:top-[45rem] -left-[4rem] w-fit z-10 opacity-100"/>
+      {/* <img src={leftshawdo} alt="" className="-mt-[52rem] absolute md:top-[45rem] -left-[4rem] w-fit z-10 opacity-100"/> */}
 </div>
         <h3 className="text-4xl text-blue-950">Financially Secure</h3>
         <p className="text-lg font-medium">
@@ -74,7 +74,7 @@ const FinanciallySecure = () => {
             className="w-96" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000"
           />
           <p className="text-lg font-[400] text-indigo-500 leading-8">
-            Over the past few years, there has been a vacuum created in the
+            <span className="font-bold text-2xl">"</span>Over the past few years, there has been a vacuum created in the
             residential fund and development space, where we see strong demand
             as the country’s middle-income segment continues to grow. We are
             pleased to be working with the NEOLIV team who bring on board a
@@ -82,7 +82,7 @@ const FinanciallySecure = () => {
             governance, execution and customer satisfaction to further
             capitalize on opportunities in this space and believe this
             investment will deliver strong risk-adjusted returns for all
-            beneficiaries.
+            beneficiaries.<span className="font-bold text-2xl">"</span>
           </p>
         </div>
       </div>
@@ -91,12 +91,12 @@ const FinanciallySecure = () => {
       <h3 className="text-4xl text-blue-950">Amongst the top developers of India with keen interest from large global and domestic investors</h3>
 
       <div className="md:flex justify-center py-5">
-        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0fm85oAmong-india.png" alt="India" className="w-80" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000"/>
-        <div className="md:-mt-8 md:-ml-8" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw64nmz7Among-india.png" alt="India" className="w-80" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000"/>
+        <div data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">
         <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g5jkxResidentialSector.png" alt="India" className="w-80" />
         </div>
-        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g5xlw100Equity.png" alt="India" className="w-80 md:-ml-8" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000"/>
-        <div className="md:-mt-8 md:-ml-8" data-aos="fade-down" data-aos-delay="1100" data-aos-duration="1000">
+        <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g5xlw100Equity.png" alt="India" className="w-80" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000"/>
+        <div data-aos="fade-down" data-aos-delay="1100" data-aos-duration="1000">
         <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g68clZeroLeverage.png" alt="India" className="w-80" />
         </div>
       </div>

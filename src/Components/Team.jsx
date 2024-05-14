@@ -21,16 +21,21 @@ const Team = () => {
       <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-44 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <div className="md:w-4/6 md:rounded-xl z-10 py-20 px-10 md:pl-40 -mt-4 bg_indigo space-y-9 md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
         <h2 className="text-3xl font-normal">Key Management Team</h2>
         <ReadMore />
-        <button onClick={toggleImageVisibility} className="border cursor-pointer px-5 py-2 rounded-full"  data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">See ALL MEMBERS</button>
+        {/* <button onClick={toggleImageVisibility} className="border cursor-pointer px-5 py-2 rounded-full"  data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000">See ALL MEMBERS</button> */}
       </div>
       </div>
 
-      <div className="w-full md:p-10 p-3 z-40">
+      {/* <div className="w-full md:p-10 p-3 z-40">
           {isImageVisible && <img src={partners_neoliv} alt="mohit" className="w-full transition-height duration-5000" />}
-        </div>
+        </div> */}
+
+<div class="text-center my-20 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+  <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">All Partners</h4>
+        <img src={partners_neoliv} alt="mohit" className="w-full md:px-20 transition-height duration-5000" />
+</div>
     
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
