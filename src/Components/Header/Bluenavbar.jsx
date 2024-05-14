@@ -27,6 +27,8 @@
 
 import React from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
+import MyPDF from '../../Assets/pdf/SEBI Certificate.pdf';
+
 
 const Bluenavbar = () => {
     const history = useNavigate();
@@ -35,7 +37,8 @@ const Bluenavbar = () => {
     <div className='bg_indigo w-screen h-9 text-white'>
         <ul className='flex md:justify-end items-center justify-center pt-2 md:me-24 space-x-7 '>
             <li>
-                <a href="">SEBI Approval</a>
+                {/* <a href="">SEBI Approval</a> */}
+        <NavLink to={MyPDF} target="_blank">SEBI Approval</NavLink>
             </li>
             <li>
                 {/* <a href="">Sustainability</a> */}
