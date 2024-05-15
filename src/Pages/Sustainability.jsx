@@ -15,7 +15,7 @@ const Sustainability = () => {
   </div>
       <div className='relative'>
         <img src={sustainability} alt="sustainability" className='md:w-screen w-full h-auto'/>
-        <h3 className='text-white md:text-5xl text-3xl absolute top-[45%] font-bold md:ml-32 ml-2 tracking-wider'>Commitment To ESG</h3>
+        <h3 className='text-white md:text-5xl text-2xl absolute top-[45%] font-bold md:ml-32 ml-2 tracking-wider'>Commitment To ESG</h3>
       </div>
 
       <div className='relative py-5 md:mx-20 mx-6'>

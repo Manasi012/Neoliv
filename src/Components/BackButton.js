@@ -18,7 +18,7 @@ const BackButton = () => {
 </button>
 
 <button
-  className="bg-blue-950 text-white z-40 font-bold py-2 px-5 rounded-lg fixed m-5 flex items-center justify-around md:hidden bottom-0"
+  className="bg-blue-950 border border-white text-white z-40 font-bold py-2 px-5 rounded-lg fixed m-5 flex items-center justify-around md:hidden bottom-0"
   onClick={goBack}
 >
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">

@@ -19,11 +19,11 @@ const Career = () => {
           <img
             src={NeoliferWhite}
             alt="NeoliferWhite"
-            className="w-96 md:ml-16"
+            className="md:w-96 w-44 md:ml-16"
           />
            <button
               onClick={() => (window.location.href = "mailto:admin@neoliv.in")}
-              className="flex items-center bg_indigo md:ml-32 mt-8 px-6 py-3 rounded-xl text-white text-lg font-medium"
+              className="flex items-center bg_indigo md:ml-32 ml-12 md:mt-8  md:px-6 px-2 md:py-3 py-2 rounded-xl text-white md:text-lg text-sm font-medium"
             >
               Connect With Us
               <svg
