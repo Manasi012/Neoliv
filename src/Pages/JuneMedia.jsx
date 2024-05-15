@@ -1,8 +1,9 @@
 import React from 'react';
-import Card from './Card'; // Assuming Card component is in the same directory
+import Card from './Card'; 
+import BackButton from '../Components/BackButton'
+
 
 const JuneMedia = () => {
-  // Sample card data array with more than 20 cards
   const cardData = [
     { 
       description: 'NEOLIV INKS STRATEGIC ALLIANCE WITH 360 ONE AMIDST $150 MILLION FUND RAISE PLAN', 
@@ -142,6 +143,9 @@ const JuneMedia = () => {
 
   return (
     <>
+     <div>
+  <BackButton />
+  </div>
     <div className='md:mx-20 md:py-20 mx-5 py-10'>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
       {cardData.map((card, index) => (

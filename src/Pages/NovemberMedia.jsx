@@ -1,8 +1,9 @@
 import React from 'react';
 import Card from './Card'; 
+import BackButton from '../Components/BackButton'
+
 
 const NovemberMedia = () => {
-  // Sample card data array with more than 20 cards
   const cardData = [
     { 
       description: 'GOLF COURSE EXTENSION ROAD: A REAL ESTATE HOTSPOT IN GURUGRAM', 
@@ -26,6 +27,10 @@ const NovemberMedia = () => {
   ];
 
   return (
+    <>
+     <div>
+  <BackButton />
+  </div>
     <div className='md:mx-20 md:py-20 mx-5 py-10'>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
       {cardData.map((card, index) => (
@@ -40,6 +45,7 @@ const NovemberMedia = () => {
       ))}
     </div>
     </div>
+    </>
 
   );
 }

@@ -39,16 +39,16 @@ let [isOpen, SetisOpen]= useState(false)
 
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto z-20 left-0 w-full md:w-auto md:pl-0 pl-8 me-8 transition-all duration-500 ease-out ${isOpen ? 'top-32' : 'top-[-490px]'}`}>
   <li className={`md:ml-6 md:my-0 my-7 font-medium tracking-wide ${isOpen ? 'block' : 'hidden md:block'}`}>
-    <HashLink to="#about" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>About</HashLink>
+    <HashLink to="/Neoliv/#about" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>ABOUT US</HashLink>
   </li>
   <li className={`md:ml-6 md:my-0 my-7 font-medium tracking-wide ${isOpen ? 'block' : 'hidden md:block'}`}>
-    <HashLink to="#threePillars" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>NEOLIV PILLARS</HashLink>
+    <HashLink to="/Neoliv/#threePillars" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>NEOLIV PILLARS</HashLink>
   </li>
   <li className={`md:ml-6 md:my-0 my-7 font-medium tracking-wide ${isOpen ? 'block' : 'hidden md:block'}`}>
-    <HashLink to="#team" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>TEAM</HashLink>
+    <HashLink to="/Neoliv/#team" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>TEAM</HashLink>
   </li>
   <li className={`md:ml-6 md:my-0 my-7 font-medium tracking-wide ${isOpen ? 'block' : 'hidden md:block'}`}>
-    <HashLink to="#news&insights" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>NEWS & INSIGHTS</HashLink>
+    <HashLink to="/Neoliv/#news&insights" smooth className='text-white md:text-black hover:text-blue-700 duration-500'>NEWS & INSIGHTS</HashLink>
   </li>
 </ul>
 

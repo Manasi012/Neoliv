@@ -21,24 +21,17 @@ function App() {
   return (
  
       <div className="App overflow-hidden">
-
-        {/* <Bluenavbar />
-        <Header />
-          <Home />
-          <Footer />
-        <FooterLinks /> */}
-
-
         <Bluenavbar />
         <Header />
 
         <ScrollToTopOnPageChange />
 
-        {/* <Home /> */}
+    
         <Routes>
           <Route path='/Neoliv' element={<Home />}/>
           <Route path='/sustainability' element={<Sustainability />}/>
           <Route path='/career' element={<Career />}/>
+          {/* <Route path='/Neoliv/about' element={<Home />}/> */}
           <Route path='/professionallybuilt' element={<ProfessionallyBuilt />}/>
           <Route path='/financiallysecure' element={<FinanciallySecure />}/>
           <Route path='/customercentric' element={<CustomerCentric />}/>
@@ -48,17 +41,7 @@ function App() {
         </Routes>
         <Footer />
         <FooterLinks />
-    
-        {/* <Routes>
-
-        <Route path='/bluenavbar' element={<Bluenavbar />}/>
-          <Route path='/header' element={<Header />}/>
-          <Route path='/' element={<Home />}/>
-
-          <Route path='/footer' element={<Footer />}/>
-
-
-        </Routes> */}
+  
     </div>
     
   );

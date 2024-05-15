@@ -32,10 +32,7 @@ const Team = () => {
           {isImageVisible && <img src={partners_neoliv} alt="mohit" className="w-full transition-height duration-5000" />}
         </div> */}
 
-<div class="text-center my-20 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
-  <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">All Partners</h4>
-        <img src={partners_neoliv} alt="mohit" className="w-full md:px-20 px-4 transition-height duration-5000" />
-</div>
+
     
 <div className="flex flex-col md:flex-row md:mx-40 md:py-20 pt-10">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
@@ -69,12 +66,15 @@ const Team = () => {
 </div>
 </div>
 
-<div  data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1000">
-<img src={Shadow} alt="" className="md:-mt-[57rem] -mt-[16rem] w-full z-10 opacity-100"/>
-<Insignia />
-
+<div class="text-center md:mt-5 my-10 aos-init aos-animate relative z-50" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+  <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">All Partners</h4>
+  <img src={partners_neoliv} alt="mohit" class="w-full relative  md:px-20 px-4 transition-height duration-5000" />
 </div>
- 
+<div class="relative" data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1000">
+  <img src={Shadow} alt="" class="md:-mt-[57rem] relative -mt-[16rem] w-full z-0" />
+  <Insignia />
+</div>
+
 </>
   );
 };

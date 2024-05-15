@@ -32,6 +32,7 @@ const About = () => {
   };
 
   return (
+<>
     
     <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20 relative" id="about">
       <div>
@@ -263,6 +264,7 @@ const About = () => {
       <p className='text-center md:px-44 px-2 md:py-8 py-4 text-indigo-500 leading-10 font-medium text-xl' data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">"The residential real estate sector in India has been affected with distrust & conflict-driven relationships. The whole experience is stressful and far from being a joyous relationship. Moreover, lack of transparency, secure funding, and corporate governance issues have resulted in loss of credibility."</p>
       </div>
     </div>
+    </>
   );
 };
 

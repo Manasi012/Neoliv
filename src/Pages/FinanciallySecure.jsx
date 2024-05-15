@@ -1,16 +1,23 @@
 import React from "react";
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
+import BackButton from '../Components/BackButton'
 
 const FinanciallySecure = () => {
   return (
     <>
       {/* <Bluenavbar />
       <Header /> */}
-
+   <div>
+  <BackButton />
+  </div>
       <div className="text-center md:py-10 py-6 space-y-4"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
-      <div>
-      {/* <img src={leftshawdo} alt="" className="-mt-[52rem] absolute md:top-[45rem] -left-[4rem] w-fit z-10 opacity-100"/> */}
-</div>
+   
+      {/* <div>
+        
+      <img src={leftshawdo} alt="" className="-mt-[52rem] absolute md:top-[45rem] -left-[4rem] w-fit z-10 opacity-100"/>
+</div> */}
+
+
         <h3 className="text-4xl text-blue-950">Financially Secure</h3>
         <p className="text-lg font-medium">
           SEBI approved domestic equity AIF backed by reputed financial
@@ -41,14 +48,14 @@ const FinanciallySecure = () => {
               eliminating approval risks
             </p>
           </div>
-          <div className="bg_indigo text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+          <div className="bg_indigo text-white md:h-[16rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">IN HOUSE DEVELOPMENT ARM</h3>
             <p>
               Management team of industry experts with execution expertise of
               200 Mn Sq ft, 90 projects pan India.
             </p>
           </div>
-          <div className="bg_indigo text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+          <div className="bg_indigo text-white md:h-[16rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">
               ON TIME DELIVERY ASSURANCE
             </h3>

@@ -1,10 +1,15 @@
 import React from "react";
 import career from "..//Assets/imgs/career.jpg";
 import NeoliferWhite from "..//Assets/imgs/NeoliferBlue.png";
+import BackButton from '../Components/BackButton'
+
 
 const Career = () => {
   return (
     <div>
+       <div>
+  <BackButton />
+  </div>
       <div className="relative">
         <img src={career} alt="sustainability" className="md:w-screen w-full" />
         <div className="absolute left-[30%] md:top-[30%] top-[8%] md:ml-32 ml-2">

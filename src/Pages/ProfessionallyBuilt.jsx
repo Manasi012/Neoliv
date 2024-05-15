@@ -1,6 +1,8 @@
 import React from 'react'
 import Shadow from "../Assets/imgs/Shadow.png"
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
+import BackButton from '../Components/BackButton'
+
 
 
 
@@ -31,12 +33,15 @@ const ProfessionallyBuilt = () => {
         </div> */}
 
 <div className=''>
+  <div>
+  <BackButton />
+  </div>
 <div className='text-center md:py-10 py-6 space-y-4'  data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
 <h3 className='text-4xl text-blue-950'>Professionally Built</h3>
             <p className='text-lg font-medium'  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">The team that comes with a 100+ years of multi-functional industry experience</p>
 </div>
-<div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-20 mx-5 ">
-        <div className="bg-white md:h-24 h-auto py-4 md:w-full shadow-2xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+<div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-10 lg:mx-10 mx-5 ">
+        <div className="bg-white md:h-24  h-auto py-4 md:w-full shadow-2xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
             <p className='text-center'>Joined Godrej Properties in 2010, stepped down on December 31, 2022</p>
             </div>
             <div className="bg-white md:h-24 h-auto  py-4 w-full shadow-2xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
