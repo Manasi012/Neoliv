@@ -13,13 +13,13 @@ const Career = () => {
       <div className="relative">
         <img src={career} alt="sustainability" className="md:w-screen w-full" />
         <div className="absolute left-[30%] md:top-[30%] top-[8%] md:ml-32 ml-2">
-          <h3 className="text-[#115aa6] md:text-6xl text-2xl font-bold tracking-wider">
+          <h3 className="text-[#115aa6] md:text-6xl text-xl font-bold tracking-wider">
             Become a
           </h3>
           <img
             src={NeoliferWhite}
             alt="NeoliferWhite"
-            className="md:w-96 w-40 md:ml-16"
+            className="md:w-96 w-32 md:ml-16"
           />
            <button
               onClick={() => (window.location.href = "mailto:admin@neoliv.in")}
