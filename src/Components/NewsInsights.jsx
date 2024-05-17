@@ -26,7 +26,7 @@ const NewsInsights = () => {
           All
         </button>
         <button data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"
-          className={`flex-1 md:py-2 rounded-full border border-indigo-500  ${activeTab === 2 ? 'bg-indigo-500 text-white' : 'bg-white'}`}
+          className={`flex-1 md:py-2 px-2 rounded-full border border-indigo-500  ${activeTab === 2 ? 'bg-indigo-500 text-white' : 'bg-white'}`}
           onClick={() => setActiveTab(2)}
         >
           CEO's Letter

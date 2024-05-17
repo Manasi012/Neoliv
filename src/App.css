@@ -35,3 +35,9 @@ body{
 .hide-arrows .slick-prev {
   display: none !important; /* Important to override default styles */
 }
+@media (max-width: 768px) {
+    .mobile-center {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
