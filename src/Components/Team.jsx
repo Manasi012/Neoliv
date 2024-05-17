@@ -67,7 +67,7 @@ const Team = () => {
 </div>
 
 <div class="text-center md:mt-5 my-10 aos-init aos-animate relative z-50" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
-  <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">All Partners</h4>
+  <h4 class="md:text-3xl text-4xl text-blue-950 font-medium pb-10">Partners</h4>
   <img src={partners_neoliv} alt="mohit" class="w-full relative  md:px-20 px-4 transition-height duration-5000" />
 </div>
 <div class="relative" data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1000">
