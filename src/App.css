@@ -6,6 +6,9 @@ body{
 .bg_indigo{
     background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
 }
+.bg_indigo1{
+    background: linear-gradient(90deg, #715CC9, #715CC9, #715CC9, #715CC9, #715CC9, #715CC9, #715CC9);
+}
 
 .footer_box{
     background-color: #364b7d7e;

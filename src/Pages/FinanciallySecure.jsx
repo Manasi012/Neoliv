@@ -1,6 +1,8 @@
 import React from "react";
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
-import BackButton from '../Components/BackButton'
+import BackButton from '../Components/BackButton';
+import { NavLink } from 'react-router-dom';
+
 
 const FinanciallySecure = () => {
   return (
@@ -8,7 +10,9 @@ const FinanciallySecure = () => {
       {/* <Bluenavbar />
       <Header /> */}
    <div>
+   <NavLink to="/Neoliv/#threePillars">
   <BackButton />
+   </NavLink>
   </div>
       <div className="text-center md:py-10 py-6 space-y-4 md:px-0 px-5"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
    
@@ -33,7 +37,7 @@ const FinanciallySecure = () => {
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:w-2/4 pb-5">
-          <div className="bg_indigo text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <div className="bg_indigo1 text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">
               HIGHEST DEGREE OF GOVERNANCE
             </h3>
@@ -41,21 +45,21 @@ const FinanciallySecure = () => {
               100% assurance of transparent, SEBI regulated & monitored funding
             </p>
           </div>
-          <div className="bg_indigo text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+          <div className="bg_indigo1 text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">SAFE & SECURE INVESTMENT</h3>
             <p>
               Funds can be invested only on licensed land parcels thus
               eliminating approval risks
             </p>
           </div>
-          <div className="bg_indigo text-white md:h-[16rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+          <div className="bg_indigo1 text-white md:h-[16rem] lg:h-[18rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">IN HOUSE DEVELOPMENT ARM</h3>
             <p>
               Management team of industry experts with execution expertise of
               200 Mn Sq ft, 90 projects pan India.
             </p>
           </div>
-          <div className="bg_indigo text-white md:h-[16rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+          <div className="bg_indigo1 text-white md:h-[16rem] lg:h-[18rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">
               ON TIME DELIVERY ASSURANCE
             </h3>

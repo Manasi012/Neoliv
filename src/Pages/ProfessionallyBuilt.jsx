@@ -2,7 +2,7 @@ import React from 'react'
 import Shadow from "../Assets/imgs/Shadow.png"
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 import BackButton from '../Components/BackButton'
-
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -33,9 +33,9 @@ const ProfessionallyBuilt = () => {
         </div> */}
 
 <div className=''>
-  <div>
+<NavLink to="/Neoliv/#threePillars">
   <BackButton />
-  </div>
+   </NavLink>
 <div className='text-center md:py-10 py-6 space-y-4 px-5'  data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
 <h3 className='text-4xl text-blue-950'>Professionally Built</h3>
             <p className='text-lg font-medium'  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">The team that comes with a 100+ years of multi-functional industry experience</p>

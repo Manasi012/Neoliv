@@ -27,7 +27,7 @@ const Herosection = () => {
     <div className="absolute inset-0 bg-black opacity-50"></div>
 </div>
 
-    <div className='py-20 bg_indigo'>
+    <div className='py-10 bg_indigo'>
       <div className='flex justify-center' data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
       <img src={WhiteLogo} alt="whitelogo" className='"place-self-center'/>
       </div>

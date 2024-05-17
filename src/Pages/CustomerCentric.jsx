@@ -1,22 +1,43 @@
-import React from "react";
-import BackButton from '../Components/BackButton'
-
+import React, { useRef, useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
+import BackButton from '../Components/BackButton';
 
 const CustomerCentric = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const videoElement = videoRef.current;
+
+    const handleVideoEnded = () => {
+      videoElement.pause();
+      setTimeout(() => {
+        videoElement.play();
+      }, 10000); 
+    };
+
+    if (videoElement) {
+      videoElement.addEventListener('ended', handleVideoEnded);
+    }
+
+    return () => {
+      if (videoElement) {
+        videoElement.removeEventListener('ended', handleVideoEnded);
+      }
+    };
+  }, []);
+
   const videoStyle = {
     clipPath: "inset(1px 1px)",
   };
 
   return (
     <>
-      {/* <Bluenavbar />
-      <Header /> */}
-   <div>
-  <BackButton />
-  </div>
       <div className="text-center py-10 space-y-5">
+        <HashLink to="/Neoliv#threePillars" smooth>
+          <BackButton />
+        </HashLink>
         <h3 className="text-4xl text-blue-950">Customer Centric</h3>
-        <p className="text-lg font-medium md:px-0  px-5">
+        <p className="text-lg font-medium md:px-0 px-5">
           Customer is at our core through transparent communication,
           tech-enabled interface, relationship manager model and long-term
           commitment.
@@ -25,10 +46,10 @@ const CustomerCentric = () => {
 
       <div className="flex justify-center pb-10">
         <video
+          ref={videoRef}
           className="md:w-[50%] w-full"
           autoPlay
           muted
-          loop
           style={videoStyle}
         >
           <source
@@ -65,7 +86,7 @@ const CustomerCentric = () => {
               Personalised customer RM
             </h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            NeoLiv will have Relationship Managers mapped to each customer for 24x7 dedicated service
+              NeoLiv will have Relationship Managers mapped to each customer for 24x7 dedicated service
             </p>
           </div>
         </div>
@@ -79,10 +100,10 @@ const CustomerCentric = () => {
           />
           <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Property management arm
+              Property management arm
             </h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            NeoLiv has in-house property management and service arm to ensure lowest cost of maintenance
+              NeoLiv has in-house property management and service arm to ensure lowest cost of maintenance
             </p>
           </div>
         </div>
@@ -94,7 +115,7 @@ const CustomerCentric = () => {
           />
           <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Post handover partnership
+              Post handover partnership
             </h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               NeoLiv will ensure complete hand-holding till all teething issues are resolved and customers enjoy hassle-free living experience
