@@ -10,7 +10,7 @@ const FinanciallySecure = () => {
    <div>
   <BackButton />
   </div>
-      <div className="text-center md:py-10 py-6 space-y-4"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
+      <div className="text-center md:py-10 py-6 space-y-4 md:px-0 px-5"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
    
       {/* <div>
         

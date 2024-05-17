@@ -16,7 +16,7 @@ const CustomerCentric = () => {
   </div>
       <div className="text-center py-10 space-y-5">
         <h3 className="text-4xl text-blue-950">Customer Centric</h3>
-        <p className="text-lg font-medium">
+        <p className="text-lg font-medium md:px-0  px-5">
           Customer is at our core through transparent communication,
           tech-enabled interface, relationship manager model and long-term
           commitment.
@@ -45,7 +45,7 @@ const CustomerCentric = () => {
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkftooIcons-01neo.png"
             alt=""
           />
-          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-3">
+          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Product and Quality
             </h5>
