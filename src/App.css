@@ -120,16 +120,38 @@ body{
     width: 620px; /* Adjust the width as needed */
   }
 
-@media (max-width: 768px) {
-  .tooltip-content {
-    width: 100%; /* Adjust for smaller screens */
+
+ 
+  @media (min-width: 768px) {
+    .progress-line {
+      justify-content: flex-start;
+    }
   }
-}
 
   
   
   
 @media (max-width: 768px) {
+    .progress-line {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 0;
+        justify-content: start;
+        gap: 2px; 
+      }
+      .status {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: block; /* Change display to block */
+        margin-bottom: 12px; 
+      }
     .mobile-center {
         left: 50%;
         transform: translateX(-50%);
