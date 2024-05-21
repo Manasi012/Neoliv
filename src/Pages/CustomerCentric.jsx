@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
-import { HashLink } from 'react-router-hash-link';
 import BackButton from '../Components/BackButton';
+import { NavLink } from 'react-router-dom';
 
 const CustomerCentric = () => {
   const videoRef = useRef(null);
@@ -12,7 +12,7 @@ const CustomerCentric = () => {
       videoElement.pause();
       setTimeout(() => {
         videoElement.play();
-      }, 10000); 
+      }, 10000);
     };
 
     if (videoElement) {
@@ -32,33 +32,37 @@ const CustomerCentric = () => {
 
   return (
     <>
-      <div className="text-center py-10 space-y-5">
-        <HashLink to="/Neoliv#threePillars" smooth>
+      <div>
+        {/* Make sure this NavLink points to the correct route and section */}
+        <NavLink to="/Neoliv/#threePillars">
           <BackButton />
-        </HashLink>
-        <h3 className="text-4xl text-blue-950">Customer Centric</h3>
-        <p className="text-lg font-medium md:px-0 px-5">
-          Customer is at our core through transparent communication,
-          tech-enabled interface, relationship manager model and long-term
-          commitment.
-        </p>
-      </div>
+        </NavLink>
+        
+        <div className="text-center py-10 space-y-5">
+          <h3 className="text-4xl text-blue-950">Customer Centric</h3>
+          <p className="text-lg font-medium md:px-0 px-5">
+            Customer is at our core through transparent communication,
+            tech-enabled interface, relationship manager model and long-term
+            commitment.
+          </p>
+        </div>
 
-      <div className="flex justify-center pb-10">
-        <video
-          ref={videoRef}
-          className="md:w-[50%] w-full"
-          autoPlay
-          muted
-          style={videoStyle}
-        >
-          <source
-            src="https://propstory.in/Neoliv-Demo/AnimationNew.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <div className="flex justify-center pb-10">
+          <video
+            ref={videoRef}
+            className="md:w-[50%] w-full"
+            autoPlay
+            muted
+            style={videoStyle}
+          >
+            <source
+              src="https://propstory.in/Neoliv-Demo/AnimationNew.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
       </div>
-
+      
       <div className="md:flex justify-center gap-10 py-10 md:px-20 px-5">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
@@ -75,6 +79,7 @@ const CustomerCentric = () => {
             </p>
           </div>
         </div>
+        
         <div className="flex flex-col items-center bg-white border md:mt-0 mt-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"
@@ -91,6 +96,7 @@ const CustomerCentric = () => {
           </div>
         </div>
       </div>
+      
       <div className="md:flex justify-center gap-10 pb-10 md:px-20 px-5">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
@@ -107,6 +113,7 @@ const CustomerCentric = () => {
             </p>
           </div>
         </div>
+        
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 md:mt-0 mt-10 dark:bg-gray-800 dark:hover:bg-gray-700">
           <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"

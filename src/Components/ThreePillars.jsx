@@ -69,7 +69,7 @@ const ThreePillars = () => {
       </div>
     </div>
     
-    <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="1900" data-aos-duration="1000">
+    <div id='BackPillars' className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="1900" data-aos-duration="1000">
       <div className="p-6 rounded-lg">
         <h2 className="text-8xl font-extrabold mb-2 text-[#515d81]">3</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>

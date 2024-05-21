@@ -69,7 +69,7 @@ const Footer = () => {
 
 
 
-   {/* <div class="md:flex flex-row md:mx-16 text-white">
+   {/* <div className="md:flex flex-row md:mx-16 text-white">
    <div className="footer_box p-10 rounded-lg m-10">
        <div className='flex'>
        <img src={LocationIcon} alt=""/>

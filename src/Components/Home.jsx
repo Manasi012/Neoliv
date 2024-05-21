@@ -5,7 +5,7 @@ import OurPurpose from './OurPurpose';
 import Founder from './Founder/Founder';
 import ThreePillars from './ThreePillars';
 import Team from './Team';
-import Insignia from './Insignia';
+import Partners from './Partners';
 import NewsInsights from './NewsInsights';
 
 
@@ -19,6 +19,7 @@ const Home = () => {
  <Founder />
 <ThreePillars />
 <Team />
+<Partners />
 {/* <Insignia /> */}
 <NewsInsights />
     </>
