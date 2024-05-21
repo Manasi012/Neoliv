@@ -81,7 +81,7 @@
 
         //Haripraksh
         {
-        about: "Haripraksh",
+        about: "Hariprakash",
         progress: [
             { year: "2008", company: "MBA", completed: true },
             { year: "2011", company: "Godrej", completed: true },
@@ -115,7 +115,7 @@
         //Sidsharth Kolte
         {
         about:
-            "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+            "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
         progress: [
             { year: "1997", company: "MBA", completed: true },
             { year: "2000", company: "Exam Bank", completed: true },
@@ -162,7 +162,7 @@
         progress: [
             { year: "2006", company: "MBA", completed: true },
             { year: "2009", company: "Godrej", completed: true },
-            { year: "2017", company: "The Wadiya Group", completed: true },
+            { year: "2017", company: "The Wadhwa Group", completed: true },
             { year: "2023", company: "NeoLiv", completed: true },
         ],
         },
@@ -170,7 +170,7 @@
         //tej
         {
         about:
-            "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
+            "Has successfully designed 48 Mn sq. ft. of high quality residential, township, retail, commercial developments. He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
         progress: [
             { year: "1997", company: "Architect Reza Kabul", completed: true },
             { year: "1999", company: "Gayatri Construction", completed: true },
@@ -187,7 +187,7 @@
         //siddharth jain
         {
         about:
-            "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
+            "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
         progress: [
             { year: "2011", company: "Future First", completed: true },
             { year: "2014", company: "MBA", completed: true },
@@ -239,19 +239,19 @@
       <img src={item.src} alt={`Image ${index + 1}`} className="w-full h-full rounded-full" style={{ boxShadow: hoveredImage === index ? '0px 0px 3px 2px rgba(0,0,0,0.5)' : 'none' }} />
       {hoveredImage === index && (
                     <div
-                    className="fixed md:top-2/4 top-1/4 left-1/2 md:w-[78%] w-96 transform z-40 md:h-72 h-auto pb-2 md:pb-24 -translate-x-1/2  bg-white border shadow-lg border-blue-950 p-8 rounded-lg"
+                    className="fixed md:top-2/4 top-1/4 left-1/2 md:w-[78%] w-96 transform z-40 md:h-80 h-auto pb-2 md:pb-24 -translate-x-1/2  bg-white border shadow-lg border-blue-950 p-8 rounded-lg"
                     
                     >
-                         <button
+                         {/* <button
                   onClick={handleCloseTooltip}
                   className="absolute top-2 right-2 text-3xl font-bold"
                 >
                   &times;
-                </button>
+                </button> */}
                     <div className="text-left mb-4">
                         <p className="text-lg font-semibold">About</p>
                         <p
-                        className={`text-sm ${
+                        className={`text-md ${
                             hoveredImage === index ? "w-full" : ""
                         }`}
                         >
@@ -286,23 +286,23 @@
         {images.map((image, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center relative ${
-              hoveredImage === index ? "border-2 border-blue-500" : ""
+            className={`flex flex-col items-center ${
+              hoveredImage === index ? "" : ""
             }`}
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={handleMouseLeave}
             style={{ transition: 'box-shadow 0.3s', opacity: hoveredImage !== null && hoveredImage !== index ? '0.2' : '1' }}
           >
             <img src={image.src} alt={image.name} className="w-full h-auto" />
-            <h3 className="text-center mt-2">{image.name}</h3>
+            <h3 className="text-center mt-2 font-medium">{image.name}</h3>
             <p className="text-center">{image.Description}</p>
             {tooltip === index && (
               <div
-                className="fixed md:top-2/4 top-1/4 left-1/2 md:w-[78%] w-96 transform z-50 md:h-72 h-auto pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg"
+                className="fixed md:top-2/4 top-1/4 left-1/2 md:w-[78%] w-96 transform z-50 h-auto pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg"
               >
                 <button
                   onClick={handleCloseTooltip}
-                  className="absolute top-2 right-2 text-3xl font-bold"
+                  className="absolute top-2 right-7 text-4xl font-bold"
                 >
                   &times;
                 </button>
