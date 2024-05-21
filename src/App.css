@@ -146,11 +146,12 @@ body{
         align-items: center;
       }
       .dot {
-        width: 10px;
-        height: 10px;
+        width: 2px;
+        height: 2px;
         border-radius: 50%;
         display: block; /* Change display to block */
         margin-bottom: 12px; 
+        width: 23rem;
       }
     .mobile-center {
         left: 50%;

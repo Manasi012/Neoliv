@@ -20,7 +20,7 @@ const Founder = () => {
 
   <div className='hidden md:block'> 
  <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
-        <div className="bg-white md:h-[8rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+        <div className="bg-white md:h-[8rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
             <p className='text-center'><br /> Joined Godrej Properties in 2010, stepped down on December 31, 2022</p>
             </div>
             <div className="bg-white md:h-[8rem] h-auto md:w-full py-4 w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
