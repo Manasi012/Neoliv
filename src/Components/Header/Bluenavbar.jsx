@@ -42,11 +42,11 @@ const Bluenavbar = () => {
             </li>
             <li>
                 {/* <a href="">Sustainability</a> */}
-                <NavLink to="/Neoliv/sustainability">Sustainability</NavLink>
+                <NavLink to="/sustainability">Sustainability</NavLink>
             </li>
             <li>
                 {/* <a href="">Career</a> */}
-                <NavLink to="/Neoliv/career">Career</NavLink>
+                <NavLink to="/career">Career</NavLink>
             </li>
         </ul>
     </div>

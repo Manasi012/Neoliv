@@ -29,8 +29,8 @@ function App() {
     
         <Routes>
           <Route path='/Neoliv' element={<Home />}/>
-          <Route path='/Neoliv/sustainability' element={<Sustainability />}/>
-          <Route path='/Neoliv/career' element={<Career />}/>
+          <Route path='/sustainability' element={<Sustainability />}/>
+          <Route path='/career' element={<Career />}/>
           {/* <Route path='/Neoliv/about' element={<Home />}/> */}
           <Route path='/professionallybuilt' element={<ProfessionallyBuilt />}/>
           <Route path='/financiallysecure' element={<FinanciallySecure />}/>
