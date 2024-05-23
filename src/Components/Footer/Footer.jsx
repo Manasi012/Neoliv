@@ -18,7 +18,7 @@ const Footer = () => {
     <hr className='md:mx-32 mx-10 mt-12 md:mt-0 md:me-40'/>
      <div className='text-white flex md:justify-start justify-center md:pt-5 pt-20'>
      <div className='md:ml-32'  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-         <h3 className='text-2xl pb-0'>Our Addresses</h3>
+         <h3 className='text-2xl md:pb-0 pb-10'>Our Addresses</h3>
      </div>
    </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
     </div> */}
 
 <div className="flex flex-wrap justify-between text-white md:mx-20">
-  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg mx-10 m-10"  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg md:mx-10 md:m-10 mx-5"  data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
     <div className='flex items-center'>
       <img src={LocationIcon} alt=""/>
       <h1 className='ps-3'>Mumbai MMR</h1>
@@ -56,7 +56,7 @@ const Footer = () => {
     </div>
   </div>
 
-  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg m-10 md:ml-0" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
+  <div className="w-full md:w-[44%] footer_box md:p-10 p-6 rounded-lg md:mx-10 mx-5 m-10 md:ml-0" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
     <div className='flex items-center'>
       <img src={LocationIcon} alt=""/>
       <h1 className='ps-3'>Delhi NCR</h1>
