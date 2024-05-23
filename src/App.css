@@ -132,6 +132,7 @@ body{
   
   
 @media (max-width: 768px) {
+  
     /* .progress-line {
         display: flex;
         flex-direction: row;
@@ -213,8 +214,10 @@ body{
   margin: 1rem 0;
   margin-left: var(--v-progress-left);
   height: var(--v-progress-item-height-width);
-  line-height: var(--v-progress-item-height-width);
-  margin-bottom: var(--v-progress-line-height);
+  line-height: 21px;
+  margin-bottom: 3rem;
+  /* line-height: var(--v-progress-item-height-width);
+  margin-bottom: var(--v-progress-line-height); */
 }
 
 .v-progress-item:before {
@@ -257,11 +260,16 @@ body{
   content: "";
   top:0;
   width: var(--v-progress-line-width);
-  height: calc(var(--v-progress-line-height) + var(--v-progress-gap));
+  height: 4rem;
+  /* height: calc(var(--v-progress-line-height) + var(--v-progress-gap)); */
   background-color: #3557A3;
   left: calc(0px - var(--v-progress-left) + var(--v-progress-item-height-width) / 2 - var(--v-progress-line-width) / 2);
   z-index: 1;
 }
-
-
 }
+
+@media (min-width:390px) and (max-width:844px){
+  .iphone{
+    margin-left: -2rem;
+  }
+} 
