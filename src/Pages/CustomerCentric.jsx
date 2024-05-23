@@ -34,7 +34,7 @@ const CustomerCentric = () => {
     <>
       <div>
         {/* Make sure this NavLink points to the correct route and section */}
-        <NavLink to="/Neoliv/#threePillars">
+        <NavLink to="/Neoliv/#BackPillars">
           <BackButton />
         </NavLink>
         

@@ -213,17 +213,18 @@ const Partners = () => {
      <div className="container mx-auto p-4 md:block hidden">
   <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 mx-5">
     {images.map((item, index) => (
-      <div
+      <div 
         key={index}
         className={`flex flex-col items-center relative`}
         onMouseEnter={() => handleMouseEnter(index)}
         onMouseLeave={handleMouseLeave}
         style={{
-          transition: "box-shadow 0.3s",
+          transition: "box-shadow 0.8s",
         }}
       >
         <img
-          src={item.src}
+          src={item.src} 
+          data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
           alt={`Image ${index + 1}`}
           className="w-full h-full rounded-full"
           style={{
