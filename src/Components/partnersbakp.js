@@ -237,4 +237,69 @@ const Partners = () => {
   )
 }
 
+
+
+
+
+<div className="container mx-auto p-4 md:hidden">
+      <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-4">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`flex flex-col items-center ${
+              hoveredImage === index ? "" : ""
+            }`}
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={handleMouseLeave}
+            style={{ transition: 'box-shadow 0.3s', opacity: hoveredImage !== null && hoveredImage !== index ? '0.2' : '1' }}
+          >
+            <img src={image.src} alt={image.name} className="w-full h-auto" />
+            <h3 className="text-center mt-2 font-medium">{image.name}</h3>
+            <p className="text-center">{image.Description}</p>
+            {tooltip === index && (
+              <div
+                className="fixed md:top-2/4 top-1/4 left-1/2 md:w-[78%] w-96 transform z-50 h-auto pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg"
+              >
+                <button
+                  onClick={handleCloseTooltip}
+                  className="absolute top-2 right-7 text-4xl font-bold"
+                >
+                  &times;
+                </button>
+                <div className="text-left mb-4">
+                  <p className="text-xl mb-3 font-semibold">About</p>
+                  <p
+                    className={`text-md font-medium ${
+                      hoveredImage === index ? "w-full" : ""
+                    }`}
+                  >
+                    {tabContents[index]?.about}
+                  </p>
+                  <p className="text-lg font-semibold pt-5">Journey</p>
+                  <div className="line-container">
+                    <div className="md:progress-line mt-2">
+                      {tabContents[index]?.progress.map((progressItem, progressIndex) => (
+                        <div className="status" key={progressIndex}>
+                          <div className={`dot ${progressItem.completed ? 'completed' : ''} ${progressIndex === tabContents[index].progress.length - 1 ? 'current' : ''}`}></div>
+                          <p className="text-[14px] ml-3 -mt-3 font-medium">{progressItem.year}</p>
+                          <p className="text-[16px] ml-3 -mt-3 font-medium md:pe-0 pe-2">{progressItem.company + ' '}</p> {/* Add space after company */}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+    
+
 export default Partners
+
+
+
+
+
+
