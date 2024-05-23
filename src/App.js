@@ -29,14 +29,14 @@ function App() {
     
         <Routes>
           <Route path='/Neoliv' element={<Home />}/>
-          <Route path='/sustainability' element={<Sustainability />}/>
-          <Route path='/career' element={<Career />}/>
+          <Route path='/Neoliv/sustainability' element={<Sustainability />}/>
+          <Route path='/Neoliv/career' element={<Career />}/>
           {/* <Route path='/Neoliv/about' element={<Home />}/> */}
-          <Route path='/professionallybuilt' element={<ProfessionallyBuilt />}/>
-          <Route path='/financiallysecure' element={<FinanciallySecure />}/>
-          <Route path='/customercentric' element={<CustomerCentric />}/>
-          <Route path='/junemedia' element={<JuneMedia />}/>
-          <Route path='/novembermedia' element={<NovemberMedia />}/>
+          <Route path='/Neoliv/professionallybuilt' element={<ProfessionallyBuilt />}/>
+          <Route path='//Neolivfinanciallysecure' element={<FinanciallySecure />}/>
+          <Route path='/Neoliv/customercentric' element={<CustomerCentric />}/>
+          <Route path='/Neoliv/junemedia' element={<JuneMedia />}/>
+          <Route path='/Neoliv/novembermedia' element={<NovemberMedia />}/>
 
         </Routes>
         <Footer />

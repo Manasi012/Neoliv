@@ -211,7 +211,7 @@ const Partners = () => {
       </div>
 
       <div className="container mx-auto p-4 md:block hidden">
-        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-2 mx-16">
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 mx-5">
           {images.map((item, index) => (
             <div
               key={index}
@@ -274,8 +274,8 @@ const Partners = () => {
                   </div>
                 </div>
               )}
-              <div className="text-center mt-4">
-                <p className="font-bold text-sm">{item.name}</p>
+              <div className="text-center">
+                <p className="font-bold text-xl">{item.name}</p>
                 <p className="font-medium pt-2">{item.Description}</p>
               </div>
             </div>

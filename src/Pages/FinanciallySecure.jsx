@@ -28,15 +28,44 @@ const FinanciallySecure = () => {
           institutions and ultra HNI’s
         </p>
       </div>
+      <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
+        <div className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <br />
+          <h3 className="font-bold mb-4 text-[#112E50]">HIGHEST DEGREE OF GOVERNANCE</h3>
+            <p className='text-center font-medium'>100% assurance of transparent, SEBI regulated & monitored <br />funding</p>
+            </div>
+
+
+           <div className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <br />
+          <h3 className="font-bold mb-4 text-[#112E50]">SAFE & SECURE INVESTMENT</h3>
+            <p className='text-center font-medium'>Funds can be invested only on licensed land parcels thus eliminating approval risks</p>
+            </div>
+
+
+            <div className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <br />
+          <h3 className="font-bold mb-4 text-[#112E50]">IN HOUSE DEVELOPMENT ARM</h3>
+            <p className='text-center font-medium'>FManagement team of industry experts with execution expertise of 200 Mn Sq ft, 90 projects pan India.</p>
+            </div>
+            
+           <div className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <br />
+          <h3 className="font-bold mb-4 text-[#112E50]">ON TIME DELIVERY ASSURANCE</h3>
+            <p className='text-center font-medium'>Provision of higher equity funding (5X than market norms) for timely, high-quality delivery of projects.</p>
+            </div>
+
+           
+        </div>
       <div className="md:flex justify-center items-center md:mx-20 gap-10 mx-5">
-        <div className="md:w-3/4 w-full"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+        <div className="md:w-3/4 w-full my-6"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k86als1kwmnaSlide-13.jpg"
             alt="finance"
             className=""
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:w-2/4 pb-5">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:w-2/4 pb-5">
           <div className="bg_indigo1 text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <h3 className="font-semibold text-xl">
               HIGHEST DEGREE OF GOVERNANCE
@@ -68,10 +97,10 @@ const FinanciallySecure = () => {
               timely, high-quality delivery of projects.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <div className="text-center md:py-16 py-6 space-y-4 md:px-20 px-5 bg-[#f3f3f8]" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
+      <div className="text-center md:py-16 py-10 space-y-4 md:px-20 px-5 bg-[#f3f3f8]" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
         <h3 className="text-4xl text-blue-950">Statregic Equity Inverstor</h3>
         <p className="text-lg font-medium">
           India’s leading wealth and alternates focused asset firm 360 ONE
