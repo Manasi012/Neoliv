@@ -15,8 +15,7 @@ const Partners = () => {
     setTooltip(null);
   };
 
-  const handleCloseTooltip = (event) => {
-    event.stopPropagation(); // Stop event propagation
+  const handleCloseTooltip = () => {
     setTooltip(null);
   };
 
@@ -66,6 +65,7 @@ const Partners = () => {
   const tabContents = [
     //Harshwardhan
     {
+      name: "Harshwardhan Prasad",
       about:
         "Has successfully secured projects with development potential exceeding over 26 Mn sq. ft. In NCR and Pune. He has held leadership positions with some of the biggest Indian developers.",
       progress: [
@@ -79,6 +79,7 @@ const Partners = () => {
 
     //HaripraPandeyksh
     {
+      name: "Hariprakash Pandey",
       about:
         "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
       progress: [
@@ -92,6 +93,7 @@ const Partners = () => {
 
     //Viral
     {
+      name: "Viral Vora",
       about:
         "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
       progress: [
@@ -113,6 +115,7 @@ const Partners = () => {
 
     //Sidsharth Kolte
     {
+      name: "Siddharth Kolte",
       about:
         "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
       progress: [
@@ -139,6 +142,7 @@ const Partners = () => {
 
     //chandan kar
     {
+      name: "Chandan Kar",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
       progress: [
@@ -156,6 +160,7 @@ const Partners = () => {
 
     //Bhaskar
     {
+      name: "Bhaskar Jain",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
       progress: [
@@ -168,6 +173,7 @@ const Partners = () => {
 
     //tej
     {
+      name: "Tej Ingle",
       about:
         "Has successfully designed 48 Mn sq. ft. of high quality residential, township, retail, commercial developments. He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
       progress: [
@@ -185,6 +191,7 @@ const Partners = () => {
 
     //siddharth jain
     {
+      name: "Siddharth Jain",
       about:
         "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
@@ -210,80 +217,87 @@ const Partners = () => {
         </h4>
       </div>
 
-     <div className="container mx-auto p-4 md:block hidden">
-  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 mx-5">
-    {images.map((item, index) => (
-      <div
-        key={index}
-        className={`flex flex-col items-center relative`}
-        onMouseEnter={() => handleMouseEnter(index)}
-        onMouseLeave={handleMouseLeave}
-        style={{
-          transition: "box-shadow 0.3s",
-        }}
-      >
-        <img
-          src={item.src}
-          alt={`Image ${index + 1}`}
-          className="w-full h-full rounded-full"
-          style={{
-            boxShadow:
-              tooltip === index
-                ? "0px 0px 3px 2px rgba(0,0,0,0.5)"
-                : "none",
-          }}
-        />
-        {tooltip === index && (
-          <>
-            <div className="fixed inset-0 bg-black opacity-50 z-30"></div>
-            <div className="fixed md:top-2/4 mt-0 left-1/2 md:w-[78%] w-96 transform z-40 md:h-80 h-auto pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg">
-              <button
-                onClick={handleCloseTooltip}
-                className="absolute top-2 right-7 text-4xl font-bold"
-              >
-                &times;
-              </button>
+       <div
+      className="container mx-auto p-4 md:block hidden"
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 mx-5">
+        {images.map((item, index) => (
+          <div
+            key={index}
+            className={`flex flex-col items-center relative`}
+            onMouseEnter={() => handleMouseEnter(index)}
+            style={{
+              transition: "box-shadow 0.3s",
+            }}
+          >
+            <img
+              src={item.src}
+              alt={`Image ${index + 1}`}
+              className="w-full h-full rounded-full"
+              style={{
+                boxShadow:
+                  tooltip === index
+                    ? "0px 0px 3px 2px rgba(0,0,0,0.5)"
+                    : "none",
+              }}
+            />
+            {tooltip === index && (
+              <>
+                <div className="fixed inset-0 bg-black opacity-50 z-30"></div>
+                <div className="fixed md:top-2/4 mt-0 left-1/2 md:w-[78%] w-96 transform z-40 md:h-80 h-auto pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg">
+                  <button
+                    onClick={handleCloseTooltip}
+                    className="absolute top-2 right-7 text-4xl font-bold"
+                  >
+                    &times;
+                  </button>
 
-              <div className="text-left mb-4">
-                <p className="text-lg font-semibold">About</p>
-                <p className={`text-md`}>{tabContents[index]?.about}</p>
-                <p className="text-lg font-semibold pt-5">Journey</p>
-                <div className="line-container">
-                  <div className="progress-line mt-2">
-                    {tabContents[index]?.progress.map(
-                      (progressItem, progressIndex) => (
-                        <div className="status" key={progressIndex}>
-                          <div
-                            className={`dot ${
-                              progressItem.completed ? "completed" : ""
-                            } ${
-                              progressIndex ===
-                              tabContents[index].progress.length - 1
-                                ? "current"
-                                : ""
-                            }`}
-                          ></div>
-                          <p className="text-[12px]">{progressItem.year}</p>
-                          <p className="text-[14px] font-medium md:pe-0 pe-2">
-                            {progressItem.company + " "}
-                          </p>{" "}
-                        </div>
-                      )
-                    )}
+                  <div className="text-left mb-4">
+                    <p className="text-lg font-semibold">About</p>
+                    <p className={`text-md font-bold py-3`}>
+                      {tabContents[index]?.name}
+                    </p>
+                    <p className={`text-md`}>{tabContents[index]?.about}</p>
+                    <p className="text-lg font-semibold pt-5">Journey</p>
+                    <div className="line-container">
+                      <div className="progress-line mt-2">
+                        {tabContents[index]?.progress.map(
+                          (progressItem, progressIndex) => (
+                            <div className="status" key={progressIndex}>
+                              <div
+                                className={`dot ${
+                                  progressItem.completed ? "completed" : ""
+                                } ${
+                                  progressIndex ===
+                                  tabContents[index].progress.length - 1
+                                    ? "current"
+                                    : ""
+                                }`}
+                              ></div>
+                              <p className="text-[12px]">
+                                {progressItem.year}
+                              </p>
+                              <p className="text-[14px] font-medium md:pe-0 pe-2">
+                                {progressItem.company + " "}
+                              </p>{" "}
+                            </div>
+                          )
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </>
+            )}
+            <div className="text-center mt-5">
+              <p className="font-bold text-[13px]">{item.name}</p>
+              <p className="font-medium pt-2">{item.Description}</p>
             </div>
-          </>
-        )}
-        <div className="text-center mt-5">
-          <p className="font-bold text-[13px]">{item.name}</p>
-          <p className="font-medium pt-2">{item.Description}</p>
-        </div>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-</div>
+    </div>
 
       <div className="md:hidden">
         <Partners_mobile />

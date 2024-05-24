@@ -8,12 +8,13 @@ const BackButton = () => {
   return (
 <>
 <button
-  className="bg-blue-950 text-white z-40 top-0 font-bold py-1.5 px-5 rounded-xl fixed flex items-center justify-around hidden md:flex"
+  className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-11 font-bold py-1 my-0.5 px-5 fixed flex items-center justify-around hidden md:flex"
   onClick={goBack}
 >
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
-    <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 me-2">
+  <path strokeLinecap="round" strokeLinejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+
   Back
 </button>
 

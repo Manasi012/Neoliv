@@ -2,6 +2,7 @@ import React from "react";
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 import BackButton from '../Components/BackButton';
 import { NavLink } from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 
 
 const FinanciallySecure = () => {
@@ -10,9 +11,18 @@ const FinanciallySecure = () => {
       {/* <Bluenavbar />
       <Header /> */}
    <div>
-   <NavLink to="/Neoliv/#threePillars">
-  <BackButton />
-   </NavLink>
+   <HashLink
+              to="/#threePillars"
+              smooth
+              className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-11 font-bold py-1 my-0.5 px-5 fixed flex items-center justify-around "
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 me-2">
+  <path strokeLinecap="round" strokeLinejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+              Back
+            </HashLink>
+
+
   </div>
       <div className="text-center md:py-10 py-6 space-y-4 md:px-0 px-5"  data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
    

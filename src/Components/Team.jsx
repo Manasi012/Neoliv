@@ -15,10 +15,10 @@ const Team = () => {
 
   return (
 <>
-<div className="text-center md:mt-5 pt-20 aos-init aos-animate relative z-50" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+<div className="text-center md:mt-5 pt-20 aos-init aos-animate relative z-50" id="team" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
   <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-10">Key Management Team</h4>
 </div>
-<div className="flex flex-col md:flex-row md:mx-52 pt-10 md:px-0 px-4" id="team">
+<div className="flex flex-col md:flex-row md:mx-52 pt-10 md:px-0 px-4" >
       <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full" />
       </div>
@@ -34,10 +34,10 @@ const Team = () => {
 
 
     
-<div className="flex flex-col md:flex-row md:mx-40 md:py-24 pt-10">
+<div className="flex flex-col md:flex-row md:mx-52 md:py-24 pt-10">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
   <h2 className="text-3xl font-medium"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">Partnership Model</h2>
-  <ul className='md:pt-16 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
+  <ul className='md:pt-10 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
     NeoLiv inducts senior leadership talent as equity partners in the firm.
     </li>
@@ -52,7 +52,7 @@ const Team = () => {
 
 <div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
-  <ul className='md:pt-16 md:ml-0 ml-4 md:pe-10 pe-2 font-medium list-disc leading-8 space-y-7'>
+  <ul className='md:pt-0 md:ml-0 ml-4 md:pe-10 pe-2 font-medium list-disc leading-8 space-y-7'>
     <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
     Collective 100+ years in capital raise, business development, corporate governance, project execution and customer satisfaction.
     </li>
