@@ -95,7 +95,7 @@ const About = () => {
             <div className="pt-24 pb-5 leading-7" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <p>
                 The platform has secured funding from UHNI family offices and
-                360 ONE - India’s leading wealth firm withmore than USD 50
+                360 ONE - India’s leading wealth firm with more than USD 50
                 Bn AUM
               </p>
             </div>
@@ -204,7 +204,7 @@ const About = () => {
             <div className="pt-20 pb-5 leading-7 text-left" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <p>
                 The platform has secured funding from UHNI family offices and
-                360 ONE - India’s leading wealth firm withmore than USD 50
+                360 ONE - India’s leading wealth firm with more than USD 50
                 Bn AUM
               </p>
             </div>
