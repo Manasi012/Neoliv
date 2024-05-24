@@ -200,7 +200,7 @@ const Partners = () => {
         </h4>
       </div>
 
-      <div className="container mx-auto p-4 md:block hidden">
+      <div className="container mx-auto p-4 md:block hidden ">
         <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 mx-5">
           {images.map((item, index) => (
             <div
@@ -213,20 +213,18 @@ const Partners = () => {
               <img
                 src={item.src}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full rounded-full"
+                className="w-40 h-auto rounded-full"
                 style={{
-                  width: "100px",
-                  height: "100px",
                   boxShadow:
                     tooltip === index
-                      ? "0px 0px 3px 2px rgba(0,0,0,0.5)"
+                      ? "0px 0px 5px 2px rgba(0,0,0,0.5)"
                       : "none",
                   transition: "box-shadow 0.3s",
                 }}
               />
               <div className="text-center mt-5">
                 <p className="font-bold text-[13px]">{item.name}</p>
-                <p className="font-medium pt-2">{item.description}</p>
+                <p className="font-medium text-sm pt-1">{item.Description}</p>
               </div>
               {tooltip === index && (
                 <div
