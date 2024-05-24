@@ -192,65 +192,58 @@ const Partners_mobile = () => {
 
   return (
     <div className="container mx-auto p-4 md:hidden">
-    <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-4">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className="flex flex-col items-center relative"
-          onClick={() => handleImageClick(index)}
-          style={{ transition: "box-shadow 0.3s" }}
-        >
-          <img src={image.src} alt={image.name} className="w-full h-auto" />
-          <h3 className="text-center mt-2 font-medium">{image.name}</h3>
-          <p className="text-center">{image.Description}</p>
-          {tooltip === index && (
-            <div className="fixed top-0 left-1/2 md:w-[78%] w-96 transform z-50 h-screen pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg">
-              <button
-                onClick={handleCloseTooltip}
-                className="absolute top-2 right-7 text-4xl font-bold"
-              >
-                &times;
-              </button>
-              <div className="text-left mb-4 scrollbar" id="style-8">
-                <div className="force-overflow">
-                  <p className="text-xl mb-3 font-semibold">About</p>
-                  <h4 className="mb-2 font-bold text-lg">
-                    {tabContents[index]?.name}
-                  </h4>
-                  <p className="text-md font-medium">
-                    {tabContents[index]?.about}
-                  </p>
-                  <p className="text-lg font-semibold pt-5">Journey</p>
-                  <div className="v-progress font-medium">
-                    <ul>
-                      {tabContents[index]?.progress.map(
-                        (progressItem, progressIndex) => (
-                          <li
-                            key={progressIndex}
-                            className={`v-progress-item ${
-                              progressItem.completed ? "completed" : ""
-                            } ${
-                              progressIndex ===
-                              tabContents[index].progress.length - 1
-                                ? "last-item"
-                                : ""
-                            }`}
-                          >
-                            {progressItem.year} {progressItem.company}
-                          </li>
-                        )
-                      )}
-                    </ul>
-                  </div>
+  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-4">
+    {images.map((image, index) => (
+      <div
+        key={index}
+        className="flex flex-col items-center relative"
+        onClick={() => handleImageClick(index)}
+        style={{ transition: "box-shadow 0.3s" }}
+      >
+        <img src={image.src} alt={image.name} className="w-full h-auto" />
+        <h3 className="text-center mt-2 font-medium">{image.name}</h3>
+        <p className="text-center">{image.Description}</p>
+        {tooltip === index && (
+          <div className="fixed top-0 left-1/2 md:w-[78%] w-96 transform z-50 h-screen pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg">
+            <button
+              onClick={handleCloseTooltip}
+              className="absolute top-2 right-7 text-4xl font-bold"
+            >
+              &times;
+            </button>
+            <div className="text-left mb-4 scrollbar" id="style-8">
+              <div className="force-overflow">
+                <p className="text-xl mb-3 font-semibold">About</p>
+                <h4 className="mb-2 font-bold text-lg">
+                  {tabContents[index]?.name}
+                </h4>
+                <p className="text-md font-medium">
+                  {tabContents[index]?.about}
+                </p>
+                <p className="text-lg font-semibold pt-5">Journey</p>
+                <div className="v-progress font-medium">
+                <ul>
+  {tabContents[index]?.progress.map((progressItem, progressIndex) => (
+    <li
+      key={progressIndex}
+      className={`v-progress-item ${
+        progressItem.completed ? "completed" : ""
+      }`}
+    >
+      {progressItem.year}  {progressItem.company}
+    </li>
+  ))}
+</ul>
+
                 </div>
               </div>
             </div>
-          )}
-        </div>
-      ))}
-    </div>
+          </div>
+        )}
+      </div>
+    ))}
   </div>
-  
+</div>
 
 
   

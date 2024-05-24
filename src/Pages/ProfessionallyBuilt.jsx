@@ -123,7 +123,7 @@ const ProfessionallyBuilt = () => {
     {cardData.map((card, index) => (
       <div key={index} className="text-center mb-8">
         <img src={card.imageUrl} alt={card.description} className="w-28 mb-4 rounded-lg mx-auto" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000"/>
-        <p className="text-blue-950 font-semibold mb-2 md:text-lg tetx-md" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">{card.description}</p>
+        <p className="text-blue-950 font-semibold mb-2 text-lg" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">{card.description}</p>
       </div>
     ))}
   </div>

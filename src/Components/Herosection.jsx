@@ -13,7 +13,7 @@ const Herosection = () => {
       </h2>
     </div> */}
     <div className='md:mx-20'>
-        <h1 className='absolute text-white md:top-[20rem] top-[14rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl'>India’s foremost integrated fund led
+        <h1 className='absolute text-white md:top-[20rem] top-[14rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl' data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">India’s foremost integrated fund led
         <span className='md:block'> residential real estate developer</span>
         </h1> 
     </div>

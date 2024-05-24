@@ -212,26 +212,12 @@ body{
 .v-progress-item {
   position: relative;
   margin: 1rem 0;
-  padding-bottom: 1rem;
   margin-left: var(--v-progress-left);
   height: var(--v-progress-item-height-width);
   line-height: 21px;
   margin-bottom: 3rem;
   /* line-height: var(--v-progress-item-height-width);
   margin-bottom: var(--v-progress-line-height); */
-}
-.v-progress-item::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #000; /* Change to your desired color */
-}
-
-.v-progress-item.last-item::after {
-  display: none;
 }
 
 .v-progress-item:before {

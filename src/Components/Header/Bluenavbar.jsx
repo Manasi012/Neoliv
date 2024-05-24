@@ -26,7 +26,7 @@
 
 
 import React from 'react'
-import { useNavigate, NavLink } from 'react-router-dom'
+import { useNavigate, NavLink, } from 'react-router-dom'
 import MyPDF from '../../Assets/pdf/SEBI Certificate.pdf';
 
 
