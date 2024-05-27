@@ -180,7 +180,7 @@ const Partners = () => {
         { year: "2005", company: "Mahindra Gesco LTD ", completed: true },
         { year: "2007", company: "Peninsula Land LTD ", completed: true },
         { year: "2008", company: "Godrej", completed: true },
-        { year: "2015", company: "Raymond Reality", completed: true },
+        { year: "2015", company: "Raymond Realty", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
