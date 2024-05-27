@@ -68,7 +68,7 @@ const ProfessionallyBuilt = () => {
       <HashLink
         to="/#threePillars"
         smooth
-        className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-11 font-bold py-1 my-0.5 px-5 fixed flex items-center justify-around "
+        className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

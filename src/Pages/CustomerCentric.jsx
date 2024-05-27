@@ -38,7 +38,7 @@ const CustomerCentric = () => {
         <HashLink
           to="/#threePillars"
           smooth
-          className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-11 font-bold py-1 my-0.5 px-5 fixed flex items-center justify-around"
+          className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +67,8 @@ const CustomerCentric = () => {
         </ScrollLink>
       </NavLink> */}
 
-        <div className="text-center py-10 space-y-5">
-          <h3 className="text-4xl text-blue-950">Customer Centric</h3>
+        <div className="text-center py-10 space-y-5 md:mx-0 mx-2">
+          <h3 className="md:text-4xl text-3xl text-blue-950">Customer Centric</h3>
           <p className="text-lg font-medium md:px-0 px-5">
             Customer is at our core through transparent communication,
             tech-enabled interface, relationship manager model and long-term
