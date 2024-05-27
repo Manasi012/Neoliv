@@ -62,7 +62,7 @@ const Footer = () => {
       <h1 className='ps-3'>Delhi NCR</h1>
     </div>
     <div className='pt-5'>
-      <p className='md:pe-10 md:ps-3'>Level 6, Two Horizon Centre, Golf Course Road, DLF Phase 5, Gurugram, Haryana-122002, India</p>
+      <p className='md:pe-10 md:ps-3'>Level 6, Two Horizon Centre, Golf Course Road, <br /> DLF Phase 5, Gurugram, Haryana-122002, <br /> India</p>
     </div>
   </div>
 </div>

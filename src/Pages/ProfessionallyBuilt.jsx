@@ -39,17 +39,12 @@ const ProfessionallyBuilt = () => {
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlsmxl87vShardul-logos.png",
     },
     {
-      description: "Media Strategy Partner",
-      imageUrl:
-        "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslowdwhMadison-World-01.png",
-    },
-    {
       description: "Investment Banking Partner",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlsmwfothNew-Amsterdama.png",
     },
     {
-      description: "Digital Partner",
+      description: "Digital Media Partner",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslox9ji834x834-ps-logo.png",
     },
@@ -87,65 +82,35 @@ const ProfessionallyBuilt = () => {
         Back
       </HashLink>
       <div className="">
-        <div
-          className="text-center md:py-10 py-6 space-y-4 px-5"
-          data-aos="zoom-out"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div className="text-center md:py-10 py-6 space-y-4 px-5">
           <h3 className="text-4xl text-blue-950">Professionally Built</h3>
-          <p
-            className="text-lg font-medium"
-            data-aos="fade-up"
-            data-aos-delay="800"
-            data-aos-duration="1000"
-          >
+          <p className="text-lg font-medium">
             The team that comes with a 100+ years of multi-functional industry
             experience
           </p>
         </div>
         <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
-          <div
-            className="bg-white md:h-28 md:p-0 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-          >
+          <div className="bg-white md:h-28 md:p-0 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <br />
             <p className="text-center">
               Joined Godrej Properties in 2010, stepped down on December 31,
               2022
             </p>
           </div>
-          <div
-            className="bg-white md:h-28 md:p-0 p-4 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4"
-            data-aos="zoom-in"
-            data-aos-delay="500"
-            data-aos-duration="1000"
-          >
+          <div className="bg-white md:h-28 md:p-0 p-4 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
             <br />
             <p className="text-center">
               MD & CEO of Godrej Properties <br /> since 2017
             </p>
           </div>
-          <div
-            className="bg-white md:p-0 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4"
-            data-aos="zoom-in"
-            data-aos-delay="700"
-            data-aos-duration="1000"
-          >
+          <div className="bg-white md:p-0 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
             <br />
             <p className="text-center">
               Previously Head of Business Development, Head of Region and
               Executive Director
             </p>
           </div>
-          <div
-            className="bg-white md:p-2 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4"
-            data-aos="zoom-in"
-            data-aos-delay="900"
-            data-aos-duration="1000"
-          >
+          <div className="bg-white md:p-2 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
               Education: BE Mechanical engineering, MBA Strategy and Marketing
               (Indian Institute of Management, Culcutta)
@@ -159,17 +124,9 @@ const ProfessionallyBuilt = () => {
               src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0bv1l8MOHITMALHOTRA.png"
               alt="MohitImg"
               className="mx-auto w-80"
-              data-aos="fade-down"
-              data-aos-delay="300"
-              data-aos-duration="1000"
             />
 
-            <div
-              className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl"
-              data-aos="fade-down"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl">
               <img
                 src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0cjsw3Solidlyestablished.png"
                 alt="MohitImg"
@@ -180,12 +137,7 @@ const ProfessionallyBuilt = () => {
                 national market
               </h1>
             </div>
-            <div
-              className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl"
-              data-aos="fade-down"
-              data-aos-delay="700"
-              data-aos-duration="1000"
-            >
+            <div className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl">
               <img
                 src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0cn22dAdded90.png"
                 alt="MohitImg"
@@ -196,12 +148,7 @@ const ProfessionallyBuilt = () => {
                 GPL
               </h1>
             </div>
-            <div
-              className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl"
-              data-aos="fade-down"
-              data-aos-delay="900"
-              data-aos-duration="1000"
-            >
+            <div className="flex justify-evenly p-6 gap-4 text-white bg_indigo items-center mx-auto my-5 rounded-xl">
               <img
                 src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0cndkyMultifamilysales.png"
                 alt="MohitImg"
@@ -213,19 +160,9 @@ const ProfessionallyBuilt = () => {
               </h1>
             </div>
           </div>
-          <div
-            className="py-8 border-2 border-indigo-700 rounded-xl md:w-2/4"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-          >
+          <div className="py-8 border-2 border-indigo-700 rounded-xl md:w-2/4">
             <div className="grid grid-cols-1 md:grid-cols-2 justify-center md:gap-5 gap-0 md:mx-20 mx-5 ">
-              <div
-                className="text-center space-y-2"
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="1000"
-              >
+              <div className="text-center space-y-2">
                 <h3 className="font-medium tracking-tighter">
                   THE WALL STREET JOURNAL
                 </h3>
@@ -235,12 +172,7 @@ const ProfessionallyBuilt = () => {
                   The World's Most Influential Decision Makers
                 </h5>
               </div>
-              <div
-                className="text-center space-y-2"
-                data-aos="fade-down"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
+              <div className="text-center space-y-2">
                 <p>
                   Hayes Barnard, GoodLeap Mike Xu, GrubMarket Inc. Dame Emma
                   Walmsley, GSK Scoot McIntyre, Guidehouse{" "}
@@ -251,12 +183,7 @@ const ProfessionallyBuilt = () => {
             </div>
             <hr className="mx-56 md:my-6 my-3 border border-blue-800" />
             <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-5 gap-0 md:mx-20">
-              <div
-                className="text-center md:space-y-2"
-                data-aos="fade-down"
-                data-aos-delay="700"
-                data-aos-duration="1000"
-              >
+              <div className="text-center md:space-y-2">
                 <img
                   src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw645pdrnews1.png"
                   alt="news"
@@ -266,12 +193,7 @@ const ProfessionallyBuilt = () => {
                   Won ET 40 Under Forty India's Hottest Business Leaders in 2017
                 </p>
               </div>
-              <div
-                className="text-center md:space-y-2"
-                data-aos="fade-down"
-                data-aos-delay="900"
-                data-aos-duration="1000"
-              >
+              <div className="text-center md:space-y-2">
                 <img
                   src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw6464l0news2.png"
                   alt="news"
@@ -281,12 +203,7 @@ const ProfessionallyBuilt = () => {
               </div>
             </div>
             <hr className="mx-56 my-6 border border-blue-800" />
-            <div
-              className="grid grid-cols-1 justify-center items-center md:gap-5 gap-0 md:mx-20"
-              data-aos="fade-down"
-              data-aos-delay="700"
-              data-aos-duration="1000"
-            >
+            <div className="grid grid-cols-1 justify-center items-center md:gap-5 gap-0 md:mx-20">
               <div className="text-center space-y-2">
                 <img
                   src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw646l5kgodrej.png"
@@ -300,12 +217,7 @@ const ProfessionallyBuilt = () => {
         </div>
       </div>
 
-      <div
-        className="md:py-10 py-5 md:mx-20 mx-5"
-        data-aos="zoom-in"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-      >
+      <div className="md:py-10 py-5 md:mx-20 mx-5">
         <h3 className="text-4xl text-center text-blue-950 pb-16">
           Godrej Properties' transformational journey under Mohit Malhotra
         </h3>
@@ -330,16 +242,8 @@ const ProfessionallyBuilt = () => {
                 src={card.imageUrl}
                 alt={card.description}
                 className="w-28 mb-4 rounded-lg mx-auto"
-                data-aos="fade-down"
-                data-aos-delay="600"
-                data-aos-duration="1000"
               />
-              <p
-                className="text-blue-950 font-semibold mb-2 text-lg"
-                data-aos="fade-down"
-                data-aos-delay="600"
-                data-aos-duration="1000"
-              >
+              <p className="text-blue-950 font-semibold mb-2 text-lg">
                 {card.description}
               </p>
             </div>

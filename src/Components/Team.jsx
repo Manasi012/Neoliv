@@ -47,7 +47,7 @@ const Team = () => {
     Partnership unites the team through a greater alignment of interest and integrates an entrepreneurial culture throughout the platform.
     </li>
     <li  data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1000">
-    07 equity partners in the business to date.
+    09 equity partners in the business to date.
     </li>
   </ul>
 </div>

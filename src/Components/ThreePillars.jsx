@@ -7,7 +7,7 @@ const ThreePillars = () => {
   return (    
    <>
     <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20' id="threePillars">
-        <div className='text-center py-10'  data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+        <div className='text-center py-10'  data-aos="zoom-out">
         <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Pillars</h4>
         </div>
 
@@ -19,7 +19,7 @@ const ThreePillars = () => {
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Professionally <br />Built</p>
         </div>
-        <div className='my-10 text-white'>
+        <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
                 Founded by Mohit Malhotra former MD & CEO of Godrej Properties
@@ -47,7 +47,7 @@ const ThreePillars = () => {
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Financially <br />Secure</p>
         </div>
-        <div className='my-10 text-white'>
+        <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
                 Fund backed model 360 One as equity investor
@@ -75,7 +75,7 @@ const ThreePillars = () => {
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Customer <br />Centric</p>
         </div>
-        <div className='my-10 text-white'>
+        <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
                 Tech-enabled interface

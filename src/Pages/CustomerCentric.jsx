@@ -91,15 +91,16 @@ const CustomerCentric = () => {
           </video>
         </div>
       </div>
+      
 
-      <div className="md:flex justify-center gap-10 py-10 md:px-20 px-5">
-        <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img
+      <div className="gap-10 py-10 md:px-20 px-5 space-y-6">
+      <div className="text-center mt-2 bg-white border-0 border-b-2 rounded-lg  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          {/* <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkftooIcons-01neo.png"
             alt=""
-          />
-          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
+          /> */}
+          <div className="text-center p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Product and Quality
             </h5>
@@ -109,13 +110,13 @@ const CustomerCentric = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center bg-white border md:mt-0 mt-10 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img
+        <div className="text-center bg-white md:mt-0 mt-10 border-0 border-b-2 rounded-lg  md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          {/* <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkg1vxIcons-02neo.png"
             alt=""
-          />
-          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
+          /> */}
+          <div className="text-center p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Personalised customer RM
             </h5>
@@ -125,16 +126,14 @@ const CustomerCentric = () => {
             </p>
           </div>
         </div>
-      </div>
 
-      <div className="md:flex justify-center gap-10 pb-10 md:px-20 px-5">
-        <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img
+        <div className="text-center mt-2 bg-white border-0 border-b-2 rounded-lg  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          {/* <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkgampIcons-03neo.png"
             alt=""
-          />
-          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
+          /> */}
+          <div className="text-center p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Property management arm
             </h5>
@@ -145,13 +144,13 @@ const CustomerCentric = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 md:mt-0 mt-10 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img
+        <div className="text-center mt-2 bg-white border-0 border-b-2 rounded-lg  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          {/* <img
             className="w-36 rounded-t-lg h-auto md:h-auto md:w-24 md:rounded-none md:rounded-s-lg"
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslkftooIcons-01neo.png"
             alt=""
-          />
-          <div className="flex flex-col justify-between p-4 leading-normal md:px-5 px-10">
+          /> */}
+          <div className="text-center p-4 leading-normal md:px-5 px-10">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
               Post handover partnership
             </h5>

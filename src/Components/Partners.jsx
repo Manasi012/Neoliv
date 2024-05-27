@@ -21,16 +21,7 @@ const Partners = () => {
       name: "Harshwardhan Prasad",
       Description: "Partner",
     },
-    {
-      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png",
-      name: "Hariprakash Pandey",
-      Description: "Partner",
-    },
-    {
-      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png",
-      name: "Viral Vora",
-      Description: "Partner",
-    },
+   
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png",
       name: "Siddharth Kolte",
@@ -56,6 +47,17 @@ const Partners = () => {
       name: "Siddharth Jain",
       Description: "Partner",
     },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png",
+      name: "Hariprakash Pandey",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png",
+      name: "Viral Vora",
+      Description: "Partner",
+    },
+
   ];
 
   const tabContents = [
@@ -73,41 +75,6 @@ const Partners = () => {
       ],
     },
 
-    //HaripraPandeyksh
-    {
-      name: "Hariprakash Pandey",
-      about:
-        "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
-      progress: [
-        { year: "2008", company: "MBA", completed: true },
-        { year: "2011", company: "Godrej", completed: true },
-        { year: "2019", company: "DLF", completed: true },
-        { year: "2022", company: "Tribeca", completed: false },
-        { year: "2023", company: "NeoLiv", completed: false },
-      ],
-    },
-
-    //Viral
-    {
-      name: "Viral Vora",
-      about:
-        "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
-      progress: [
-        {
-          year: "1997",
-          company: "Large Government Contractor",
-          completed: true,
-        },
-        { year: "2001", company: "Independent Contractor", completed: true },
-        { year: "2005", company: "DLF", completed: true },
-        { year: "2006", company: "Raheja Universal Limited", completed: false },
-        {
-          year: "2008",
-          company: "Independent Practice With Real Estate LLP",
-          completed: false,
-        },
-      ],
-    },
 
     //Sidsharth Kolte
     {
@@ -198,11 +165,39 @@ const Partners = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
+    
+    //HaripraPandeyksh
+    {
+      name: "Hariprakash Pandey",
+      about:
+        "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
+      progress: [
+        { year: "2008", company: "MBA", completed: true },
+        { year: "2011", company: "Godrej", completed: true },
+        { year: "2019", company: "DLF", completed: true },
+        { year: "2022", company: "Tribeca", completed: false },
+        { year: "2023", company: "NeoLiv", completed: false },
+      ],
+    },
+
+    //Viral
+    {
+      name: "Viral P Vora",
+      about: "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+      progress: [
+        { year: "1997", company: "Large Government Contractor", completed: true },
+        { year: "2001", company: "Independent Contractor", completed: true },
+        { year: "2005", company: "DLF", completed: true },
+        { year: "2006", company: "Raheja Universal Limited", completed: true },
+        { year: "2008", company: "Independent Practice With Real Estate LLP", completed: true },
+        { year: "2023", company: "NeoLiv", completed: true },
+      ],
+    },
   ];
 
   return (
     <>
-      <div className="text-center md:mt-5 my-5 relative z-50">
+      <div className="text-center my-2 relative z-50">
         <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-10">
           Partners
         </h4>
@@ -240,7 +235,7 @@ const Partners = () => {
             </div>
             {tooltip === index && (
               <div
-                className="fixed top-80 left-1/2 transform -translate-x-1/2 mt-10 bg-white  border-blue-950 p-8 py-15 rounded-lg z-40 shadow-lg"
+                className="fixed top-80 left-1/2 transform -translate-x-1/2 mt-10 bg-indigo-100 border-blue-950 p-8 py-15 rounded-lg z-40 shadow-lg"
                 style={{
                   boxShadow:
                     "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px",
@@ -249,7 +244,7 @@ const Partners = () => {
                 }}
               >
                 <div className="text-left mb-4">
-                  <p className="text-lg font-semibold">About</p>
+                  {/* <p className="text-lg font-semibold">About</p> */}
                   <p className={`text-md py-3 font-bold`}>
                     {tabContents[index]?.name}
                   </p>

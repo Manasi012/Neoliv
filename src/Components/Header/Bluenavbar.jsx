@@ -13,7 +13,7 @@ const Bluenavbar = () => {
                     <NavLink to="/sustainability">Sustainability</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/career">Career</NavLink>
+                    <NavLink to="/career">Careers</NavLink>
                 </li>
             </ul>
         </div>

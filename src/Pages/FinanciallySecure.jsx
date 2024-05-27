@@ -119,7 +119,7 @@ const FinanciallySecure = () => {
           data-aos-duration="1000"
         >
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4k86als1kwmnaSlide-13.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwp0xgnhPagefs.png"
             alt="finance"
             className=""
           />
@@ -175,13 +175,13 @@ const FinanciallySecure = () => {
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3lwlscycaltKaran%20Bhagat%20With%20Nameh.png"
             alt="360"
-            className="w-96"
+            className="w-[40%]"
             data-aos="zoom-out"
             data-aos-delay="500"
             data-aos-duration="1000"
           />
-          <p className="text-lg font-[400] text-indigo-500 leading-8">
-            <span className="font-bold text-2xl">"</span>Over the past few
+          <p className="text-xl font-[400] text-indigo-500 leading-9">
+            <span className="font-bold text-3xl">"</span>Over the past few
             years, there has been a vacuum created in the residential fund and
             development space, where we see strong demand as the country’s
             middle-income segment continues to grow. We are pleased to be
@@ -222,7 +222,7 @@ const FinanciallySecure = () => {
             />
           </div>
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g5xlw100Equity.png"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwp0yxa3100Equity.png"
             alt="India"
             className="w-80"
             data-aos="fade-down"

@@ -13,7 +13,7 @@ const Herosection = () => {
       </h2>
     </div> */}
     <div className='md:mx-20'>
-        <h1 className='absolute text-white md:top-[20rem] top-[14rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl' data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">India’s foremost integrated fund led
+        <h1 className='absolute text-white md:top-[11rem] top-[14rem] z-10 uppercase md:text-4xl md:leading-[60px] leading-normal md:font-[600] font-semibold ml-8 md:pe-0 pe-8 md:ml-0 text-xl' data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">India’s foremost integrated fund led
         <span className='md:block'> residential real estate developer</span>
         </h1> 
     </div>
@@ -28,10 +28,10 @@ const Herosection = () => {
 </div>
 
     <div className='py-10 bg_indigo'>
-      <div className='flex justify-center' data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+      <div className='flex justify-center'>
       <img src={WhiteLogo} alt="whitelogo" className='"place-self-center'/>
       </div>
-      <p className='text-center md:px-44 px-10 py-8 text-white leading-10 font-light text-xl' data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">NeoLiv, A unique integrated residential real estate platform with both fund management business and an in house development arm has been founded by Mohit Malhotra (ex MD & CEO of Godrej Properties), top industry experts and 360 ONE (Formerly IIFL Wealth)- India’s leading wealth management firm with more than USD 50 Bn AUM.</p>
+      <p className='text-center md:px-44 px-10 py-8 text-white leading-10 font-light text-xl'>NeoLiv, A unique integrated residential real estate platform with both fund management business and an in house development arm has been founded by Mohit Malhotra (ex MD & CEO of Godrej Properties), top industry experts and 360 ONE (Formerly IIFL Wealth)- India’s leading wealth management firm with more than USD 50 Bn AUM.</p>
     </div>
     </>
 

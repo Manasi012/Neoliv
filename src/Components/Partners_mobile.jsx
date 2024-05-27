@@ -14,13 +14,14 @@ const Partners_mobile = () => {
 
   const images = [
     { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png", name: "Harshwardhan Prasad", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png", name: "Hariprakash Pandey", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png", name: "Viral Vora", Description: "Partner" },
     { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png", name: "Siddharth Kolte", Description: "Partner" },
     { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png", name: "Chandan Kar", Description: "Partner" },
     { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png", name: "Bhasker Jain", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png", name: "Tej Ingle", Description: "Partner" },
     { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png", name: "Siddharth Jain", Description: "Partner" },
+    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png", name: "Tej Ingle", Description: "Partner" },
+    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png", name: "Hariprakash Pandey", Description: "Partner" },
+    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png", name: "Viral Vora", Description: "Partner" },
+   
   ];
 
   const tabContents = [
@@ -35,38 +36,29 @@ const Partners_mobile = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
-    {
-      name: "Hariprakash Pandey",
-      about: "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
-      progress: [
-        { year: "2008", company: "MBA", completed: true },
-        { year: "2011", company: "Godrej", completed: true },
-        { year: "2019", company: "DLF", completed: true },
-        { year: "2022", company: "Tribeca", completed: true },
-        { year: "2023", company: "NeoLiv", completed: true },
-      ],
-    },
-    {
-      name: "Viral P Vora",
-      about: "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
-      progress: [
-        { year: "1997", company: "Large Government Contractor", completed: true },
-        { year: "2001", company: "Independent Contractor", completed: true },
-        { year: "2005", company: "DLF", completed: true },
-        { year: "2006", company: "Raheja Universal Limited", completed: true },
-        { year: "2008", company: "Independent Practice With Real Estate LLP", completed: true },
-        { year: "2023", company: "NeoLiv", completed: true },
-      ],
-    },
+    
     {
       name: "Siddharth Kolte",
-      about: "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
+      about:
+        "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
       progress: [
         { year: "1997", company: "MBA", completed: true },
-        { year: "2000", company: "Exam", completed: true },
-        { year: "2006", company: "Establish", completed: true },
-        { year: "2007", company: "Company", completed: true },
-        { year: "2008", company: "Practice", completed: true },
+        { year: "2000", company: "Exam Bank", completed: true },
+        { year: "2001", company: "JP Morgan Stanley", completed: true },
+        { year: "2003", company: "BNP PAribas", completed: true },
+        {
+          year: "2005",
+          company: "Independent Financial Consultant",
+          completed: true,
+        },
+        {
+          year: "2009",
+          company: "Vilasrao Deskhmukh Foundation",
+          completed: true,
+        },
+        { year: "2013", company: "Sughee Group", completed: true },
+        { year: "2015", company: "Transcon Developers", completed: true },
+        { year: "2021", company: "Rustomjee Group", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
@@ -93,17 +85,6 @@ const Partners_mobile = () => {
       ],
     },
     {
-      name: "Tej Ingle",
-      about: "Has over 15 years of experience with focus on real estate investment and private equity deals. Passionate about sports and exploring new travel destinations.",
-      progress: [
-        { year: "2011", company: "MBA", completed: true },
-        { year: "2013", company: "DLF", completed: true },
-        { year: "2016", company: "Company", completed: true },
-        { year: "2019", company: "Other Company", completed: true },
-        { year: "2023", company: "NeoLiv", completed: true },
-      ],
-    },
-    {
       name: "Siddharth Jain",
       about: "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
@@ -114,6 +95,45 @@ const Partners_mobile = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
+    {
+      name: "Tej Ingle",
+      about: "Has over 15 years of experience with focus on real estate investment and private equity deals. Passionate about sports and exploring new travel destinations.",
+      progress: [
+        { year: "1997", company: "Architect Reza Kabul", completed: true },
+        { year: "1999", company: "Gayatri Construction", completed: true },
+        { year: "2001", company: "B Methalia", completed: true },
+        { year: "2003", company: "Dalal Mott Macdonald ", completed: true },
+        { year: "2005", company: "Mahindra Gesco LTD ", completed: true },
+        { year: "2007", company: "Peninsula Land LTD ", completed: true },
+        { year: "2008", company: "Godrej", completed: true },
+        { year: "2015", company: "Raymond Realty", completed: true },
+        { year: "2023", company: "NeoLiv", completed: true },
+      ],
+    },
+    {
+      name: "Hariprakash Pandey",
+      about: "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
+      progress: [
+        { year: "2008", company: "MBA", completed: true },
+        { year: "2011", company: "Godrej", completed: true },
+        { year: "2019", company: "DLF", completed: true },
+        { year: "2022", company: "Tribeca", completed: true },
+        { year: "2023", company: "NeoLiv", completed: true },
+      ],
+    },
+    {
+      name: "Viral P Vora",
+      about: "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+      progress: [
+        { year: "1997", company: "Large Government Contractor", completed: true },
+        { year: "2001", company: "Independent Contractor", completed: true },
+        { year: "2005", company: "DLF", completed: true },
+        { year: "2006", company: "Raheja Universal Limited", completed: true },
+        { year: "2008", company: "Independent Practice With Real Estate LLP", completed: true },
+        { year: "2023", company: "NeoLiv", completed: true },
+      ],
+    },
+   
   ];
 
   return (
@@ -139,7 +159,7 @@ const Partners_mobile = () => {
                 </button>
                 <div className="text-left mb-4 scrollbar" id="style-8">
                   <div className="force-overflow">
-                    <p className="text-xl mb-3 font-semibold">About</p>
+                    {/* <p className="text-xl mb-3 font-semibold">About</p> */}
                     <h4 className="mb-2 font-bold text-lg">
                       {tabContents[index]?.name}
                     </h4>

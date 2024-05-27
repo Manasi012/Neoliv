@@ -10,7 +10,7 @@ const Founder = () => {
     <div className='md:px-16 px-3 bg_light md:pt-24 mt-20'>
     <div className="grid grid-cols-1 md:grid-cols-1 items-center pt-20 pb-8">
   <div className="mx-auto">
-    <div className="text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+    <div className="text-center">
     <p className='md:-mt-14'><span className='text-blue-950 font-semibold'>FOUNDER & CEO</span></p>
       <h4 className='text-indigo-500 font-semibold text-3xl py-4'>Mohit Malhotra</h4>
     </div>
