@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.1ff1b482.css",
-    "main.js": "/Neoliv/static/js/main.8d4d3ca0.js",
+    "main.css": "/Neoliv/static/css/main.f578303a.css",
+    "main.js": "/Neoliv/static/js/main.cfac7169.js",
     "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
     "static/media/founder_bg.png": "/Neoliv/static/media/founder_bg.f2dea270716670c83dd2.png",
     "static/media/partners_neoliv.jpg": "/Neoliv/static/media/partners_neoliv.3752a9d3836547c33f28.jpg",
@@ -36,11 +36,11 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.1ff1b482.css.map": "/Neoliv/static/css/main.1ff1b482.css.map",
-    "main.8d4d3ca0.js.map": "/Neoliv/static/js/main.8d4d3ca0.js.map"
+    "main.f578303a.css.map": "/Neoliv/static/css/main.f578303a.css.map",
+    "main.cfac7169.js.map": "/Neoliv/static/js/main.cfac7169.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff1b482.css",
-    "static/js/main.8d4d3ca0.js"
+    "static/css/main.f578303a.css",
+    "static/js/main.cfac7169.js"
   ]
 }
