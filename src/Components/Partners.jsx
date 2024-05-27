@@ -221,7 +221,7 @@ const Partners = () => {
               <img
                 src={item.src}
                 alt={`Image ${index + 1}`}
-                className="w-40 h-auto rounded-full"
+                className="w-36 h-auto rounded-full"
                 style={{
                   boxShadow:
                     tooltip === index
