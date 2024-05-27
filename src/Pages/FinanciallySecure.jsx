@@ -1,7 +1,4 @@
 import React from "react";
-import leftshawdo from "../Assets/imgs/leftshawdo.png";
-import BackButton from "../Components/BackButton";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const FinanciallySecure = () => {
@@ -51,7 +48,7 @@ const FinanciallySecure = () => {
       </div>
       <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
         <div
-          className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -67,7 +64,7 @@ const FinanciallySecure = () => {
         </div>
 
         <div
-          className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -83,7 +80,7 @@ const FinanciallySecure = () => {
         </div>
 
         <div
-          className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -99,7 +96,7 @@ const FinanciallySecure = () => {
         </div>
 
         <div
-          className="bg-white md:h-auto md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
