@@ -223,7 +223,7 @@ const Partners = () => {
           alt={`Image ${index + 1}`}
           className="w-36 h-auto rounded-full"
           style={{
-            opacity: tooltip === index ? 1 : 0.5,
+            opacity: tooltip === index ? 1 : 0.3,
             transition: "opacity 0.8s",
           }}
         />
