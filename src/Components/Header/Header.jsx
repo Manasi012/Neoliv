@@ -10,10 +10,7 @@ const Header = () => {
     <div className="pt-5 w-screen z-50">
       <div className="md:px-10 px-7 md:flex justify-between items-center md:mx-6">
         <div className="w-48">
-          <NavLink
-            to="/"
-            className="underline hover:underline cursor-pointer"
-          >
+          <NavLink to="/" className="underline hover:underline cursor-pointer">
             <img src={Logo} alt="Neoliv Logo" />
           </NavLink>
         </div>
@@ -57,7 +54,7 @@ const Header = () => {
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto z-20 left-0 w-full md:w-auto md:pl-0 pl-8 lg:font-extrabold me-8 transition-all duration-500 ease-out ${
-            isOpen ? "top-32" : "top-[-490px]"
+            isOpen ? "top-[7.4rem]" : "top-[-490px]"
           }`}
         >
           <li

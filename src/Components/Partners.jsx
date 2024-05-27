@@ -61,7 +61,7 @@ const Partners = () => {
   const tabContents = [
     //Harshwardhan
     {
-      name:"Harshwardan Prasad",
+      name: "Harshwardan Prasad",
       about:
         "Has successfully secured projects with development potential exceeding over 26 Mn sq. ft. In NCR and Pune. He has held leadership positions with some of the biggest Indian developers.",
       progress: [
@@ -75,7 +75,7 @@ const Partners = () => {
 
     //HaripraPandeyksh
     {
-      name:"Hariprakash Pandey",
+      name: "Hariprakash Pandey",
       about:
         "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
       progress: [
@@ -89,7 +89,7 @@ const Partners = () => {
 
     //Viral
     {
-      name:"Viral Vora",
+      name: "Viral Vora",
       about:
         "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
       progress: [
@@ -111,7 +111,7 @@ const Partners = () => {
 
     //Sidsharth Kolte
     {
-      name:"Siddharth Kolte",
+      name: "Siddharth Kolte",
       about:
         "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
       progress: [
@@ -138,7 +138,7 @@ const Partners = () => {
 
     //chandan kar
     {
-      name:"Chandan Kar",
+      name: "Chandan Kar",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
       progress: [
@@ -156,7 +156,7 @@ const Partners = () => {
 
     //Bhaskar
     {
-      name:"Bhaskar Jain",
+      name: "Bhaskar Jain",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, he was managing P&L of USD 250 Mn. He cherishes Ghazals and classical music, and exploring historical and cul- tural places fuels his wanderlust.",
       progress: [
@@ -169,7 +169,7 @@ const Partners = () => {
 
     //tej
     {
-      name:"Tej Ingle",
+      name: "Tej Ingle",
       about:
         "Has successfully designed 48 Mn sq. ft. of high quality residential, township, retail, commercial developments. He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
       progress: [
@@ -187,7 +187,7 @@ const Partners = () => {
 
     //siddharth jain
     {
-      name:"Siddharth Jain",
+      name: "Siddharth Jain",
       about:
         "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
@@ -236,17 +236,19 @@ const Partners = () => {
               </div>
               {tooltip === index && (
                 <div
-                  className="fixed top-1/3  left-1/2 transform -translate-x-1/2 mt-10 bg-white  border-blue-950 p-8 py-15 rounded-lg z-40 shadow-lg"
+                  className="fixed top-80 left-1/2 transform -translate-x-1/2 mt-10 bg-white  border-blue-950 p-8 py-15 rounded-lg z-40 shadow-lg"
                   style={{
                     boxShadow:
                       "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px",
                     width: "95%",
-                    height: "44%",
+                    height: "48%",
                   }}
                 >
                   <div className="text-left mb-4">
                     <p className="text-lg font-semibold">About</p>
-                    <p className={`text-md py-3 font-bold`}>{tabContents[index]?.name}</p>
+                    <p className={`text-md py-3 font-bold`}>
+                      {tabContents[index]?.name}
+                    </p>
                     <p className={`text-md`}>{tabContents[index]?.about}</p>
                     <p className="text-lg font-semibold pt-5">Journey</p>
                     <div className="line-container">
