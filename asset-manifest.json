@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.f578303a.css",
-    "main.js": "/Neoliv/static/js/main.a86f5d1e.js",
+    "main.css": "/Neoliv/static/css/main.7023f9fb.css",
+    "main.js": "/Neoliv/static/js/main.b1aa2e9b.js",
     "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
     "static/media/founder_bg.png": "/Neoliv/static/media/founder_bg.f2dea270716670c83dd2.png",
     "static/media/partners_neoliv.jpg": "/Neoliv/static/media/partners_neoliv.3752a9d3836547c33f28.jpg",
@@ -10,7 +10,7 @@
     "static/media/MiddleShawdo.png": "/Neoliv/static/media/MiddleShawdo.67b48cfd211935573f4f.png",
     "static/media/birdsfly.png": "/Neoliv/static/media/birdsfly.2fc8a27c65e94eae4a37.png",
     "static/media/pillarsbg.jpg": "/Neoliv/static/media/pillarsbg.5fe9a4fe22b7c5397203.jpg",
-    "static/media/mohit28.png": "/Neoliv/static/media/mohit28.3951d29a9c518f29e592.png",
+    "static/media/mohit28.png": "/Neoliv/static/media/mohit28.881dd52aa97946145cda.png",
     "static/media/leftshawdo.png": "/Neoliv/static/media/leftshawdo.33f89ac21e3759aed899.png",
     "static/media/SEBI Certificate.pdf": "/Neoliv/static/media/SEBI Certificate.0e826ce775358aeca166.pdf",
     "static/media/neoliv_logo_blue.png": "/Neoliv/static/media/neoliv_logo_blue.29b1c4b9a349bba74825.png",
@@ -36,11 +36,11 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.f578303a.css.map": "/Neoliv/static/css/main.f578303a.css.map",
-    "main.a86f5d1e.js.map": "/Neoliv/static/js/main.a86f5d1e.js.map"
+    "main.7023f9fb.css.map": "/Neoliv/static/css/main.7023f9fb.css.map",
+    "main.b1aa2e9b.js.map": "/Neoliv/static/js/main.b1aa2e9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f578303a.css",
-    "static/js/main.a86f5d1e.js"
+    "static/css/main.7023f9fb.css",
+    "static/js/main.b1aa2e9b.js"
   ]
 }
