@@ -15,6 +15,7 @@ import JuneMedia from "./Pages/JuneMedia";
 import NovemberMedia from "./Pages/NovemberMedia";
 import ScrollToTopOnPageChange from "./Components/ScrollToTopOnPageChange";
 import ModalDisclaimer from "./Components/ModalDisclaimer";
+import Disclaimer from "./Components/Disclaimer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/customercentric" element={<CustomerCentric />} />
         <Route path="/junemedia" element={<JuneMedia />} />
         <Route path="/novembermedia" element={<NovemberMedia />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
       <Footer />
       <FooterLinks />
