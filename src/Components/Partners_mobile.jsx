@@ -56,7 +56,7 @@ const Partners_mobile = () => {
           company: "Vilasrao Deskhmukh Foundation",
           completed: true,
         },
-        { year: "2013", company: "Sughee Group", completed: true },
+        { year: "2013", company: "Sugee Group", completed: true },
         { year: "2015", company: "Transcon Developers", completed: true },
         { year: "2021", company: "Rustomjee Group", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },

@@ -96,7 +96,7 @@ const Partners = () => {
           company: "Vilasrao Deskhmukh Foundation",
           completed: true,
         },
-        { year: "2013", company: "Sughee Group", completed: true },
+        { year: "2013", company: "Sugee Group", completed: true },
         { year: "2015", company: "Transcon Developers", completed: true },
         { year: "2021", company: "Rustomjee Group", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
@@ -197,7 +197,7 @@ const Partners = () => {
 
   return (
     <>
-      <div className="text-center my-2 relative">
+      <div className="text-center md:my-2 md:mt-0 mt-12 relative">
         <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-10">
           Partners
         </h4>

@@ -158,7 +158,7 @@ const ProfessionallyBuilt = () => {
             </div>
           </div>
           <div className="py-8 border-2 border-indigo-700 rounded-xl md:w-2/4">
-            <div className="grid grid-cols-1 md:grid-cols-2 justify-center md:gap-5 gap-0 md:mx-20 mx-5 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center md:gap-2 gap-0 md:mx-3 mx-5 ">
               <div className="text-center space-y-2">
                 <h3 className="font-medium tracking-tighter">
                   THE WALL STREET JOURNAL
@@ -169,12 +169,12 @@ const ProfessionallyBuilt = () => {
                   The World's Most Influential Decision Makers
                 </h5>
               </div>
-              <div className="text-center space-y-2">
-                <p>
-                  Hayes Barnard, GoodLeap Mike Xu, GrubMarket Inc. Dame Emma
-                  Walmsley, GSK Scoot McIntyre, Guidehouse{" "}
-                  <span>Mohit Malhotra</span>Jo Ann Jenkins, AARP Robert Ford,
-                  Abbott Juile Sweet, Accenture
+              <div className="text-center space-y-2 text-sm font-medium">
+                <p className="leading-7">
+                  Hayes Barnard, GoodLeap <br /> Mike Xu, GrubMarket Inc. <br />Dame Emma
+                  Walmsley, GSK <br />Scoot McIntyre, Guidehouse <br />
+                  <span className="font-bold text-xl block">Mohit Malhotra</span> Jo Ann Jenkins, AARP <br /> Robert Ford,
+                  Abbott <br /> Juile Sweet, Accenture
                 </p>
               </div>
             </div>
@@ -240,7 +240,7 @@ const ProfessionallyBuilt = () => {
                 alt={card.description}
                 className="w-28 mb-4 rounded-lg mx-auto"
               />
-              <p className="text-blue-950 font-semibold mb-2 text-lg">
+              <p className="text-blue-950 font-semibold mb-2 md:text-lg text-sm">
                 {card.description}
               </p>
             </div>

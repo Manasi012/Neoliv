@@ -46,7 +46,7 @@ const FinanciallySecure = () => {
           institutions and ultra HNI’s
         </p>
       </div>
-      <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 mx-5 px-5 ">
+      <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 mx-2 px-5 ">
         <div
           className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
@@ -217,7 +217,7 @@ funding.
             <img
               src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfuwdResidentialSector.png"
               alt="India"
-              className="w-80"
+              className="w-80 -mt-14"
               data-aos="fade-down"
               data-aos-delay="700"
               data-aos-duration="1000"
@@ -225,7 +225,7 @@ funding.
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmm1s1100Equity.png"
             alt="India"
-            className="w-80"
+            className="w-80 -mt-14"
             data-aos="fade-down"
             data-aos-delay="900"
             data-aos-duration="1000"
@@ -234,7 +234,7 @@ funding.
             <img
               src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmhhrmZeroLeverage.png"
               alt="India"
-              className="w-80"
+              className="w-80 -mt-14"
               data-aos="fade-down"
             data-aos-delay="1100"
             data-aos-duration="1000"
