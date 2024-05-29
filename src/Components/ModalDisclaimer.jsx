@@ -6,14 +6,13 @@ const ModalDisclaimer = () => {
   const [agreed, setAgreed] = useState(false);
 
   useEffect(() => {
+    // Check if the user has agreed previously during the session
     const agreedPreviously = sessionStorage.getItem("agreed");
-    const openedInNewTab = !window.opener;
-    
-    if (!agreedPreviously && !openedInNewTab) {
+    if (!agreedPreviously) {
+      // If not agreed previously, show the modal on the first page load
       setShowModal(true);
     }
   }, []);
-  
 
   // const handleReadMore = () => {
   //   // Open disclaimer page in a new tab
