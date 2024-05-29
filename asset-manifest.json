@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.8ab779f6.css",
-    "main.js": "/Neoliv/static/js/main.5c4e5b1b.js",
+    "main.css": "/Neoliv/static/css/main.b8bdaf8a.css",
+    "main.js": "/Neoliv/static/js/main.32dbf5cd.js",
     "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
     "static/media/founder_bg.png": "/Neoliv/static/media/founder_bg.16a98c6dc74464501a89.png",
     "static/media/partners_neoliv.jpg": "/Neoliv/static/media/partners_neoliv.3752a9d3836547c33f28.jpg",
@@ -12,15 +12,15 @@
     "static/media/pillarsbg.jpg": "/Neoliv/static/media/pillarsbg.5fe9a4fe22b7c5397203.jpg",
     "static/media/mohit28.png": "/Neoliv/static/media/mohit28.881dd52aa97946145cda.png",
     "static/media/leftshawdo.png": "/Neoliv/static/media/leftshawdo.33f89ac21e3759aed899.png",
+    "static/media/careers.jpg": "/Neoliv/static/media/careers.611decc3e9a0f71215b6.jpg",
+    "static/media/sustainability.jpg": "/Neoliv/static/media/sustainability.70db16f71056d547d9cc.jpg",
     "static/media/SEBI Certificate.pdf": "/Neoliv/static/media/SEBI Certificate.0e826ce775358aeca166.pdf",
     "static/media/neoliv_logo_blue.png": "/Neoliv/static/media/neoliv_logo_blue.29b1c4b9a349bba74825.png",
     "static/media/bannerdesk.jpg": "/Neoliv/static/media/bannerdesk.784846432621082b454d.jpg",
     "static/media/Mohit_mob.png": "/Neoliv/static/media/Mohit_mob.09ef771e45f694837276.png",
-    "static/media/sustainability.jpg": "/Neoliv/static/media/sustainability.ea34a46800f9f5f43738.jpg",
     "static/media/neoliv_logo.jpeg": "/Neoliv/static/media/neoliv_logo.0aaa6fa033d06fd30b11.jpeg",
     "static/media/build.png": "/Neoliv/static/media/build.0307b52dec9223a16b61.png",
     "static/media/platfoem.png": "/Neoliv/static/media/platfoem.339fe3c670e3ec4d474c.png",
-    "static/media/career.jpg": "/Neoliv/static/media/career.8f910b3a507e951b884c.jpg",
     "static/media/NeoliferBlue.png": "/Neoliv/static/media/NeoliferBlue.4b9fdbca71188224f9fa.png",
     "static/media/Founder.png": "/Neoliv/static/media/Founder.07d86e57761fb496e761.png",
     "static/media/presence.png": "/Neoliv/static/media/presence.ff9edb4f885efeb6708d.png",
@@ -36,11 +36,11 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.8ab779f6.css.map": "/Neoliv/static/css/main.8ab779f6.css.map",
-    "main.5c4e5b1b.js.map": "/Neoliv/static/js/main.5c4e5b1b.js.map"
+    "main.b8bdaf8a.css.map": "/Neoliv/static/css/main.b8bdaf8a.css.map",
+    "main.32dbf5cd.js.map": "/Neoliv/static/js/main.32dbf5cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ab779f6.css",
-    "static/js/main.5c4e5b1b.js"
+    "static/css/main.b8bdaf8a.css",
+    "static/js/main.32dbf5cd.js"
   ]
 }
