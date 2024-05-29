@@ -174,7 +174,7 @@ funding.
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4k3lwlscycaltKaran%20Bhagat%20With%20Nameh.png"
             alt="360"
-            className="w-[40%]"
+            className="md:w-[40%] w-full"
             data-aos="zoom-out"
             data-aos-delay="500"
             data-aos-duration="1000"

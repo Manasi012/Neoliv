@@ -93,29 +93,29 @@ const CustomerCentric = () => {
       </div>
       
 
-      <div className="gap-10 py-10 md:px-20 px-5 space-y-6">
+      <div className="gap-10 py-10 md:px-20 px-2 space-y-6">
       <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
-        <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+        <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Product and Quality</h5>
             <p className='text-center'><br /> Joined Godrej Properties in 2010, stepped down on December <br />31, 2022</p>
             </div>
 
-            <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Personalised customer RM</h5>
             <p className='text-center'><br />NeoLiv will have Relationship Managers mapped to each customer for 24x7 dedicated service</p>
             </div>
 
-            <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Property management arm</h5>
             <p className='text-center'><br />NeoLiv has in-house property management and service arm to ensure lowest cost of maintenance</p>
             </div>
 
-            {/* <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            {/* <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Post handover partnership</h5>
             <p className='text-center'><br />NeoLiv will ensure complete hand-holding till all teething issues are resolved and customers enjoy hassle-free living experience</p>
             </div> */}
 
-<div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+<div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Post handover partnership</h5>
             <p className='text-center'><br />NeoLiv ensures support until issues are resolved, providing a hassle-free experience.</p>
             </div>
