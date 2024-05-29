@@ -15,7 +15,7 @@ const Team = () => {
 
   return (
 <>
-<div className="text-center md:mt-5 pt-20 aos-init aos-animate relative z-50" id="team" data-aos="zoom-out" data-aos-delay="800" data-aos-duration="1000">
+<div className="text-center md:mt-5 pt-20 aos-init aos-animate relative z-50" id="team">
   <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-10">Key Management Team</h4>
 </div>
 <div className="flex flex-col md:flex-row md:mx-52 pt-10 md:px-0 px-4" >

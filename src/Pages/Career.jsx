@@ -1,5 +1,5 @@
 import React from "react";
-import career from "..//Assets/imgs/career.jpg";
+import career from "..//Assets/imgs/careers.jpg";
 import NeoliferWhite from "..//Assets/imgs/NeoliferBlue.png";
 import BackButton from "../Components/BackButton";
 
@@ -11,18 +11,12 @@ const Career = () => {
       </div>
       <div className="relative">
         <img src={career} alt="sustainability" className="md:w-screen w-full" />
-        <div className="absolute left-[30%] md:top-[30%] top-[8%] md:ml-32 ml-2">
-          <h3 className="text-[#115aa6] md:text-6xl text-xl font-bold tracking-wider">
-            Become a
-          </h3>
-          <img
-            src={NeoliferWhite}
-            alt="NeoliferWhite"
-            className="md:w-96 w-32 md:ml-16"
-          />
+       
+        <div className="py-10 text-center">
+          <div className="flex justify-center">
           <button
             onClick={() => (window.location.href = "mailto:admin@neoliv.in")}
-            className="flex items-center bg_indigo md:ml-32 ml-12 md:mt-8  md:px-6 px-2 md:py-3 py-2 rounded-xl text-white md:text-lg text-sm font-medium"
+            className="flex items-center bg_indigo   md:px-6 px-2 md:py-3 py-2 rounded-xl text-white md:text-lg text-sm font-medium"
           >
             Connect With Us
             <svg
@@ -40,12 +34,8 @@ const Career = () => {
               />
             </svg>
           </button>
-        </div>
-        {/* <div className="py-10 text-center">
-          <div className="flex justify-center">
-           
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
