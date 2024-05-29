@@ -6,12 +6,12 @@ import { NavLink } from 'react-router-dom';
 const ThreePillars = () => {
   return (    
    <>
-    <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-20' id="threePillars">
-        <div className='text-center py-10'  data-aos="zoom-out">
+    <div className='bg-custom bg-cover bg-center h-auto md:px-8 px-4 py-10' id="threePillars">
+        <div className='text-center py-10'>
         <h4 className='md:text-3xl text-4xl text-blue-950 font-medium'>Our Key Pillars</h4>
         </div>
 
-       <div className='hidden md:block'>
+       <div className='hidden md:block' id='Pillars'>
        <div className="flex flex-wrap mx-16">
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
       <div className="p-6 rounded-lg">

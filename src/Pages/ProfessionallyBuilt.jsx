@@ -112,8 +112,8 @@ const ProfessionallyBuilt = () => {
           </div>
           <div className="bg-white md:p-2 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Education: BE Mechanical engineering, MBA Strategy and Marketing
-              (Indian Institute of Management, Culcutta)
+              BE & MBA Strategy and Marketing
+              (Indian Institute of Management, Calcutta)
             </p>
           </div>
         </div>

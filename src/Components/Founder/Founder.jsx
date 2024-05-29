@@ -30,7 +30,8 @@ const Founder = () => {
             <p className='text-center'>Previously Head of Business Development, Head of Region and Executive Director</p>
             </div>
             <div className="bg-white md:h-[8rem] h-auto md:w-full py-3 w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
-              <p className='text-center'>Education: BE Mechanical engineering, MBA Strategy and Marketing (Indian Institute of Management, Culcutta)</p>
+              <p className='text-center'><br />BE & MBA Strategy and Marketing
+              (Indian Institute of Management, Calcutta)</p>
             </div>
         </div>
  </div>

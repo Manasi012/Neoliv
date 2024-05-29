@@ -14,12 +14,14 @@ import { Route, Routes } from "react-router-dom";
 import JuneMedia from "./Pages/JuneMedia";
 import NovemberMedia from "./Pages/NovemberMedia";
 import ScrollToTopOnPageChange from "./Components/ScrollToTopOnPageChange";
+import ModalDisclaimer from "./Components/ModalDisclaimer";
 
 function App() {
   return (
     <div className="App overflow-hidden">
       <Bluenavbar />
       <Header />
+      <ModalDisclaimer />
       <ScrollToTopOnPageChange />
       <Routes>
         <Route path="/" element={<Home />} />

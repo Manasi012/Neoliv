@@ -46,7 +46,7 @@ const FinanciallySecure = () => {
           institutions and ultra HNI’s
         </p>
       </div>
-      <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
+      <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 mx-5 px-5 ">
         <div
           className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
@@ -55,11 +55,11 @@ const FinanciallySecure = () => {
         >
           <br />
           <h3 className="font-bold mb-4 text-[#112E50]">
-            HIGHEST DEGREE OF GOVERNANCE
+          HIGHEST DEGREE OF GOVERNANCE
           </h3>
           <p className="text-center font-medium">
-            100% assurance of transparent, SEBI regulated & monitored <br />
-            funding
+          100% assurance of transparent, SEBI regulated & monitored <br />
+funding.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const FinanciallySecure = () => {
           </h3>
           <p className="text-center font-medium">
             Funds can be invested only on licensed land parcels thus eliminating
-            approval risks
+            approval risks.
           </p>
         </div>
 
@@ -87,11 +87,10 @@ const FinanciallySecure = () => {
         >
           <br />
           <h3 className="font-bold mb-4 text-[#112E50]">
-            IN HOUSE DEVELOPMENT ARM
+          IN HOUSE DEVELOPMENT ARM
           </h3>
           <p className="text-center font-medium">
-            FManagement team of industry experts with execution expertise of 200
-            Mn Sq ft, 90 projects pan India.
+            Management team of industry experts with execution expertise of 200 Mn Sq ft, 90 projects pan India.
           </p>
         </div>
 
@@ -119,7 +118,7 @@ const FinanciallySecure = () => {
           data-aos-duration="1000"
         >
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwp0xgnhPagefs.png"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrctrycPage13.jpg"
             alt="finance"
             className=""
           />
