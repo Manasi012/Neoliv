@@ -90,29 +90,26 @@ const ProfessionallyBuilt = () => {
           </p>
         </div>
         <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
-          <div className="bg-white md:h-28 md:p-0 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
-            <br />
+          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Joined Godrej Properties in 2010, stepped down on December 31,
+              Joined Godrej Properties in 2010,<br /> stepped down on <br />December 31,
               2022
             </p>
           </div>
-          <div className="bg-white md:h-28 md:p-0 p-4 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
-            <br />
+          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              MD & CEO of Godrej Properties <br /> since 2017
+              MD & CEO of <br />Godrej Properties <br /> since 2017
             </p>
           </div>
-          <div className="bg-white md:p-0 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
-            <br />
+          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
               Previously Head of Business Development, Head of Region and
               Executive Director
             </p>
           </div>
-          <div className="bg-white md:p-2 p-4 md:h-28 h-auto  py-4 w-full shadow-2xl rounded-lg md:my-2 my-4">
+          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              BE & MBA Strategy and Marketing
+              BE & MBA Strategy and Marketing <br />
               (Indian Institute of Management, Calcutta)
             </p>
           </div>

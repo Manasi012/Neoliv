@@ -200,46 +200,47 @@ funding.
           global and domestic investors
         </h3>
 
-        <div className="md:flex justify-center py-5">
+        <div className="hidden md:block">
+          <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrn4j4qIcons-Merge-01.png" alt="mergeicons" className="w-full pt-6"/>
+        </div>
+
+       <div className="md:hidden">
+       <div className="md:flex justify-evenly gap-0 py-5">
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw64nmz7Among-india.png"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfdzgAmong-india.png"
             alt="India"
             className="w-80"
             data-aos="fade-down"
             data-aos-delay="500"
             data-aos-duration="1000"
           />
-          <div
-            data-aos="fade-down"
-            data-aos-delay="700"
-            data-aos-duration="1000"
-          >
             <img
-              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g5jkxResidentialSector.png"
+              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfuwdResidentialSector.png"
               alt="India"
               className="w-80"
+              data-aos="fade-down"
+              data-aos-delay="700"
+              data-aos-duration="1000"
             />
-          </div>
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwp0yxa3100Equity.png"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmm1s1100Equity.png"
             alt="India"
             className="w-80"
             data-aos="fade-down"
             data-aos-delay="900"
             data-aos-duration="1000"
           />
-          <div
-            data-aos="fade-down"
-            data-aos-delay="1100"
-            data-aos-duration="1000"
-          >
+   
             <img
-              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw0g68clZeroLeverage.png"
+              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmhhrmZeroLeverage.png"
               alt="India"
               className="w-80"
+              data-aos="fade-down"
+            data-aos-delay="1100"
+            data-aos-duration="1000"
             />
-          </div>
         </div>
+       </div>
       </div>
     </>
   );
