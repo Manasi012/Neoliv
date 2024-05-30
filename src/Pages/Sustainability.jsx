@@ -1,6 +1,6 @@
 import React from 'react';
 import sustainability from '..//Assets/imgs/sustainability.jpg';
-import sustainabilitymob from '..//Assets/imgs/sustainabilitymob.jpg';
+import sustainabilitymob from '..//Assets/imgs/sustainability-mob.jpg';
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 import BackButton from '../Components/BackButton'
 

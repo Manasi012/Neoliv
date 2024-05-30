@@ -21,7 +21,7 @@ const Herosection = () => {
         </div>
         <div className="md:hidden">
           <img
-            src={BannerImagee}
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsxmvqi450x650-Banner-image.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
@@ -69,7 +69,7 @@ const Herosection = () => {
         </div>
         <div className="md:hidden">
           <img
-             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwswzsnvFamily_Neoliv_01.jpg"
+             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsxgbac450x650-Without-Symbol.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
@@ -117,7 +117,7 @@ const Herosection = () => {
         </div>
         <div className="md:hidden">
           <img
-             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwswzsnvFamily_Neoliv_01.jpg"
+             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsxgpyn450x650.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
