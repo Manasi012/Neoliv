@@ -5,11 +5,21 @@ import MyPDF from '../../Assets/pdf/SEBI Certificate.pdf';
 const FooterLinks = () => {
   return (
     <div className='bg_indigo w-screen md:h-14 h-20 md:flex block md:justify-between justify-center'>
-      <div className='text-white flex justify-center md:ml-20 pt-4 text-xs'>
+      <div className='text-white flex justify-center md:ml-20 pt-4 text-xs space-x-3'>
         <p className='text-white'><span>©️ 2024, NeoLiv</span></p>
         <span className='mx-3'>|</span>
         {/* <span className='underline'>SEBI Approval</span> */}
         <a href={MyPDF} target="_blank" rel="noopener noreferrer">SEBI Approval</a>
+        <span className='mx-3'>|</span>
+        <NavLink to="/sustainability" className="i">
+        Sustainability
+    </NavLink>
+
+    <span className='mx-3'>|</span>
+
+    <NavLink to="/career" className="i">
+    Careers
+    </NavLink>
 
       </div>
       <div className='md:me-20 pt-4 text-xs text-center text-white'>Website By 
@@ -20,6 +30,7 @@ const FooterLinks = () => {
       >
          Propstory
       </Link>
+      
 
       </div>
     </div>

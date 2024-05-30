@@ -28,13 +28,12 @@ const Herosection = () => {
         </div>
         <div className="absolute inset-0 bg-black opacity-70"></div>
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
           <h1
             className="text-white uppercase md:text-3xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
-            India’s foremost integrated fund led
-            <span className="md:block"> residential real estate developer</span>
+            India’s foremost integrated fund led residential real estate developer
           </h1>
           <div className="absolute bottom-0">
             <p
@@ -108,13 +107,13 @@ const Herosection = () => {
         </div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
           <h1
-            className="text-white uppercase md:text-3xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
+            className="text-white uppercase md:text-3xl md:-mt-[28rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
             India’s foremost integrated fund led
-            <span className="md:block"> residential real estate developer</span>
+            residential real estate developer
           </h1>
           <div className="absolute bottom-0">
             <p

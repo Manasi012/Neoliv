@@ -8,7 +8,7 @@ const Headercopy = () => {
 
   return (
     <div className="pt-5 w-screen z-30 absolute">
-      <div className="md:px-10 px-7 md:mt-7 mt-9 md:flex justify-between items-center md:mx-6">
+      <div className="md:px-10 px-7 md:mt-0 mt-9 md:flex justify-between items-center md:mx-6">
         <div className="w-48">
           <NavLink to="/" className="underline hover:underline cursor-pointer">
             {/* <img src={Logo} alt="Neoliv Logo" /> */}

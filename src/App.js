@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App overflow-hidden">
       {/* <Bluenavbar /> */}
-      {location.pathname === '/' ? <Bluenavbarcopy /> : <Bluenavbar />}
+      {/* {location.pathname === '/' ? <Bluenavbarcopy /> : <Bluenavbar />} */}
       {location.pathname === '/' ? <Headercopy /> : <Header />}
       <ModalDisclaimer />
       <ScrollToTopOnPageChange />
