@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../Assets/imgs/neoliv_logo.jpeg";
+import Logo from "../../Assets/imgs/neoliv_logo.png";
 import { HashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
 
