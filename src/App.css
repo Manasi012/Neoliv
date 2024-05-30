@@ -3,6 +3,7 @@
 body {
   font-family: "Montserrat";
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .bg_indigo {
