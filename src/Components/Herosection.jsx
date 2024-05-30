@@ -74,7 +74,7 @@ const Herosection = () => {
             className="w-full h-screen"
           />
         </div>
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
           <h1
@@ -122,12 +122,12 @@ const Herosection = () => {
             className="w-full h-screen"
           />
         </div>
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
           <h1
             className="text-white uppercase md:text-4xl md:mt-0 mt-11 md:leading-[70px] leading-normal md:font-[600] font-semibold text-xl px-2"
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
+            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             India’s foremost integrated fund led
             <span className="md:block"> residential real estate developer</span>
