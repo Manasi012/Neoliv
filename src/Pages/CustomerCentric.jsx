@@ -97,7 +97,7 @@ const CustomerCentric = () => {
       <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
         <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-lg">Product and Quality</h5>
-            <p className='text-center'><br /> Joined Godrej Properties in 2010, stepped down on December <br />31, 2022</p>
+            <p className='text-center'><br />Consumer Research-led <br />Design and Top-Quality <br />Assurance</p>
             </div>
 
             <div className="bg-white text-center md:h-[11rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">

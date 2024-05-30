@@ -1,5 +1,6 @@
 import React from 'react';
 import sustainability from '..//Assets/imgs/sustainability.jpg';
+import sustainabilitymob from '..//Assets/imgs/sustainabilitymob.jpg';
 import leftshawdo from '../Assets/imgs/leftshawdo.png';
 import BackButton from '../Components/BackButton'
 
@@ -13,10 +14,15 @@ const Sustainability = () => {
  <div>
   <BackButton />
   </div>
-      <div className='relative'>
+      <div className='relative hidden md:block'>
         <img src={sustainability} alt="sustainability" className='md:w-screen w-full h-auto'/>
         {/* <h3 className='text-white md:text-5xl text-2xl absolute top-[45%] font-bold md:ml-32 ml-2 tracking-wider'>Commitment To ESG</h3> */}
       </div>
+
+      <div className='relative md:hidden'>
+        <img src={sustainabilitymob} alt="sustainability" className='md:w-screen w-full h-auto'/>
+      </div>
+
 
       <div className='relative py-5 md:mx-20 mx-6'>
           {/* <img src={leftshawdo} alt="" className="-mt-[42rem] absolute -left-[44rem] -top-96 w-screen opacity-100"/> */}

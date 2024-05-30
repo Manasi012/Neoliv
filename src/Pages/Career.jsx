@@ -1,6 +1,6 @@
 import React from "react";
 import career from "..//Assets/imgs/careers.jpg";
-import NeoliferWhite from "..//Assets/imgs/NeoliferBlue.png";
+import careermob from "..//Assets/imgs/careermmob.jpg";
 import BackButton from "../Components/BackButton";
 
 const Career = () => {
@@ -9,9 +9,14 @@ const Career = () => {
       <div>
         <BackButton />
       </div>
-      <div className="relative">
+      <div className="relative md:block  hidden">
         <img src={career} alt="sustainability" className="md:w-screen w-full" />
-       
+        </div>
+
+        <div className="relative md:hidden">
+        <img src={careermob} alt="sustainability" className="md:w-screen w-full" />
+        </div>
+
         <div className="py-10 text-center">
           <div className="flex justify-center">
           <button
@@ -36,7 +41,6 @@ const Career = () => {
           </button>
           </div>
         </div>
-      </div>
     </div>
   );
 };

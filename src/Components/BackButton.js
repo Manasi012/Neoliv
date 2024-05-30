@@ -8,7 +8,7 @@ const BackButton = () => {
   return (
     <>
       <button
-       className="bg-blue-950 text-white z-40 top-[36%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around "
+       className="bg-blue-950 text-white z-40 top-[30%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around "
        onClick={goBack}
       >
         <svg

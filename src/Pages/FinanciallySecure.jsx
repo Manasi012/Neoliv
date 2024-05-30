@@ -48,63 +48,63 @@ const FinanciallySecure = () => {
       </div>
       <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 mx-2 px-5 ">
         <div
-          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
         >
           <br />
-          <h3 className="font-bold mb-4 text-[#112E50]">
+          <h3 className="font-bold mb-4 text-[#112E50] text-sm">
           HIGHEST DEGREE OF GOVERNANCE
           </h3>
-          <p className="text-center font-medium">
+          <p className="text-center font-medium text-[15px]">
           100% assurance of transparent, SEBI regulated & monitored <br />
 funding.
           </p>
         </div>
 
         <div
-          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
         >
           <br />
-          <h3 className="font-bold mb-4 text-[#112E50]">
+          <h3 className="font-bold mb-4 text-[#112E50] text-sm">
             SAFE & SECURE INVESTMENT
           </h3>
-          <p className="text-center font-medium">
+          <p className="text-center font-medium text-[15px]">
             Funds can be invested only on licensed land parcels thus eliminating
             approval risks.
           </p>
         </div>
 
         <div
-          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
         >
           <br />
-          <h3 className="font-bold mb-4 text-[#112E50]">
+          <h3 className="font-bold mb-4 text-[#112E50] text-sm">
           IN HOUSE DEVELOPMENT ARM
           </h3>
-          <p className="text-center font-medium">
+          <p className="text-center font-medium text-[15px]">
             Management team of industry experts with execution expertise of 200 Mn Sq ft, 90 projects pan India.
           </p>
         </div>
 
         <div
-          className="bg-white md:h-48 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
         >
           <br />
-          <h3 className="font-bold mb-4 text-[#112E50]">
+          <h3 className="font-bold mb-4 text-[#112E50] text-sm">
             ON TIME DELIVERY ASSURANCE
           </h3>
-          <p className="text-center font-medium">
+          <p className="text-center font-medium text-[15px]">
             Provision of higher equity funding (5X than market norms) for
             timely, high-quality delivery of projects.
           </p>
@@ -118,7 +118,7 @@ funding.
           data-aos-duration="1000"
         >
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrctrycPage13.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsseef5Page13.jpg"
             alt="finance"
             className=""
           />

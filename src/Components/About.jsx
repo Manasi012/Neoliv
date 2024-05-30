@@ -205,7 +205,7 @@ const About = () => {
          <div className="px-5 ml-8">
          <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
-              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Delivery Assurance</h2>
+              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Delivery <br /> Assurance</h2>
               <img src={project} alt="" className="md:w-32 w-16"/>
             </div>
             <div className="pt-20 pb-5 leading-7 text-left" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">

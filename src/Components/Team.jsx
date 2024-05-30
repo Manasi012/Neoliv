@@ -22,7 +22,7 @@ const Team = () => {
       <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full rounded-xl" />
       </div>
-      <div className="md:w-4/6 md:rounded-xl z-10 py-16 px-10 md:pl-40 -mt-4 bg_indigo md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <div className="md:w-5/6 md:rounded-xl z-10 py-16 px-10 md:pl-40 -mt-4 bg_indigo md:mt-44 md:-ml-56 text-white" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
   <h2 className="text-3xl p-0 font-medium">Mohit Malhotra</h2>
   <p className="m-0 pt-2">Founder & CEO</p>
   <ReadMore />

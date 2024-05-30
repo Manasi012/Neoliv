@@ -82,17 +82,17 @@ const ProfessionallyBuilt = () => {
         Back
       </HashLink>
       <div className="">
-        <div className="text-center md:py-10 py-6 space-y-4 px-5">
+        <div className="text-center md:py-16 py-6 space-y-4 px-5">
           <h3 className="text-4xl text-blue-950">Professionally Built</h3>
           <p className="text-lg font-medium">
             The team that comes with a 100+ years of multi-functional industry
             experience
           </p>
         </div>
-        <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-5 mx-5 px-5 ">
+        <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-10 lg:mx-20 mx-5 px-5 ">
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Joined Godrej Properties in 2010,<br /> stepped down on <br />December 31,
+              Joined Godrej Properties in 2010,<br /> stepped down on <br /> December 31,
               2022
             </p>
           </div>
@@ -103,14 +103,14 @@ const ProfessionallyBuilt = () => {
           </div>
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Previously Head of Business Development, Head of Region and
+              Previously Head of Business <br />Development, Head of Region <br /> and
               Executive Director
             </p>
           </div>
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              BE & MBA Strategy and Marketing <br />
-              (Indian Institute of Management, Calcutta)
+              BE & MBA Strategy <br /> and Marketing 
+              (Indian Institute <br /> of Management, Calcutta)
             </p>
           </div>
         </div>
