@@ -11,12 +11,12 @@ const Herosection = () => {
       A Venture backed by SEBI Approved fund, 360 ONE(formerly IIFL Wealth) and Mohit Malhotra (Ex MD and CEO of Godrej Properties)
       </h2>
     </div> */}
-      {/* <div className="relative">
+      <div className="relative">
         <div className="hidden md:block">
           <img
             src={BannerImage}
             alt="bannerimage"
-            className="w-full h-[600px]"
+            className="w-full h-screen"
           />
         </div>
         <div className="md:hidden">
@@ -30,23 +30,15 @@ const Herosection = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
           <h1
-            className="text-white uppercase md:text-4xl md:mt-0 mt-11 md:leading-[70px] leading-normal md:font-[600] font-semibold text-xl px-2"
+            className="text-white uppercase md:text-3xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
             India’s foremost integrated fund led
             <span className="md:block"> residential real estate developer</span>
           </h1>
-          <div className="py-10">
-            <div className="flex justify-center">
-              <img
-                src={WhiteLogo}
-                alt="whitelogo"
-                className="place-self-center"
-                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
-              />
-            </div>
+          <div className="absolute bottom-0">
             <p
-              className="text-center md:px-44 px-5 py-8 text-white leading-10 font-medium md:text-xl text-md"
+              className="text-center md:px-16 px-5 py-8  text-white md:leading-7 leading-6 font-light md:text-xl text-sm"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
             >
               NeoLiv, A unique integrated residential real estate platform with
@@ -57,7 +49,7 @@ const Herosection = () => {
             </p>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="relative">
         <div className="hidden md:block">
@@ -118,7 +110,7 @@ const Herosection = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-20">
           <h1
-            className="text-white uppercase md:text-4xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[600] font-semibold text-xl px-2"
+            className="text-white uppercase md:text-3xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
             India’s foremost integrated fund led
@@ -126,7 +118,7 @@ const Herosection = () => {
           </h1>
           <div className="absolute bottom-0">
             <p
-              className="text-center md:px-44 px-5 py-8  text-white md:leading-7 leading-6 font-medium md:text-xl text-sm"
+              className="text-center md:px-16 px-5 py-8  text-white md:leading-7 leading-6 font-light md:text-xl text-sm"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
             >
               NeoLiv, A unique integrated residential real estate platform with
