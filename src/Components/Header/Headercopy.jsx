@@ -8,7 +8,7 @@ const Headercopy = () => {
 
   return (
     <div className="pt-5 w-screen z-30 absolute">
-      <div className="md:px-10 px-7 md:mt-0 mt-9 md:flex justify-between items-center md:mx-6">
+      <div className="md:px-10 px-7 md:mt-0  md:flex justify-between items-center md:mx-6">
         <div className="w-48">
           <NavLink to="/" className="underline hover:underline cursor-pointer">
             {/* <img src={Logo} alt="Neoliv Logo" /> */}
@@ -18,7 +18,7 @@ const Headercopy = () => {
 
         <div
           onClick={() => SetisOpen(!isOpen)}
-          className="absolute right-8 top-16 cursor-pointer md:hidden"
+          className="absolute right-8 top-8 cursor-pointer md:hidden"
         >
           {isOpen ? (
             <svg
