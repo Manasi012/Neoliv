@@ -172,7 +172,7 @@ const Partners = () => {
             </button>
 
             <div className="flex justify-around gap-20 items-center">
-            <img src={image.src} alt={image.name} className="w-52 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
+            <img src={image.src} alt={image.name} className="w-44 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
                 {/* <p className="text-xl mb-3 font-semibold">About</p> */}
                <div>
                <h4 className="mb-4 font-medium text-2xl text-center">
