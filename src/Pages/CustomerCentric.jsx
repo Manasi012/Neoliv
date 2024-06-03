@@ -85,7 +85,7 @@ const CustomerCentric = () => {
             style={videoStyle}
           >
             <source
-              src="https://propstory.in/Neoliv-Demo/AnimationNew.mp4"
+              src="https://neoliv.in/neoliv_new_video.mp4"
               type="video/mp4"
             />
           </video>

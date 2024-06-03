@@ -39,7 +39,7 @@ const About = () => {
       <img src={leftshawdo} alt="" className="-mt-[57rem] absolute -left-[44rem] -top-96 w-full -z-10 opacity-100"/>
 </div>
       <div className="text-center space-y-10 text-blue-950 pb-14">
-        <h4 className="tracking-wide">ABOUT US</h4>
+        {/* <h4 className="tracking-wide">ABOUT US</h4> */}
         <h2 className="text-4xl">Who Are We?</h2>
       </div>
 
@@ -48,7 +48,7 @@ const About = () => {
         <div className="w-full md:w-1/3 p-4">
           <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] z-20 border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
-              <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder</h2>
+              <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder Credentials</h2>
               <img src={Founder} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
@@ -136,13 +136,13 @@ const About = () => {
         <div className="w-full md:w-1/3 p-4">
           <div className="card_bg shadow-md p-8 h-auto md:h-[28rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
-              <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Presence</h2>
+              <h2 className="text-2xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Multi-City Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-28"/>
             </div>
             <div className="pt-24 pb-5 leading-7" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <p>
                 Opened offices and setup teams in Mumbai and Delhi NCR with
-                focus on mid income residential projects in both markets
+                focus on premium residential projects in both markets
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@ const About = () => {
       <div className="px-2 ml-10">
       <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
-              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder</h2>
+              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder <br />Credentials</h2>
               <img src={Founder} alt="" className="md:w-32 w-16"/>
             </div>
             <div className="pt-20 pb-5 leading-7 text-left" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
@@ -235,16 +235,17 @@ const About = () => {
             </div>
           </div>
        </div>
+       
          <div className="px-5 ml-8">
          <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
-              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Presence</h2>
+              <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Multi-City <br />Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-16"/>
             </div>
             <div className="pt-20 pb-5 leading-7 text-left" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <p>
-                Opened offices and setup teams in Mumbai and Delhi NCR with
-                focus on mid income residential projects in both markets
+              Opened offices and setup teams in Mumbai and Delhi NCR with
+                focus on premium residential projects in both markets
               </p>
             </div>
           </div>

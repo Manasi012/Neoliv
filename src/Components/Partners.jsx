@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 import Partners_mobile from "./Partners_mobile";
 
-
 const Partners = () => {
   const [tooltip, setTooltip] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [clicked, setClicked] = useState(false);
 
   const handleImageClick = (index) => {
     setTooltip(index);
+    setClicked(true);
   };
 
   const handleCloseTooltip = (event) => {
     event.stopPropagation();
     setTooltip(null);
+    setClicked(false);
   };
 
   const images = [
@@ -144,88 +147,79 @@ const Partners = () => {
 
   return (
 <>
-<div className="container mx-auto p-4 hidden md:block">
-  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
-    {images.map((image, index) => (
-      <div
-        key={index}
-        className="flex flex-col items-center relative"
-        onClick={() => handleImageClick(index)}
-        style={{ transition: "box-shadow 0.3s" }}
-      >
-        <img src={image.src} alt={image.name} className="w-36 h-auto cursor-pointer border-4 border-indigo-900 rounded-full mb-2" />
-        <h3 className="text-center mt-2 font-bold text-[12px]">{image.name}</h3>
-       <div className="flex justify-between items-center gap-2 pt-2 cursor-pointer">
-       <p className="text-center text-blue-900 text-[14px]">{image.Description}</p>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-blue-900">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-</svg>
-       </div>
+<div className={`text-center md:my-2 md:mt-0 mt-12 relative ${clicked ? 'fixed top-0 left-0 h-full w-full bg-white z-50' : ''}`}>
+        <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-5">
+          Partners
+        </h4>
+      </div>
 
-        {tooltip === index && (
-          <div className="fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-auto py-16 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
-            <button
-              onClick={handleCloseTooltip}
-              className="absolute top-8 right-16 text-5xl font-bold"
+      <div className={`mx-auto p-4 hidden md:block ${clicked ? 'fixed top-0 left-0 h-full w-screen z-50 bg-white' : ''}`}>
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`flex flex-col items-center relative transition duration-300 ${hoveredIndex === null ? '' : hoveredIndex === index ? 'opacity-100' : 'opacity-50'}`}
+              onClick={() => handleImageClick(index)}
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
             >
-              &times;
-            </button>
+              <img src={image.src} alt={image.name} className="w-36 h-auto cursor-pointer rounded-full mb-2" />
+              <h3 className="text-center mt-2 font-bold text-[12px]">{image.name}</h3>
 
-            <div className="flex justify-around gap-20 items-center">
-            <img src={image.src} alt={image.name} className="w-44 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
-                {/* <p className="text-xl mb-3 font-semibold">About</p> */}
-               <div>
-               <h4 className="mb-4 font-medium text-2xl text-center">
-                  {tabContents[index]?.name}
-                </h4>
-                <p className="text-md font-medium leading-7">
-                  {tabContents[index]?.about}
-                </p>
-               </div>
-            </div>
-                <p className="text-lg font-semibold pt-5">Journey</p>
-                <div className="v-progress font-medium">
-                  <div className="line-container">
-                    <div className="progress-line mt-2">
-                      {tabContents[index]?.progress.map(
-                        (progressItem, progressIndex) => (
-                          <div className="status" key={progressIndex}>
-                            <div
-                              className={`dot ${
-                                progressItem.completed ? "completed" : ""
-                              } ${
-                                progressIndex ===
-                                tabContents[index].progress.length - 1
-                                  ? "current"
-                                  : ""
-                              }`}
-                            ></div>
-                            <p className="text-[12px]">{progressItem.year}</p>
-                            <p className="text-[14px] font-medium md:pe-0 pe-2">
-                              {progressItem.company + " "}
-                            </p>
-                            {progressIndex !==
-                              tabContents[index].progress.length - 1 && (
-                              <div className="line"></div>
-                            )}
-                          </div>
-                        )
-                      )}
+              {tooltip === index && (
+                <div className="fixed bottom-20 left-1/2 md:w-[98%] mb-5 transform z-50 h-auto py-16 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
+                  <button
+                    onClick={handleCloseTooltip}
+                    className="absolute top-8 right-16 text-5xl font-bold"
+                  >
+                    &times;
+                  </button>
+
+                  <div className="flex justify-around gap-20 items-center">
+                    <img src={image.src} alt={image.name} className="w-44 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
+                    <div>
+                      <h4 className="mb-4 font-medium text-2xl text-center">
+                        {tabContents[index]?.name}
+                      </h4>
+                      <p className="text-md font-medium leading-7">
+                        {tabContents[index]?.about}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-lg font-semibold pt-5">Journey</p>
+                  <div className="v-progress font-medium">
+                    <div className="line-container">
+                      <div className="progress-line mt-2">
+                        {tabContents[index]?.progress.map(
+                          (progressItem, progressIndex) => (
+                            <div className="status" key={progressIndex}>
+                              <div
+                                className={`dot ${progressItem.completed ? "completed" : ""} ${progressIndex === tabContents[index].progress.length - 1 ? "current" : ""}`}
+                              ></div>
+                              <p className="text-[12px]">{progressItem.year}</p>
+                              <p className="text-[14px] font-medium md:pe-0 pe-2">
+                                {progressItem.company + " "}
+                              </p>
+                              {progressIndex !== tabContents[index].progress.length - 1 && (
+                                <div className="line"></div>
+                              )}
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-        )}
+              )}
+            </div>
+          ))}
+        </div>
       </div>
-    ))}
-  </div>
-</div>
 
-<div className="md:hidden">
-<Partners_mobile />
-</div>
-</>
-
+      <div className="md:hidden">
+        <Partners_mobile />
+      </div>
+    </>
   );
 };
 

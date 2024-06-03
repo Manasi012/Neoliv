@@ -118,7 +118,7 @@ funding.
           data-aos-duration="1000"
         >
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsseef5Page13.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwyqxy9zPage13.jpg"
             alt="finance"
             className=""
           />

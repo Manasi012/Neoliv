@@ -47,7 +47,7 @@ const Team = () => {
     Partnership unites the team through a greater alignment of interest and integrates an entrepreneurial culture throughout the platform.
     </li>
     <li  data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1000">
-    09 equity partners in the business to date.
+    09 equity partners with vast industry experience in the business to date.
     </li>
   </ul>
 </div>
@@ -55,14 +55,14 @@ const Team = () => {
 <div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
 <h2 className="text-3xl font-medium">Partner’s Depth of Experience</h2>
   <ul className='md:pt-0 md:ml-0 ml-4 md:pe-10 pe-2 font-medium list-disc leading-8 space-y-7'>
+  <li  data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
+    Held leadership positions in listed Indian and International real estate developers.
+    </li>
     <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
     Collective 100+ years in capital raise, business development, corporate governance, project execution and customer satisfaction.
     </li>
-    <li  data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
-    Held leadership positions in listed Indian and International real estate developers.
-    </li>
     <li  data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1000">
-    Bring to the table strong relationship with land-owners, distribution channel, banking & liaisoning agencies.
+    Strong relationship with land-owners, distribution channel, banking & liaisoning agencies.
     </li>
   </ul>
 </div>
