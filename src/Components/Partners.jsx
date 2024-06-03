@@ -145,7 +145,7 @@ const Partners = () => {
   return (
 <>
 <div className="container mx-auto p-4 hidden md:block">
-  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-4">
+  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
     {images.map((image, index) => (
       <div
         key={index}
@@ -153,33 +153,36 @@ const Partners = () => {
         onClick={() => handleImageClick(index)}
         style={{ transition: "box-shadow 0.3s" }}
       >
-        <img src={image.src} alt={image.name} className="w-full h-auto cursor-pointer" />
-        <h3 className="text-center mt-2 font-bold text-sm">{image.name}</h3>
+        <img src={image.src} alt={image.name} className="w-36 h-auto cursor-pointer border-4 border-indigo-900 rounded-full" />
+        <h3 className="text-center mt-2 font-bold text-[12px]">{image.name}</h3>
        <div className="flex justify-between items-center gap-2 pt-2 cursor-pointer">
-       <p className="text-center">{image.Description}</p>
+       <p className="text-center text-[14px]">{image.Description}</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
 </svg>
        </div>
 
         {tooltip === index && (
-          <div className="fixed top-0 left-1/2 md:w-[98%] my-3  transform z-50 h-[96%] py-20 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
+          <div className="fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-auto py-16 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
             <button
               onClick={handleCloseTooltip}
               className="absolute top-8 right-16 text-5xl font-bold"
             >
               &times;
             </button>
-            <div className="text-left mb-4 scrollbar" id="style-8">
-              <div className="force-overflow">
-                <img src={image.src} alt={image.name} className="w-52 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
+
+            <div className="flex justify-around gap-20 items-center">
+            <img src={image.src} alt={image.name} className="w-52 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
                 {/* <p className="text-xl mb-3 font-semibold">About</p> */}
-                <h4 className="mb-2 font-bold text-lg text-center">
+               <div>
+               <h4 className="mb-4 font-medium text-2xl text-center">
                   {tabContents[index]?.name}
                 </h4>
                 <p className="text-md font-medium leading-7">
                   {tabContents[index]?.about}
                 </p>
+               </div>
+            </div>
                 <p className="text-lg font-semibold pt-5">Journey</p>
                 <div className="v-progress font-medium">
                   <div className="line-container">
@@ -212,8 +215,6 @@ const Partners = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
         )}
       </div>
     ))}
