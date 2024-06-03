@@ -11,44 +11,6 @@ const Herosection = () => {
       A Venture backed by SEBI Approved fund, 360 ONE(formerly IIFL Wealth) and Mohit Malhotra (Ex MD and CEO of Godrej Properties)
       </h2>
     </div> */}
-      <div className="relative">
-        <div className="hidden md:block">
-          <img
-            src={BannerImage}
-            alt="bannerimage"
-            className="w-full h-screen"
-          />
-        </div>
-        <div className="md:hidden">
-          <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwsxmvqi450x650-Banner-image.jpg"
-            alt="bannerimage"
-            className="w-full h-screen"
-          />
-        </div>
-        <div className="absolute inset-0 bg-black opacity-70"></div>
-
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
-          <h1
-            className="text-white uppercase md:text-3xl md:-mt-[22rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
-          >
-            India’s foremost integrated fund led residential real estate developer
-          </h1>
-          <div className="absolute bottom-0">
-            <p
-              className="text-center md:px-16 px-5 py-8  text-white md:leading-7 leading-6 font-light md:text-xl text-sm"
-              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
-            >
-              NeoLiv, A unique integrated residential real estate platform with
-              both fund management business and an in house development arm has
-              been founded by Mohit Malhotra (ex MD & CEO of Godrej Properties),
-              top industry experts and 360 ONE (Formerly IIFL Wealth)- India’s
-              leading wealth management firm with more than USD 50 Bn AUM.
-            </p>
-          </div>
-        </div>
-      </div>
 
       {/* <div className="relative">
         <div className="hidden md:block">
@@ -100,7 +62,7 @@ const Herosection = () => {
         </div>
         <div className="md:hidden">
           <img
-             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwt7et4d450x650-Without-Symbol.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwt7et4d450x650-Without-Symbol.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
@@ -109,15 +71,15 @@ const Herosection = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
           <h1
-            className="text-white uppercase md:text-3xl md:-mt-[28rem] -mt-80 md:leading-[60px] leading-normal md:font-[500] font-semibold text-xl px-2"
+            className="text-white uppercase md:text-xl md:-mt-[27rem] -mt-80 md:leading-[50px] leading-normal font-normal text-sm px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
-            India’s foremost integrated fund led
-            residential real estate developer
+            India’s foremost integrated fund led residential real estate
+            developer
           </h1>
           <div className="absolute bottom-0">
             <p
-              className="text-center md:px-16 px-5 py-8  text-white md:leading-7 leading-6 font-light md:text-xl text-sm"
+              className="text-center md:px-10 px-3 py-20 text-white md:leading-5 leading-4 font-light md:text-sm text-xs"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
             >
               NeoLiv, A unique integrated residential real estate platform with
