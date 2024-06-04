@@ -67,7 +67,6 @@ body {
   justify-content: space-between;
 }
 
-/* New styling for dashed lines */
 .line-container .progress-line::before {
   content: '';
   position: absolute;
@@ -99,10 +98,8 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #3557A3;
-  /* Changed to blue */
+  background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
   border: none;
-  /* Removed border */
   cursor: pointer;
 }
 
@@ -115,6 +112,11 @@ body {
   transform-origin: center;
   transform: rotate(-45deg);
   z-index: 2;
+}
+
+/* Change the color of the last dot to red */
+.line-container .status .dot.last {
+  background: green;
 }
 
 .tooltip-container {
@@ -135,7 +137,6 @@ body {
   width: 620px;
   /* Adjust the width as needed */
 }
-
 @media (min-width: 768px) {
   .progress-line {
     justify-content: flex-start;

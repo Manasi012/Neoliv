@@ -64,7 +64,7 @@ const Partners_mobile = () => {
     },
     {
       name: "Chandan Kar",
-      about: "Successfully launched more than 40 Mn sq.ft. Held leadership positions with Godrej and Prestige. Passionate about sustainable development.",
+      about: "Successfully launched more than 40 Mn sq.ft. Held leadership positions with Godrej. Passionate about sustainable development.",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },

@@ -18,21 +18,53 @@ const Partners = () => {
   };
 
   const images = [
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png", name: "Harshwardhan Prasad", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png", name: "Siddharth Kolte", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png", name: "Chandan Kar", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png", name: "Bhasker Jain", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png", name: "Siddharth Jain", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png", name: "Tej Ingle", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png", name: "Hariprakash Pandey", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png", name: "Viral Vora", Description: "Partner" },
-   
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png",
+      name: "Harshwardhan Prasad",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png",
+      name: "Siddharth Kolte",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png",
+      name: "Chandan Kar",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png",
+      name: "Bhasker Jain",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png",
+      name: "Siddharth Jain",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png",
+      name: "Tej Ingle",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png",
+      name: "Hariprakash Pandey",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png",
+      name: "Viral Vora",
+      Description: "Partner",
+    },
   ];
 
   const tabContents = [
     {
       name: "Harshwardhan Prasad",
-      about: "Has successfully secured projects with development potential exceeding over 26 Mn sq. ft. In NCR and Pune. He has held leadership positions with some of the biggest Indian developers.",
+      about:
+        "Has successfully secured projects with development potential exceeding over 26 Mn sq. ft. In NCR and Pune. He has held leadership positions with some of the biggest Indian developers.",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -41,7 +73,7 @@ const Partners = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
-    
+
     {
       name: "Siddharth Kolte",
       about:
@@ -69,7 +101,8 @@ const Partners = () => {
     },
     {
       name: "Chandan Kar",
-      about: "Successfully launched more than 40 Mn sq.ft. Held leadership positions with Godrej and Prestige. Passionate about sustainable development.",
+      about:
+        "Successfully launched more than 40 Mn sq.ft. Held leadership positions with Godrej. Passionate about sustainable development.",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },
@@ -84,7 +117,8 @@ const Partners = () => {
     },
     {
       name: "Bhasker Jain",
-      about: "Has over 25 years of experience in fund raising, new business development and operations management with extensive knowledge of financial markets.",
+      about:
+        "Has over 25 years of experience in fund raising, new business development and operations management with extensive knowledge of financial markets.",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -95,7 +129,8 @@ const Partners = () => {
     },
     {
       name: "Siddharth Jain",
-      about: "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
+      about:
+        "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
         { year: "2011", company: "Future First", completed: true },
         { year: "2014", company: "MBA", completed: true },
@@ -106,7 +141,8 @@ const Partners = () => {
     },
     {
       name: "Tej Ingle",
-      about: "Has over 15 years of experience with focus on real estate investment and private equity deals. Passionate about sports and exploring new travel destinations.",
+      about:
+        "Has over 15 years of experience with focus on real estate investment and private equity deals. Passionate about sports and exploring new travel destinations.",
       progress: [
         { year: "1997", company: "Architect Reza Kabul", completed: true },
         { year: "1999", company: "Gayatri Construction", completed: true },
@@ -121,7 +157,8 @@ const Partners = () => {
     },
     {
       name: "Hariprakash Pandey",
-      about: "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
+      about:
+        "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -132,89 +169,136 @@ const Partners = () => {
     },
     {
       name: "Viral P Vora",
-      about: "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+      about:
+        "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
       progress: [
-        { year: "1997", company: "Large Government Contractor", completed: true },
+        {
+          year: "1997",
+          company: "Large Government Contractor",
+          completed: true,
+        },
         { year: "2001", company: "Independent Contractor", completed: true },
         { year: "2005", company: "DLF", completed: true },
         { year: "2006", company: "Raheja Universal Ltd", completed: true },
-        { year: "2008", company: "Independent Practice With Real Estate LLP", completed: true },
+        {
+          year: "2008",
+          company: "Independent Practice With Real Estate LLP",
+          completed: true,
+        },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
-   
   ];
 
   return (
-<>
-<div className={`text-center md:my-2 md:mt-0 mt-12 relative ${clicked ? 'fixed top-0 left-0 h-full w-full bg-white z-50' : ''}`}>
+    <>
+      <div
+        className={`text-center md:my-2 md:mt-0 mt-12 relative ${
+          clicked ? "fixed top-0 left-0 h-full w-full bg-white z-50" : ""
+        }`}
+      >
         <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-5">
           Partners
         </h4>
       </div>
 
-      <div className={`mx-auto p-4 hidden md:block ${clicked ? 'fixed top-0 left-0 h-full w-screen z-50 bg-white' : ''}`}>
-        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              className={`flex flex-col items-center relative transition duration-300 ${hoveredIndex === null ? '' : hoveredIndex === index ? 'opacity-100' : 'opacity-50'}`}
-              onClick={() => handleImageClick(index)}
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
+      <div
+  className={`mx-auto p-4 hidden md:block ${
+    clicked ? "fixed top-0 left-0 h-full w-screen z-50 bg-white" : ""
+  }`}
+>
+  <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
+    {images.map((image, index) => (
+      <div
+        key={index}
+        className={`flex flex-col items-center relative transition duration-300 ${
+          hoveredIndex === null
+            ? ""
+            : hoveredIndex === index
+            ? "opacity-100"
+            : "opacity-50"
+        }`}
+        onClick={() => handleImageClick(index)}
+        onMouseEnter={() => setHoveredIndex(index)}
+        onMouseLeave={() => setHoveredIndex(null)}
+      >
+        <img
+          src={image.src}
+          alt={image.name}
+          className="w-36 h-auto cursor-pointer rounded-full mb-2"
+        />
+        <h3 className="text-center mt-2 font-bold text-[12px]">
+          {image.name}
+        </h3>
+
+        {tooltip === index && (
+          <div className="fixed bottom-20 left-1/2 md:w-[98%] mb-5 transform z-50 h-auto py-16 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
+            <button
+              onClick={handleCloseTooltip}
+              className="absolute top-8 right-16 text-5xl font-bold"
             >
-              <img src={image.src} alt={image.name} className="w-36 h-auto cursor-pointer rounded-full mb-2" />
-              <h3 className="text-center mt-2 font-bold text-[12px]">{image.name}</h3>
+              &times;
+            </button>
 
-              {tooltip === index && (
-                <div className="fixed bottom-20 left-1/2 md:w-[98%] mb-5 transform z-50 h-auto py-16 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
-                  <button
-                    onClick={handleCloseTooltip}
-                    className="absolute top-8 right-16 text-5xl font-bold"
-                  >
-                    &times;
-                  </button>
-
-                  <div className="flex justify-around gap-20 items-center">
-                    <img src={image.src} alt={image.name} className="w-44 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4" />
-                    <div>
-                      <h4 className="mb-4 font-medium text-2xl text-center">
-                        {tabContents[index]?.name}
-                      </h4>
-                      <p className="text-md font-medium leading-7">
-                        {tabContents[index]?.about}
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-lg font-semibold pt-5">Journey</p>
-                  <div className="v-progress font-medium">
-                    <div className="line-container">
-                      <div className="progress-line mt-2">
-                        {tabContents[index]?.progress.map(
-                          (progressItem, progressIndex) => (
-                            <div className="status" key={progressIndex}>
-                              <div
-                                className={`dot ${progressItem.completed ? "completed" : ""} ${progressIndex === tabContents[index].progress.length - 1 ? "current" : ""}`}
-                              ></div>
-                              <p className="text-[12px]">{progressItem.year}</p>
-                              <p className="text-[14px] font-medium md:pe-0 pe-2">
-                                {progressItem.company + " "}
-                              </p>
-                              {progressIndex !== tabContents[index].progress.length - 1 && (
-                                <div className="line"></div>
-                              )}
-                            </div>
-                          )
+            <div className="flex justify-around gap-20 items-center">
+              <img
+                src={image.src}
+                alt={image.name}
+                className="w-44 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4"
+              />
+              <div>
+                <h4 className="mb-4 font-medium text-2xl text-center">
+                  {tabContents[index]?.name}
+                </h4>
+                <p className="text-md font-medium leading-7">
+                  {tabContents[index]?.about}
+                </p>
+              </div>
+            </div>
+            <p className="text-lg font-semibold pt-5">Journey</p>
+            <div className="v-progress font-medium">
+              <div className="line-container">
+                <div className="progress-line mt-2">
+                  {tabContents[index]?.progress.map(
+                    (progressItem, progressIndex) => (
+                      <div className="status" key={progressIndex}>
+                        <div
+                          className={`dot ${
+                            progressItem.completed ? "completed" : ""
+                          } ${
+                            progressIndex ===
+                            tabContents[index].progress.length - 1
+                              ? "current last"
+                              : ""
+                          }`}
+                        ></div>
+                        <p className="text-[11px]  font-semibold">{progressItem.year}</p>
+                        <p className="text-[12px] font-semibold md:pe-0">
+                          {progressItem.company + " "}
+                        </p>
+                        {progressIndex !==
+                          tabContents[index].progress.length - 1 && (
+                          <div
+                            className={`line ${
+                              progressIndex ===
+                              tabContents[index].progress.length - 2
+                                ? "last-line"
+                                : ""
+                            }`}
+                          ></div>
                         )}
                       </div>
-                    </div>
-                  </div>
+                    )
+                  )}
                 </div>
-              )}
+              </div>
             </div>
-          ))}
-        </div>
+          </div>
+        )}
       </div>
+    ))}
+  </div>
+</div>
 
       <div className="md:hidden">
         <Partners_mobile />
