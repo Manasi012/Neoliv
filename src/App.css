@@ -89,17 +89,19 @@ body {
   transition: width 1s ease-in-out;
 }
 
+
 .line-container .status {
   position: relative;
-  top: -9.5px;
+  top: -9px;
+  padding-right: 0.3rem;
 }
 
 .line-container .status .dot {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
-  border: none;
+  background: green; 
+ border: none;
   cursor: pointer;
 }
 
@@ -114,9 +116,16 @@ body {
   z-index: 2;
 }
 
-/* Change the color of the last dot to red */
+/* Change the color of the last dot to red
 .line-container .status .dot.last {
-  background: green;
+  background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
+} */
+.line-container .status .dot.last {
+  background: url('./Assets/imgs/final-logo.png') no-repeat center center;
+  background-size: cover;
+  width: 3.6rem;
+  margin-left: -0.3rem;
+  border-radius: 0;
 }
 
 .tooltip-container {

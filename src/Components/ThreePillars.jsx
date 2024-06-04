@@ -22,7 +22,7 @@ const ThreePillars = () => {
         <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
-                Founded by Mohit Malhotra former (ex MD & CEO of Godrej Properties)
+                Founded by Mohit Malhotra (ex MD & CEO of Godrej Properties)
                 </li>
                 <li>
                 100+ years cumulative experience
@@ -50,7 +50,7 @@ const ThreePillars = () => {
         <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
-                Fund backed model 360 One as equity investor
+                Fund backed model - 360 ONE as Strategic equity investor
                 </li>
                 <li>
                 SEBI approved CAT II domestic equity AIF
@@ -78,7 +78,7 @@ const ThreePillars = () => {
         <div className='my-10 text-white text-lg'>
             <ul className='list-disc space-y-10 ml-4'>
                 <li>
-                Tech-enabled interface
+                Futuristic tech-enabled consumer interface and solution 
                 </li>
                 <li>
                 Product and quality excellence

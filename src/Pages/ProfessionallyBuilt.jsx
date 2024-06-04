@@ -24,7 +24,7 @@ const ProfessionallyBuilt = () => {
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlsmweyv6Creativeland-asiaa.png",
     },
     {
-      description: "Brand Creative Partner",
+      description: "Consumer Research Partner",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlsloury9Ipsos-01.png",
     },

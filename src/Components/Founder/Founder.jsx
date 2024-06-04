@@ -27,7 +27,7 @@ const Founder = () => {
             <p className='text-center'>MD & CEO of <br /> Godrej Properties <br /> since 2017</p>
             </div>
             <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
-            <p className='text-center'>Previously Head of Business Development, Head of Region and Executive Director</p>
+            <p className='text-center'>Executed 90+ projects and 200 Mn Sqft of pan India residential development</p>
             </div>
             <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
               <p className='text-center'>BE & MBA Strategy and Marketing

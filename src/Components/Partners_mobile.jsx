@@ -27,7 +27,9 @@ const Partners_mobile = () => {
   const tabContents = [
     {
       name: "Harshwardhan Prasad",
-      about: "Has successfully secured projects with development potential exceeding over 26 Mn sq. ft. In NCR and Pune. He has held leadership positions with some of the biggest Indian developers.",
+      about:
+        `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential.
+        Held leadership positions with Indian developers`,
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -36,11 +38,11 @@ const Partners_mobile = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
-    
+
     {
       name: "Siddharth Kolte",
       about:
-        "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn sq.ft. Held leadership positions with Indian and International developers. His passion for cricket is unwavering, he thrives on travel adventures, and finds Inspiration in the pages of marketing books.",
+        `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making`,
       progress: [
         { year: "1997", company: "MBA", completed: true },
         { year: "2000", company: "Exam Bank", completed: true },
@@ -64,7 +66,8 @@ const Partners_mobile = () => {
     },
     {
       name: "Chandan Kar",
-      about: "Successfully launched more than 40 Mn sq.ft. Held leadership positions with Godrej. Passionate about sustainable development.",
+      about:
+        "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },
@@ -79,7 +82,8 @@ const Partners_mobile = () => {
     },
     {
       name: "Bhasker Jain",
-      about: "Has over 25 years of experience in fund raising, new business development and operations management with extensive knowledge of financial markets.",
+      about:
+        "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn +. In his last role as CBO, was managing P&L of USD 250 Mn",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -90,7 +94,8 @@ const Partners_mobile = () => {
     },
     {
       name: "Siddharth Jain",
-      about: "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn sq. ft. of development potential. He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
+      about:
+        "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn Sqft of development potential.",
       progress: [
         { year: "2011", company: "Future First", completed: true },
         { year: "2014", company: "MBA", completed: true },
@@ -101,7 +106,8 @@ const Partners_mobile = () => {
     },
     {
       name: "Tej Ingle",
-      about: "Has over 15 years of experience with focus on real estate investment and private equity deals. Passionate about sports and exploring new travel destinations.",
+      about:
+        "Has successfully designed 48 Mn Sq ft of high quality residential, township, retail, commercial developments.",
       progress: [
         { year: "1997", company: "Architect Reza Kabul", completed: true },
         { year: "1999", company: "Gayatri Construction", completed: true },
@@ -116,7 +122,8 @@ const Partners_mobile = () => {
     },
     {
       name: "Hariprakash Pandey",
-      about: "Has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.​",
+      about:
+        "Proven track record of 22 years in fund raise, financial business planning, risk management, compliance, taxation.​",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -127,13 +134,22 @@ const Partners_mobile = () => {
     },
     {
       name: "Viral P Vora",
-      about: "Has extensive experience of more than 32 years as a retainer legal, advocate and independent contractor. He is on the Rolls of Solicitors in England & Wales, presently non-practising. He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+      about:
+        "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
       progress: [
-        { year: "1997", company: "Large Government Contractor", completed: true },
+        {
+          year: "1997",
+          company: "Large Government Contractor",
+          completed: true,
+        },
         { year: "2001", company: "Independent Contractor", completed: true },
         { year: "2005", company: "DLF", completed: true },
         { year: "2006", company: "Raheja Universal Ltd", completed: true },
-        { year: "2008", company: "Independent Practice With Real Estate LLP", completed: true },
+        {
+          year: "2008",
+          company: "Independent Practice With Real Estate LLP",
+          completed: true,
+        },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
