@@ -173,17 +173,17 @@ body {
     border: 1px solid rgb(255, 255, 255);
     background-color: #F5F5F5;
   }
-
+  
   #style-8::-webkit-scrollbar {
     width: 10px;
     background-color: #F5F5F5;
   }
-
+  
   #style-8::-webkit-scrollbar-thumb {
     background-color: #112E50;
     border-radius: 2rem;
   }
-
+  
   .scrollbar {
     float: left;
     height: 80vh;
@@ -195,11 +195,11 @@ body {
     background: #fff;
     overflow-y: scroll;
   }
-
+  
   .force-overflow {
     min-height: 80vh;
   }
-
+  
   :root {
     --body-background-color: #fff;
     --v-progress-left: 50px;
@@ -208,11 +208,12 @@ body {
     --v-progress-line-width: 3px;
     --v-progress-gap: 13px;
   }
-
+  
   .v-progress ul {
     list-style: none;
+    padding-left: 0;
   }
-
+  
   .v-progress-item {
     position: relative;
     margin: 1rem 0;
@@ -221,7 +222,7 @@ body {
     line-height: 21px;
     margin-bottom: 3rem;
   }
-
+  
   .v-progress-item:before {
     content: "";
     display: inline-block;
@@ -229,14 +230,15 @@ body {
     left: calc(-2px - var(--v-progress-left));
     width: 17px;
     height: 17px;
+    z-index: 99;
     border-radius: 50%;
-    background-color: #3557A3 !important;
+    background-color: green !important;
   }
-
+  
   .v-progress-item.completed:before {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
   }
-
+  
   .v-progress-item:not(:last-child):after {
     content: "";
     display: inline-block;
@@ -246,26 +248,41 @@ body {
     left: calc(0px - var(--v-progress-left) + var(--v-progress-item-height-width) / 2 - var(--v-progress-line-width) / 2);
     border-left: var(--v-progress-line-width) solid #000000;
   }
-
+  
   .v-progress-item.completed:not(:last-child):after {
-    border-left: var(--v-progress-line-width) solid #3557A3;
+    border-left: 2px solid gray;
   }
-
+  
   .v-progress-item.completed:after,
   .v-progress-item.inprogress:after {
     position: absolute;
     content: "";
     top: 0;
     width: var(--v-progress-line-width);
-    height: 4rem;
-    background-color: #3557A3;
+    height: 4.2rem;
+    /* background-color: #3557A3; */
     left: calc(0px - var(--v-progress-left) + var(--v-progress-item-height-width) / 2 - var(--v-progress-line-width) / 2);
     z-index: 1;
   }
-
+  
+  .v-progress-item:last-child:before {
+    content: "";
+    position: absolute;
+    left: calc(-13px - var(--v-progress-left));
+    top: -10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url('./Assets/imgs/final-logo.png') no-repeat center center;
+    background-size: contain;
+    background-color: transparent !important;
+    border-radius: 0;
+  }
+  
   .v-progress-item:last-child:after {
     content: none;
   }
+  
+  
 }
 
 @media (min-width:390px) and (max-width:844px) {

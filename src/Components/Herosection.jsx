@@ -78,7 +78,7 @@ const Herosection = () => {
         </div>
         <div className="md:hidden">
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwyszkl2450x650.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx097mmfnewupdeted.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
@@ -87,15 +87,15 @@ const Herosection = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
           <h1
-            className="text-white uppercase md:text-xl md:-mt-[27rem]  -mt-80 md:leading-[50px] leading-normal font-medium text-sm px-2"
+            className="text-white uppercase md:text-xl md:-mt-[27rem]  -mt-[29rem] md:leading-[50px] leading-normal font-medium text-sm px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
             India’s foremost integrated fund led residential real estate
             developer
           </h1>
-          <div className="absolute -bottom-8">
+          <div className="absolute md:-bottom-8 bottom-2">
             <p
-              className="text-center md:px-0 px-3 py-20 text-white md:leading-7 leading-4 font-medium md:text-[16px]"
+              className="text-center md:px-0 px-3 py-20 text-white md:leading-7 leading-5 font-medium md:text-[16px] text-sm"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
             >
               We are a unique integrated residential real estate platform with

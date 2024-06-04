@@ -16,7 +16,7 @@ const OurPurpose = () => {
         <img src={Birdsfly} alt="purpose" className='w-full md:h-[500px] h-auto' />
       </div>
       <div className="md:w-1/2 md:h-[500px] h-[440px] relative md:p-20 px-8 py-0 bg_indigo md:-ml-4 md:rounded-none rounded-xl md:-m-0 -mt-5 text-white" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
-        <img src={FinalLogo} alt="FinalLogo" className='absolute -left-[6.5rem] mobile-center top-40 opacity-30 w-52'/>
+        <img src={FinalLogo} alt="FinalLogo" className='absolute md:-left-[6.5rem] mobile-center md:top-40 opacity-30 md:w-52 w-40'/>
 
         <h2 className="text-4xl md:mt-0 mt-32 font-normal" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">Our Purpose</h2>
         <p className='md:pt-36 pt-20 pb-4 md:me-56 lg:me-0 text-xl leading-8' data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">To re-ignite the joy of home owning and living experience, by being the most customer-centric developer in India</p>

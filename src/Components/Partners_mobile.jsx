@@ -13,22 +13,52 @@ const Partners_mobile = () => {
   };
 
   const images = [
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png", name: "Harshwardhan Prasad", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png", name: "Siddharth Kolte", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png", name: "Chandan Kar", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png", name: "Bhasker Jain", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png", name: "Siddharth Jain", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png", name: "Tej Ingle", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png", name: "Hariprakash Pandey", Description: "Partner" },
-    { src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png", name: "Viral Vora", Description: "Partner" },
-   
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png",
+      name: "Harshwardhan Prasad",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png",
+      name: "Siddharth Kolte",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png",
+      name: "Chandan Kar",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png",
+      name: "Bhasker Jain",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png",
+      name: "Siddharth Jain",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png",
+      name: "Tej Ingle",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png",
+      name: "Hariprakash Pandey",
+      Description: "Partner",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png",
+      name: "Viral Vora",
+      Description: "Partner",
+    },
   ];
 
   const tabContents = [
     {
       name: "Harshwardhan Prasad",
-      about:
-        `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential. Held leadership positions with Indian developers`,
+      about: `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential. Held leadership positions with Indian developers`,
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -40,8 +70,7 @@ const Partners_mobile = () => {
 
     {
       name: "Siddharth Kolte",
-      about:
-        `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making`,
+      about: `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making`,
       progress: [
         { year: "1997", company: "MBA", completed: true },
         { year: "2000", company: "Exam Bank", completed: true },
@@ -152,7 +181,6 @@ const Partners_mobile = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
-   
   ];
 
   return (
@@ -179,10 +207,15 @@ const Partners_mobile = () => {
                 <div className="text-left mb-4 scrollbar" id="style-8">
                   <div className="force-overflow">
                     {/* <p className="text-xl mb-3 font-semibold">About</p> */}
-                    <h4 className="mb-2 font-bold text-lg">
+                    <img
+                src={image.src}
+                alt={image.name}
+                className="w-32 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4"
+              />
+                    <h4 className="mb-2 font-bold text-lg text-center">
                       {tabContents[index]?.name}
                     </h4>
-                    <p className="text-md font-medium">
+                    <p className="text-md text-center font-medium">
                       {tabContents[index]?.about}
                     </p>
                     <p className="text-lg font-semibold pt-5">Journey</p>
