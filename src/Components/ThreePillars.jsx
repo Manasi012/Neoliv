@@ -15,7 +15,7 @@ const ThreePillars = () => {
        <div className="flex flex-wrap mx-16">
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#14142e]">1</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#28285a]">1</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Professionally <br />Built</p>
         </div>
@@ -43,7 +43,7 @@ const ThreePillars = () => {
     
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"  data-aos="fade-up" data-aos-delay="1500" data-aos-duration="800">
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#14142e]">2</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#28285a]">2</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Financially <br />Secure</p>
         </div>
@@ -71,7 +71,7 @@ const ThreePillars = () => {
     
     <div className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28" data-aos="fade-up" data-aos-delay="1900" data-aos-duration="800" id='ComePillars'>
       <div className="p-6 rounded-lg">
-        <h2 className="text-8xl font-extrabold mb-2 text-[#14142e]">3</h2>
+        <h2 className="text-8xl font-extrabold mb-2 text-[#28285a]">3</h2>
         <div className='text-3xl text-white font-medium -mt-14 ml-1'>
         <p>Customer <br />Centric</p>
         </div>
