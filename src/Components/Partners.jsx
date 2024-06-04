@@ -171,7 +171,7 @@ const Partners = () => {
     {
       name: "Viral P Vora",
       about:
-        "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
+        "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
       progress: [
         {
           year: "1997",
