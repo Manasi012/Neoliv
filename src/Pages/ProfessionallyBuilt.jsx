@@ -1,8 +1,4 @@
 import React from "react";
-import Shadow from "../Assets/imgs/Shadow.png";
-import leftshawdo from "../Assets/imgs/leftshawdo.png";
-import BackButton from "../Components/BackButton";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const ProfessionallyBuilt = () => {

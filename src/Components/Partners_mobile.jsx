@@ -28,8 +28,7 @@ const Partners_mobile = () => {
     {
       name: "Harshwardhan Prasad",
       about:
-        `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential.
-        Held leadership positions with Indian developers`,
+        `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential. Held leadership positions with Indian developers`,
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -67,7 +66,7 @@ const Partners_mobile = () => {
     {
       name: "Chandan Kar",
       about:
-        "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers",
+        "LLaunched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },
@@ -83,7 +82,7 @@ const Partners_mobile = () => {
     {
       name: "Bhasker Jain",
       about:
-        "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn +. In his last role as CBO, was managing P&L of USD 250 Mn",
+        "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn +. In his last role as CBO, was managing P&L of USD 250 Mn",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -95,7 +94,7 @@ const Partners_mobile = () => {
     {
       name: "Siddharth Jain",
       about:
-        "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn Sqft of development potential.",
+        "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn Sqft of development potential",
       progress: [
         { year: "2011", company: "Future First", completed: true },
         { year: "2014", company: "MBA", completed: true },
@@ -135,7 +134,7 @@ const Partners_mobile = () => {
     {
       name: "Viral P Vora",
       about:
-        "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
+        "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
       progress: [
         {
           year: "1997",
