@@ -71,7 +71,7 @@ const Herosection = () => {
 
         <div className="hidden md:block">
           <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx00in8mnewswks.jpghttps://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx00ovr3neewdesk.jpg"
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx00ovr3neewdesk.jpg"
             alt="bannerimage"
             className="w-full h-screen"
           />
