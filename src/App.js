@@ -23,7 +23,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="App overflow-hidden">
+    <div className="App overflow-hidden scroll-smooth">
       {/* <Bluenavbar /> */}
       {/* {location.pathname === '/' ? <Bluenavbarcopy /> : <Bluenavbar />} */}
       {location.pathname === '/' ? <Headercopy /> : <Header />}

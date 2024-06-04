@@ -66,7 +66,7 @@ const Headercopy = () => {
             <HashLink
               to="/#about"
               smooth
-              className="text-white  hover:text-blue-700 duration-500"
+              className="text-white  hover:text-blue-700 duration-500 scroll-smooth"
             >
               ABOUT US
             </HashLink>
@@ -79,7 +79,7 @@ const Headercopy = () => {
             <HashLink
               to="/#threePillars"
               smooth
-              className="text-white  hover:text-blue-700 duration-500"
+              className="text-white  hover:text-blue-700 duration-500 scroll-smooth"
             >
               NEOLIV PILLARS
             </HashLink>
@@ -92,7 +92,7 @@ const Headercopy = () => {
             <HashLink
               to="/#team"
               smooth
-              className="text-white  hover:text-blue-700 duration-500"
+              className="text-white  hover:text-blue-700 duration-500 scroll-smooth"
             >
               TEAM
             </HashLink>
@@ -105,7 +105,7 @@ const Headercopy = () => {
             <HashLink
               to="/#news&insights"
               smooth
-              className="text-white  hover:text-blue-700 duration-500"
+              className="text-white  hover:text-blue-700 duration-500 scroll-smooth"
             >
               NEWS & INSIGHTS
             </HashLink>

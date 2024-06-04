@@ -102,7 +102,7 @@ const Partners = () => {
     {
       name: "Chandan Kar",
       about:
-        "LLaunched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers",
+        "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },
@@ -240,7 +240,7 @@ const Partners = () => {
               &times;
             </button>
 
-            <div className="flex justify-between gap-28 items-center">
+            <div className="flex justify-start items-center gap-10">
               <div>
               <img
                 src={image.src}

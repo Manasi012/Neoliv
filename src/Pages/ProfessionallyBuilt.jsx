@@ -15,7 +15,7 @@ const ProfessionallyBuilt = () => {
       pdfUrl: "https://neoliv.in/docs/CEO_Letter_July2023.pdf",
     },
     {
-      description: "Brand Creative Partner",
+      description: "Brand Strategy Partner",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlsmweyv6Creativeland-asiaa.png",
     },
@@ -59,7 +59,7 @@ const ProfessionallyBuilt = () => {
       <HashLink
         to="/#threePillars"
         smooth
-        className="bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around "
+        className="scroll-smooth bg-blue-950 text-white z-40  top-[25%] rotate-90 -left-8 font-bold py-1 my-0.5 px-2 fixed flex items-center justify-around "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

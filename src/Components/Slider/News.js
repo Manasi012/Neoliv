@@ -7,7 +7,7 @@ const cardData = [
     description: 'Mohit Malhotra’s official confirmationon....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png', 
     buttonText: 'News', 
-    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
+    pdfUrl: 'https://neoliv.in/docs/vccircle.pdf' 
   },
   { 
     description: 'Mohit Malhotra, sharing his expert opinion....', 
@@ -31,7 +31,7 @@ const cardData = [
     description: 'Mohit Malhotra, the former managing director....', 
     imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg', 
     buttonText: 'News', 
-    pdfUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4khzwlh7dxa69financial-express_11zon.jpg' 
+    pdfUrl: 'https://neoliv.in/docs/financial.pdf' 
   },
 ];
 
