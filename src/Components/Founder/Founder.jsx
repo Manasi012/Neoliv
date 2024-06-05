@@ -7,7 +7,7 @@ const Founder = () => {
   return (
     <>
     
-    <div className='md:px-16 px-3 bg_light md:pt-24 mt-20'>
+    <div className='md:px-16 px-3 bg_light md:pt-24 mt-20 tabp_2'>
     <div className="grid grid-cols-1 md:grid-cols-1 items-center pt-20 md:pb-8">
   <div className="mx-auto">
     <div className="text-center">
@@ -19,7 +19,7 @@ const Founder = () => {
 
 
   <div className='hidden md:block'> 
- <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
+ <div className="md:flex justify-center items-center md:gap-5 tab_margin gap-0 md:mx-10 mx-5">
         <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
             <p className='text-center'>Joined Godrej Properties in 2010, stepped down on December 31, 2022</p>
             </div>
@@ -40,7 +40,7 @@ const Founder = () => {
         </div>
 
    <div className='hidden md:block bg-[#F4F4FB]'>
-   <div className='flex justify-center bg_light py-0' data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+   <div className='flex justify-center bg_light md:py-5 py-0' data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
         <img src={FounderImage} alt="FounderImage" className='md:w-[50%] w-full'/>
     </div>
    </div>

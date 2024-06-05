@@ -283,9 +283,12 @@ body {
   }
 }
 
+
+/* As per Client Device */
+
 @media (max-width:1500px) {
   .padding-sm{
-    padding: 6rem 4rem !important;
+    padding: 6rem 2rem !important;
   }
   iframe{
     width: 40%;
@@ -297,8 +300,38 @@ body {
   }
 }
 
+/* tablet */
 
-
+@media (min-width:1024px) and (max-width:1280px) {
+  .banner_tab{
+    height: 60vh;
+    width: 100%;
+  }
+  .tablet_headline{
+    margin-top: -26rem;
+  }
+  .tabp_2{
+    padding: 5rem 0;
+  }
+  .tab_margin{
+    margin: 0 2rem
+  }
+  .tab_left{
+    margin-left: 2rem;
+  }
+  .tab_pe{
+    padding-right: 0;
+  }
+  .tab_fixed{
+    bottom: 30rem;
+  }
+  .tab_footer{
+    width: 100%;
+  }
+  .tab_left_margin{
+    margin-left: 2.5rem;
+  }
+}
 
 @media (min-width:390px) and (max-width:844px) {
   .iphone {

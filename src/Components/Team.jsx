@@ -18,7 +18,7 @@ const Team = () => {
 <div className="text-center md:mt-5 pt-20 aos-init aos-animate relative z-50" id="team">
   <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pb-10">Key Management Team</h4>
 </div>
-<div className="flex flex-col md:flex-row md:mx-52 pt-10 md:px-0 px-4" >
+<div className="flex flex-col md:flex-row md:mx-52 tab_margin pt-10 md:px-0 px-4" >
       <div className="md:w-1/2  z-40"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
         <img src={Mohit} alt="mohit" className="md:w-3/4 w-full rounded-xl" />
       </div>
@@ -36,7 +36,7 @@ const Team = () => {
 
 
     
-<div className="flex flex-col md:flex-row md:mx-52 md:py-24 pt-10">
+<div className="flex flex-col md:flex-row md:mx-52 md:py-24 pt-10 tab_margin tab_left">
 <div className="md:w-1/2 p-12 bg-blue-950 -ml-4 space-y-9 z-20 text-white rounded-l-2xl"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
   <h2 className="md:text-[22px] text-3xl font-bold"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">Partnership Model</h2>
   <ul className='md:pt-10 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>

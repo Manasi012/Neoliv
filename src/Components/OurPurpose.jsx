@@ -8,7 +8,7 @@ import MiddleShawdo from '../Assets/imgs/MiddleShawdo.png';
 const OurPurpose = () => {
   return (
 
-    <div className="flex flex-col md:flex-row md:mx-40 px-3 relative">
+    <div className="flex flex-col md:flex-row md:mx-40  tab_margin px-3 relative">
           <div>
     {/* <img src={MiddleShawdo} alt="" className="absolute md:-top-80 w-screen -top-52" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"/> */}
 </div>

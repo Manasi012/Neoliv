@@ -18,7 +18,7 @@ const ThreePillars = () => {
         <div className="hidden md:block" id="Pillars">
           <div className="flex flex-wrap mx-16">
             <div
-              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"
+              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28 tab_pe"
               data-aos="fade-up"
               data-aos-delay="800"
               data-aos-duration="800"
@@ -67,7 +67,7 @@ const ThreePillars = () => {
             </div>
 
             <div
-              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"
+              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28 tab_pe"
               data-aos="fade-up"
               data-aos-delay="1500"
               data-aos-duration="800"
@@ -115,7 +115,7 @@ const ThreePillars = () => {
             </div>
 
             <div
-              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28"
+              className="w-full sm:w-1/2 md:w-1/3 p-4 pe-28 tab_pe"
               data-aos="fade-up"
               data-aos-delay="1900"
               data-aos-duration="800"

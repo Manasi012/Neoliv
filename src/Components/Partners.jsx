@@ -240,7 +240,7 @@ const Partners = () => {
         </h3>
 
         {tooltip === index && (
-          <div className="fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-[450px]  py-8 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
+          <div className="fixed tab_fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-[450px]  py-8 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
             <button
               onClick={handleCloseTooltip}
               className="absolute top-8 right-16 text-5xl font-bold"
