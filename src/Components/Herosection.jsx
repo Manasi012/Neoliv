@@ -87,7 +87,7 @@ const Herosection = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center md:mx-10">
           <h1
-            className="text-white uppercase md:text-xl md:-mt-[27rem]  -mt-[29rem] md:leading-[50px] leading-normal font-medium text-sm px-2"
+            className="text-white uppercase md:text-xl md:-mt-[29rem]  -mt-[29rem] md:leading-[50px] leading-normal font-medium text-sm px-2"
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
           >
             India’s foremost integrated fund led residential real estate

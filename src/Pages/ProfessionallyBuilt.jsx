@@ -99,8 +99,7 @@ const ProfessionallyBuilt = () => {
           </div>
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Previously Head of Business <br />Development, Head of Region <br /> and
-              Executive Director
+            Executed 90+ projects and 200 Mn Sqft of pan India residential development
             </p>
           </div>
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">

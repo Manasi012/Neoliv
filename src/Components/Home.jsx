@@ -7,6 +7,7 @@ import ThreePillars from './ThreePillars';
 import Team from './Team';
 import Partners from './Partners';
 import NewsInsights from './NewsInsights';
+import Partners_Images from './Partners_Images';
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
 <ThreePillars />
 <Team />
 <Partners />
+<Partners_Images />
 {/* <Insignia /> */}
 <NewsInsights />
     </>
