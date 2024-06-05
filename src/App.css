@@ -121,7 +121,7 @@ body {
   background: linear-gradient(90deg, #4752a9, #3557A3, #4752a9, #4752a9, #4E4EA4, #715CC9, #715CC9);
 } */
 .line-container .status .dot.last {
-  background: url('https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx1hxkl0logo_dot.jpg') no-repeat center center;
+  background: url('https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx1ivuebblue_dot_insignia.png') no-repeat center center;
   background-size: cover;
   width: 3.6rem;
   margin-left: -0.3rem;
@@ -272,7 +272,7 @@ body {
     top: -10px;
     width: 2.5rem;
     height: 2.5rem;
-    background: url('https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx1hxkl0logo_dot.jpg') no-repeat center center;
+    background: url('https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx1ivuebblue_dot_insignia.png') no-repeat center center;
     background-size: contain;
     background-color: transparent !important;
     border-radius: 0;
