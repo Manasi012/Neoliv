@@ -122,7 +122,7 @@ const Partners = () => {
       name: "Bhasker Jain",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, was managing P&L of USD 250 Mn.",
-        abouthobby:"e cherishes Ghazals and classical music, and exploring historical and cultural places fuels his wanderlust.",
+        abouthobby:"He cherishes Ghazals and classical music, and exploring historical and cultural places fuels his wanderlust.",
       progress: [
         { year: "2006", company: "MBA", completed: true },
         { year: "2009", company: "Godrej", completed: true },
