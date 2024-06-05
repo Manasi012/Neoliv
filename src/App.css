@@ -291,6 +291,10 @@ body {
     width: 40%;
     height: 130px;
   }
+  .sm_screen{
+    height: auto;
+    width: 100%;
+  }
 }
 
 

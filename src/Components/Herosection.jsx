@@ -73,7 +73,7 @@ const Herosection = () => {
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilx01kmq6neewdesk.jpg"
             alt="bannerimage"
-            className="w-full h-screen"
+            className="w-full h-screen sm_screen"
           />
         </div>
         <div className="md:hidden">
