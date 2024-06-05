@@ -91,7 +91,7 @@ const CustomerCentric = () => {
       </div>
       
 
-      <div className="gap-10 py-10 md:px-20 px-2 space-y-6">
+      <div className="gap-10 py-10 md:px-2 px-2 space-y-6">
       <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
         <div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <h5 className="font-bold text-md">Product and Quality</h5>

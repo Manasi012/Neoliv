@@ -281,9 +281,20 @@ body {
   .v-progress-item:last-child:after {
     content: none;
   }
-  
-  
 }
+
+@media (max-width:1500px) {
+  .padding-sm{
+    padding: 6rem 4rem !important;
+  }
+  iframe{
+    width: 40%;
+    height: 130px;
+  }
+}
+
+
+
 
 @media (min-width:390px) and (max-width:844px) {
   .iphone {

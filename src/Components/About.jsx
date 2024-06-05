@@ -34,7 +34,7 @@ const About = () => {
   return (
 <>
     
-    <div className="md:p-32 px-6 pt-28 md:pb-10 pb-20 relative" id="about">
+    <div className="md:p-32 padding-sm px-6 pt-28 md:pb-10 pb-20 relative" id="about">
       <div>
       <img src={leftshawdo} alt="" className="-mt-[57rem] absolute -left-[44rem] -top-96 w-full -z-10 opacity-100"/>
 </div>

@@ -82,9 +82,9 @@ const Partners = () => {
         abouthobby:"He relishes playing badminton, finds joy in music, and cherishes quality time spent with his family.",
       progress: [
         { year: "1997", company: "MBA", completed: true },
-        { year: "2000", company: "Exam Bank", completed: true },
-        { year: "2001", company: "JP Morgan Stanley", completed: true },
-        { year: "2003", company: "BNP PAribas", completed: true },
+        { year: "2000", company: "Exim Bank", completed: true },
+        { year: "2001", company: "JM Morgan Stanley", completed: true },
+        { year: "2003", company: "BNP Paribas", completed: true },
         {
           year: "2005",
           company: "Independent Financial Consultant",

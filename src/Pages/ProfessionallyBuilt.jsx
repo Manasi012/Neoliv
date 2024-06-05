@@ -85,7 +85,7 @@ const ProfessionallyBuilt = () => {
             experience
           </p>
         </div>
-        <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-10 lg:mx-20 mx-5 px-5 ">
+        <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-10 mx-5 px-5 ">
           <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
               Joined Godrej Properties in 2010,<br /> stepped down on <br /> December 31,
@@ -235,7 +235,7 @@ const ProfessionallyBuilt = () => {
                 alt={card.description}
                 className="w-28 mb-4 rounded-lg mx-auto"
               />
-              <p className="text-blue-950 font-semibold mb-2 md:text-lg text-sm">
+              <p className="text-blue-950 font-semibold mb-2 md:text-md text-sm">
                 {card.description}
               </p>
             </div>
