@@ -417,6 +417,12 @@ body {
     height: 15rem;
     padding: 0.6rem 1rem;
   }
+  .tab_card{
+    height: 47rem;
+  }
+  .tab_card p, h5{
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width:390px) and (max-width:844px) {

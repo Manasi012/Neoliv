@@ -15,7 +15,7 @@ const NovemberMedia = () => {
     },
     {
       description:
-        "FESTIVE SEASON FUELS ROBUST GROWTH IN MUMBAI’S REAL ESTATE MARKET",
+        "FESTIVE SEASON FUELS ROBUST GROWTH IN MUMBAI’S REAL....",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4kig1lpm8dau9Construction-Week-2560x2045.jpg",
       date: "November 29, 2023",
@@ -38,7 +38,7 @@ const NovemberMedia = () => {
         <BackButton />
       </div>
       <div className="md:mx-20 md:py-20 mx-5 py-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 md:gap-10 gap-2">
           {cardData.map((card, index) => (
             <div
               key={index}

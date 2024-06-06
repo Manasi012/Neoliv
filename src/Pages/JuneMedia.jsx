@@ -67,7 +67,7 @@ const JuneMedia = () => {
     },
     {
       description:
-        "KYC में NEOLIV का मैनेजमेंट, MID-INCOME REALTY PROJECT में निवेश करेगी NEOLIV | BUSINESS NEWS",
+        "KYC में NEOLIV का मैनेजमेंट, MID-INCOME REALTY PROJECT में निवेश करेगी NEOLIV ",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmi0z6yUntitled%20design%20-%202023-07-03T120211.812_11zon.png",
       date: "June 30, 2023",
@@ -109,7 +109,7 @@ const JuneMedia = () => {
     },
     {
       description:
-        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING FROM 360 ONE",
+        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING...",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmiepf4Untitled%20design%20-%202023-07-03T120433.749_11zon%20%281%29.png",
       date: "June 30, 2023",
@@ -118,7 +118,7 @@ const JuneMedia = () => {
     },
     {
       description:
-        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING FROM 360 ONE",
+        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING...",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmp5ocgUntitled%20design%20-%202023-07-03T153653.582.png",
       date: "June 30, 2023",
@@ -162,7 +162,7 @@ const JuneMedia = () => {
     },
     {
       description:
-        "360 ONE ENTERS INTO STRATEGIC PARTERSHIP WITH NEOLIV WITH MINORITY ENTITY LEVEL INVESTMENT....",
+        "360 ONE ENTERS INTO STRATEGIC PARTERSHIP WITH NEOLIV WITH MINORITY....",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljmi5pxrUntitled%20design%20-%202023-07-03T120718.332.png",
       date: "June 30, 2023",
@@ -180,7 +180,7 @@ const JuneMedia = () => {
 
     {
       description:
-        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING FROM 360 ONE",
+        "NEOLIV TO RAISE USD 150 MN AIF TO TAKE RESIDENTIAL BETS; GETS FUNDING....",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljn4ppm7Untitled%20design%20-%202023-07-03T225225.943.png",
       date: "June 30, 2023",
@@ -204,8 +204,8 @@ const JuneMedia = () => {
       <div>
         <BackButton />
       </div>
-      <div className="md:mx-20 md:py-20 mx-5 py-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="md:mx-20 md:py-20 mx-5 py-10 tab_margin">
+        <div className="grid grid-cols-2 md:grid-cols-4 md:gap-10 gap-2">
           {cardData.map((card, index) => (
             <div
               key={index}
@@ -237,7 +237,7 @@ const JuneMedia = () => {
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljn5e9v5Dainik%20Ekmat.png"
             alt="Image 2"
-            className="border border-blue-950 rounded-lg  w-full md:h-96 h-64"
+            className="border border-blue-950 rounded-lg w-full md:h-96 h-64"
           />
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4khzwljn5fda1Samachar_11zon.jpeg"

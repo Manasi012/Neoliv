@@ -142,7 +142,7 @@ function AllNewsComponent() {
             <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilw6n57teUntitled%20design%20-%202024-05-14T223225.439.png" className="w-full border border-gray-300" alt="Image description" />
             <div className="card-body h-10 font-medium block pt-3 space-y-11">
               <NavLink to="/Junemedia">June Media</NavLink><br />
-              <NavLink to={MyPDF} target="_blank">October Media</NavLink><br />
+              <a href="https://neoliv.in/docs/NeoLiv_Tracking.pdf" target="_blank">October Media</a><br />
               <NavLink to="/novembermedia">November Media</NavLink>
             </div>
           </div>

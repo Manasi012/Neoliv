@@ -7,7 +7,7 @@ const Card = ({ imageUrl, description, date, linkUrl }) => {
 
   return (
     <div
-      className="card text-light border border-blue-950 rounded-lg p-4 md:h-[27rem] h-96  shadow cursor-pointer"
+      className="card tab_card text-light border border-blue-950 rounded-lg p-4 md:h-[27rem] h-96  shadow cursor-pointer"
       onClick={handleCardClick}
     >
       <img src={imageUrl} className="card-img" alt="Card" />
