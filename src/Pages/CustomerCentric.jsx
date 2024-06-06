@@ -93,28 +93,28 @@ const CustomerCentric = () => {
 
       <div className="gap-10 py-10 md:px-2 px-2 space-y-6">
       <div className="md:flex justify-center items-center md:gap-5 gap-0 md:mx-10 mx-5">
-        <div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-          <h5 className="font-bold text-md">Product and Quality</h5>
-            <p className='text-center'><br />Consumer Research-led <br />Design and Top-Quality <br />Assurance</p>
+        <div className="bg-white text-center md:h-[10rem] box_height2 h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <h5 className="font-bold text-[13px]">Product and Quality</h5>
+            <p className='text-center'><br />Consumer Research-led Design and Top-Quality Assurance</p>
             </div>
 
-            <div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-          <h5 className="font-bold text-md">Personalised customer RM</h5>
+            <div className="bg-white text-center md:h-[10rem] box_height2 h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <h5 className="font-bold text-[13px]">Personalised customer RM</h5>
             <p className='text-center'><br />NeoLiv will assign Relationship Managers to each customer for dedicated 24x7 service.</p>
             </div>
 
-            <div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-          <h5 className="font-bold text-md">Property management arm</h5>
+            <div className="bg-white text-center md:h-[10rem] box_height2 h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <h5 className="font-bold text-[13px]">Property management arm</h5>
             <p className='text-center'><br />NeoLiv has an in-house property management service to ensure minimal maintenance costs.</p>
             </div>
 
-            {/* <div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-          <h5 className="font-bold text-md">Post handover partnership</h5>
+            {/* <div className="bg-white text-center md:h-[10rem] box_height2 h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <h5 className="font-bold text-[13px]">Post handover partnership</h5>
             <p className='text-center'><br />NeoLiv will ensure complete hand-holding till all teething issues are resolved and customers enjoy hassle-free living experience</p>
             </div> */}
 
-<div className="bg-white text-center md:h-[10rem] h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
-          <h5 className="font-bold text-md">Post handover partnership</h5>
+<div className="bg-white text-center md:h-[10rem] box_height2 h-auto py-4 md:w-full px-2 shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+          <h5 className="font-bold text-[13px]">Post handover partnership</h5>
             <p className='text-center'><br />NeoLiv ensures support until issues are resolved, providing a hassle-free experience.</p>
             </div>
 

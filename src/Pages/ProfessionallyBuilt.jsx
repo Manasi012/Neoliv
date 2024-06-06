@@ -86,23 +86,23 @@ const ProfessionallyBuilt = () => {
           </p>
         </div>
         <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 lg:mx-10 mx-5 px-5 ">
-          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
+          <div className="bg-white md:h-[6rem] box_height md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-              Joined Godrej Properties in 2010,<br /> stepped down on <br /> December 31,
+              Joined Godrej Properties in <br /> 2010, stepped down on <br /> December 31,
               2022
             </p>
           </div>
-          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
+          <div className="bg-white md:h-[6rem] box_height md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
               MD & CEO of <br />Godrej Properties <br /> since 2017
             </p>
           </div>
-          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
+          <div className="bg-white md:h-[6rem] box_height md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
-            Executed 90+ projects and 200 Mn Sqft of pan India residential development
+            Executed 90+ projects and 200  <br />Mn Sqft of pan <br /> India residential development
             </p>
           </div>
-          <div className="bg-white md:h-[6rem] md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
+          <div className="bg-white md:h-[6rem] box_height md:p-2 p-4  h-auto py-4 md:w-full shadow-2xl rounded-lg md:my-2 my-4">
             <p className="text-center">
               BE & MBA Strategy <br /> and Marketing 
               (Indian Institute <br /> of Management, Calcutta)

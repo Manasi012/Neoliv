@@ -319,8 +319,21 @@ body {
   .tab_pe{
     padding-right: 0;
   }
+  .tablet_fixed{
+    display: block;
+    text-align: center;
+  }
   .tab_fixed{
-    bottom: 30rem;
+    bottom: 5rem;
+    height: 1000px;
+    padding: 6rem 1rem;
+  }
+  .tab_fixed img{
+    width: 35%;
+  }
+  .tab_fixed h4, .tab_fixed h6{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
   }
   .tab_footer{
     width: 100%;
@@ -331,12 +344,27 @@ body {
   .tablet_button{
     padding: 0.6rem 2rem;
   }
+  .box_height{
+    height: 9rem;
+    padding: 0.6rem 1rem;
+  }
+  .box_height1{
+    height: 14rem;
+    padding: 0.6rem 1rem;
+  }
+  .box_height2{
+    height: 13rem;
+    padding: 0.6rem 1rem;
+  }
 }
 
 /* Desktop */
 @media (min-width:1800px) and (max-width:3200px) {
   .desktop_logo{
     width:17% !important;
+  }
+  .desktop_image{
+    width: 100%;
   }
   .desktop_ul{
     font-size: 2.5rem;
@@ -354,6 +382,37 @@ body {
   }
   iframe{
     width: 40%;
+  }
+  .tablet_fixed{
+    display: block;
+    text-align: center;
+  }
+  .tab_fixed{
+    bottom: 10rem;
+    height: 1000px;
+    padding: 6rem 1rem;
+  }
+  .tab_fixed img{
+    width: 12%;
+  }
+  .tab_fixed h4, .tab_fixed h6{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .tab_fixed p{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .box_height2 h5{
+    font-size: 2rem;
+  }
+  .box_height2 p{
+   font-size: 1.8rem;
+   font-weight: 500;
+  }
+  .box_height2{
+    height: 15rem;
+    padding: 0.6rem 1rem;
   }
 }
 

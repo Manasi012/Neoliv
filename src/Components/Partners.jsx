@@ -248,7 +248,7 @@ const Partners = () => {
               &times;
             </button>
 
-            <div className="flex justify-start items-center gap-10">
+            <div className="flex tablet_fixed justify-start items-center gap-10">
               <div>
               <img
                 src={image.src}
@@ -260,15 +260,15 @@ const Partners = () => {
                 </h4>
               </div>
               <div className="space-y-2">
-                <p className="text-lg font-medium leading-7">
+                <h6 className="text-lg font-medium leading-7">
                   {tabContents[index]?.about}
-                </p>
-                <p className="text-lg font-medium leading-7">
+                </h6>
+                <h6 className="text-lg font-medium leading-7">
                 {tabContents[index]?.abouthobby}
-                </p>
+                </h6>
               </div>
             </div>
-            <p className="text-lg font-semibold pt-5">Journey</p>
+            <h6 className="text-lg font-semibold pt-5 md:pt-8">Journey</h6>
             <div className="v-progress font-medium">
               <div className="line-container">
                 <div className="progress-line mt-2">

@@ -48,7 +48,7 @@ const FinanciallySecure = () => {
       </div>
       <div className="md:flex justify-center items-center md:gap-3 gap-0 md:mx-5 mx-2 px-5 ">
         <div
-          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white box_height1 md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -64,7 +64,7 @@ funding.
         </div>
 
         <div
-          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white box_height1 md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -80,7 +80,7 @@ funding.
         </div>
 
         <div
-          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white box_height1 md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -95,7 +95,7 @@ funding.
         </div>
 
         <div
-          className="bg-white md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
+          className="bg-white box_height1 md:h-44 md:p-4 p-4 text-center h-auto py-4 md:w-full shadow-xl rounded-lg md:my-2 my-4"
           data-aos="zoom-in"
           data-aos-delay="300"
           data-aos-duration="1000"
@@ -120,7 +120,7 @@ funding.
           <img
             src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwyqxy9zPage13.jpg"
             alt="finance"
-            className=""
+            className="desktop_image"
           />
         </div>
         {/* <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:w-2/4 pb-5">
