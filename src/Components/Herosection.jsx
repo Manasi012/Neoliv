@@ -95,7 +95,7 @@ const Herosection = () => {
           </h1>
           <div className="absolute md:-bottom-8 bottom-2">
             <p
-              className="text-center md:px-0 px-3 py-20 text-white md:leading-7 leading-5 font-medium md:text-[16px] text-sm"
+              className="text-center md:px-0 px-3 tablet_para py-20 text-white md:leading-7 leading-5 font-medium md:text-[16px] text-sm"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}
             >
               We are a unique integrated residential real estate platform with

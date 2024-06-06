@@ -331,6 +331,33 @@ body {
   .tab_left_margin{
     margin-left: 2.5rem;
   }
+  .tablet_button{
+    padding: 0.6rem 2rem;
+  }
+}
+
+/* Desktop */
+@media (min-width:1800px) and (max-width:3200px) {
+  .desktop_logo{
+    width:17% !important;
+  }
+  .desktop_ul{
+    font-size: 2.5rem;
+  }
+  .desktop_ul li{
+    padding: 0 1.5rem;
+  }
+  .tablet_headline{
+    font-size: 3rem;
+    margin-top: -52rem;
+  }
+  .tablet_para{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  iframe{
+    width: 40%;
+  }
 }
 
 @media (min-width:390px) and (max-width:844px) {
