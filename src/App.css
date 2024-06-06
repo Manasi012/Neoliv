@@ -235,9 +235,6 @@ body {
     background-color: green !important;
   }
   
-  .v-progress-item.completed:before {
-    /* background-color: var(--blue); */
-  }
   
   .v-progress-item:not(:last-child):after {
     content: "";
