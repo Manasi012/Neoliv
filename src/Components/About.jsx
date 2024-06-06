@@ -153,7 +153,7 @@ const About = () => {
       <div className="slider-container text-center md:hidden">
       <Slider   {...settings}>
       <div className="px-2 ml-10">
-      <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+      <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Founder <br />Credentials</h2>
               <img src={Founder} alt="" className="md:w-32 w-16"/>
@@ -168,7 +168,7 @@ const About = () => {
           </div>
       </div>
          <div className="px-2 ml-10">
-         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+         <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Integrated
@@ -179,14 +179,14 @@ const About = () => {
             </div>
             <div className="pt-20 pb-5 leading-7 text-left" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <p>
-                A unique integrated residential platform with both fund
+                A unique integrated <br /> residential platform with both fund
                 management business and its own development arm
               </p>
             </div>
           </div>
          </div>
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+         <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Financial
@@ -203,7 +203,7 @@ const About = () => {
           </div>
          </div>
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+         <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Delivery <br /> Assurance</h2>
               <img src={project} alt="" className="md:w-32 w-16"/>
@@ -217,7 +217,7 @@ const About = () => {
         </div>
          </div>
        <div className="px-5 ml-8">
-       <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+       <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 Professionally
@@ -237,7 +237,7 @@ const About = () => {
        </div>
        
          <div className="px-5 ml-8">
-         <div className="card_bg shadow-md py-5 px-4 h-[23rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
+         <div className="card_bg shadow-md py-5 px-4 h-[25rem] border border-indigo-300" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-normal mb-2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Multi-City <br />Presence</h2>
               <img src={presence} alt="" className="md:w-32 w-16"/>
