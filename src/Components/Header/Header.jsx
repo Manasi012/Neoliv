@@ -17,7 +17,7 @@ const Header = () => {
 
         <div
           onClick={() => SetisOpen(!isOpen)}
-          className="absolute right-8 top-16 cursor-pointer md:hidden"
+          className="absolute right-8 top-8 cursor-pointer md:hidden"
         >
           {isOpen ? (
             <svg
@@ -54,7 +54,7 @@ const Header = () => {
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute bg-blue-950 md:bg-white md:static md:z-auto z-20 left-0 w-full md:w-auto md:pl-0 pl-8 lg:font-extrabold me-8 transition-all duration-500 ease-out ${
-            isOpen ? "top-[7.4rem]" : "top-[-490px]"
+            isOpen ? "top-[5rem]" : "top-[-490px]"
           }`}
         >
           <li
