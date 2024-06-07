@@ -5,7 +5,7 @@ const Partners_Images = () => {
     <>
     <div className="text-center pt-20">
     <h4 className="md:text-3xl text-4xl text-blue-950 font-medium">
-    Seasoned Industry Team Leaders
+    Seasoned Industry Professionals
     </h4>
   </div>
     <div className='md:pt-5 pt-10 md:mx-20 mx-5 md:mt-10'>
