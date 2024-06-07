@@ -55,7 +55,7 @@ function CeoLetter() {
     <div className='py-10'>
       <Slider className='md:mx-10' {...settings}>
         {cardData.map((card, index) => (
-          <div className='text-center md:mx-20 my-6 md:ml-0 md:px-0 ml-8 px-3' key={index}>
+          <div className='md:px-2 my-6 md:ml-0 ml-8 px-3 text-center' key={index}>
             <Card 
               description={card.description} 
               imageUrl={card.imageUrl} 

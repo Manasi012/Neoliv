@@ -109,7 +109,7 @@ function News() {
   };
   return (
     <div className="slider-container py-10 text-center relative">
-    <Slider className='md:mx-14' {...settings}>
+    <Slider className='md:mx-20' {...settings}>
       {cardData.map((card, index) => (
         <div className='md:px-2 my-6 md:ml-0 ml-8 px-3' key={index}>
             <Card 

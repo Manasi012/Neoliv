@@ -45,7 +45,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/professionallybuilt"
-                  className="inline-flex items-center hover:text-white text-[#28285a] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
+                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
                 >
                   Discover
                   <svg
@@ -93,7 +93,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/financiallysecure"
-                  className="inline-flex items-center hover:text-white text-[#28285a] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
+                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
                 >
                   Discover
                   <svg
