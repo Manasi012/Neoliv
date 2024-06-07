@@ -44,6 +44,32 @@ function News() {
     setSelectedUrl(pdfUrl ? pdfUrl : iframeUrl);
   };
 
+  const CustomPrevArrow = ({ onClick }) => (
+    <div className="hidden md:block">
+      <button
+        className="absolute md:top-40 -inset-12 z-40 top-1/2 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center text-blue-950 items-center"
+        onClick={onClick}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+        </svg>
+      </button>
+    </div>
+  );
+
+  const CustomNextArrow = ({ onClick }) => (
+    <div className="hidden md:block">
+      <button
+        className="absolute md:top-40 -right-12 z-40 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center items-center"
+        onClick={onClick}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-blue-950">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+      </button>
+    </div>
+  );
+
   var settings = {
     dots: true,
     infinite: true,
@@ -77,10 +103,12 @@ function News() {
           slidesToScroll: 1
         }
       }
-    ]
+    ],
+    prevArrow: <CustomPrevArrow />, // Custom prev arrow
+    nextArrow: <CustomNextArrow /> // Custom next arrow
   };
   return (
-    <div className="slider-container py-10 text-center">
+    <div className="slider-container py-10 text-center relative">
     <Slider className='md:mx-14' {...settings}>
       {cardData.map((card, index) => (
         <div className='md:px-2 my-6 md:ml-0 ml-8 px-3' key={index}>

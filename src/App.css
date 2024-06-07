@@ -304,7 +304,7 @@ body {
 
 @media (min-width:1024px) and (max-width:1280px) {
   .banner_tab{
-    height: 60vh;
+    height: 80vh;
     width: 100%;
   }
   .tablet_headline{
@@ -358,6 +358,9 @@ body {
   .box_height2{
     height: 13rem;
     padding: 0.6rem 1rem;
+  }
+  .line-container .progress-line::before{
+    width: 94.4% !important;
   }
 }
 

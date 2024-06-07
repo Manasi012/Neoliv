@@ -160,7 +160,7 @@ const Partners_mobile = () => {
       name: "Hariprakash Pandey",
       about:
         "Proven track record of 22 years in fund raise, financial business planning, risk management, compliance, taxation.​",
-        abouthobby:"Hari has over 22 years of experience in Mumbai real estate industry as business leader with focus on fund raising, financial business planning and investor relations.",
+        abouthobby:"Hari likes playing sports and reading books. He is also a coach on finance and investment strategies.",
       progress: [
         { year: "2000", company: "Goldstar Jewellery", completed: true },
         { year: "2003", company: "ICS Group ", completed: true },
@@ -229,7 +229,7 @@ const Partners_mobile = () => {
                     <p className="text-md text-center font-medium">
                       {tabContents[index]?.about}
                     </p>
-                    <p className="text-md font-medium text-center ">
+                    <p className="text-md font-medium italic text-center ">
                 {tabContents[index]?.abouthobby}
                 </p>
                     <p className="text-lg font-semibold pt-5">Journey</p>

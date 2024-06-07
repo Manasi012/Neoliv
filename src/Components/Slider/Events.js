@@ -16,7 +16,7 @@ function Events() {
   };
 
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     autoplay:true,
@@ -30,7 +30,7 @@ function Events() {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          // dots: true
         }
       },
       {

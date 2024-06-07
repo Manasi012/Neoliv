@@ -58,8 +58,11 @@ const Team = () => {
   <li  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
     Held leadership positions in listed Indian and International real estate developers.
     </li>
-    <li data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
+    {/* <li data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
     Collective 100+ years in capital raise, business development, corporate governance, project execution and customer satisfaction.
+    </li> */}
+      <li data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
+      The platform has secured funding from UHNI family offices and 360 ONE - India’s leading wealth management firm with more than USD 50 Bn AUM
     </li>
     <li  data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1000">
     Strong relationship with land-owners, distribution channel, banking & liaisoning agencies.

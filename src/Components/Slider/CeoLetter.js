@@ -17,7 +17,7 @@ function CeoLetter() {
   };
 
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     autoplay:true,
@@ -31,7 +31,7 @@ function CeoLetter() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          // dots: true
         }
       },
       {
