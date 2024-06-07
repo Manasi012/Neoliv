@@ -41,10 +41,10 @@ const Team = () => {
   <h2 className="md:text-[22px] text-3xl font-bold"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">Partnership Model</h2>
   <ul className='md:pt-10 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
     <li  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-    NeoLiv inducts senior leadership talent as equity partners in the firm.
+    NeoLiv inducts senior leadership talent as equity partners in <span className="tab_span1">the firm.</span>
     </li>
     <li  data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1000">
-    Partnership unites the team through a greater alignment of interest and integrates an entrepreneurial culture throughout the platform.
+    Partnership unites the team through a greater alignment of interest and integrates an entrepreneurial culture throughout <span className="tab_span1">the platform.</span>
     </li>
     <li  data-aos="fade-up" data-aos-delay="1700" data-aos-duration="1000">
     09 equity partners with vast industry experience in the business to date.

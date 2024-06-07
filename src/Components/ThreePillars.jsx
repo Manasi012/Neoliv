@@ -39,7 +39,7 @@ const ThreePillars = () => {
                       Founded by Mohit Malhotra (ex MD & CEO of Godrej
                       Properties)
                     </li>
-                    <li>100+ years cumulative experience</li>
+                    <li>100+ <span className="tab_span1">years</span> cumulative experience</li>
                     <li>Equity partnership for key management</li>
                   </ul>
                 </div>

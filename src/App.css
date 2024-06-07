@@ -300,6 +300,85 @@ body {
   }
 }
 
+
+/* MacbookAir */
+
+@media (min-width:820px) and (max-width:1180px) {
+.banner_tab{
+  height: 50vh;
+}
+.desktop_logo{
+  width:20% !important;
+}
+.desktop_ul{
+  font-size: 0.8rem;
+}
+.desktop_ul li{
+  padding: 0 0rem;
+}
+.tablet_headline{
+  margin-top: 2rem;
+}
+.box_height{
+  height: 9rem;
+}
+.box_height1{
+  height: 18rem;
+}
+.box_height2{
+  height: 17rem;
+}
+.tab_image{
+  width: 46%;
+}
+.tab_font{
+  font-size: 1rem;
+}
+.tab_pe{
+  padding: 1rem 0;
+}
+.tab_pe p{
+  font-size: 1.4rem;
+}
+.tab_span1{
+  display: block;
+}
+.bg_box_tab{
+  min-height: 11rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.tabp_2{
+  padding: 2rem 0;
+}
+.tab_padding{
+  padding: 2rem;
+}
+.tab_margin{
+  margin: 0 2rem;
+}
+.line-container .progress-line::before{
+  width: 92% !important;
+}
+.tablet_button{
+  padding: 0.6rem 2rem;
+}
+.tab_fixed{
+  padding: 4rem 1rem;
+}
+.tab_footer{
+  width: 100%;
+}
+.tab_left_margin{
+  margin-left: 2.5rem;
+}
+.tab_me{
+  margin-right: 10px;
+  margin-top: -2rem;
+}
+}
+
+
 /* tablet */
 
 @media (min-width:1024px) and (max-width:1280px) {

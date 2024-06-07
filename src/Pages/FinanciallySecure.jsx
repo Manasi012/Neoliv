@@ -159,7 +159,7 @@ funding.
       </div>
 
       <div
-        className="text-center md:py-16 py-10 space-y-4 md:px-20 px-5 bg-[#f3f3f8]"
+        className="text-center md:py-16 py-10 tab_pe space-y-4 md:px-20 px-5 bg-[#f3f3f8]"
         data-aos="zoom-out"
         data-aos-delay="500"
         data-aos-duration="1000"

@@ -20,16 +20,16 @@ const Founder = () => {
 
   <div className='hidden md:block'> 
  <div className="md:flex justify-center items-center md:gap-5 tab_margin gap-0 md:mx-10 mx-5">
-        <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+        <div className="bg-white md:h-[7rem] h-auto py-4 px-3 bg_box_tab md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
             <p className='text-center'>Joined Godrej Properties in 2010, stepped down on December 31, 2022</p>
             </div>
-            <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+            <div className="bg-white md:h-[7rem] h-auto py-4 px-3 bg_box_tab md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
             <p className='text-center'>MD & CEO of <br /> Godrej Properties <br /> since 2017</p>
             </div>
-            <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+            <div className="bg-white md:h-[7rem] h-auto py-4 px-3 bg_box_tab md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
             <p className='text-center'>Executed 90+ projects and 200 Mn Sqft of pan India residential development</p>
             </div>
-            <div className="bg-white md:h-[7rem] h-auto py-4 px-3 md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
+            <div className="bg-white md:h-[7rem] h-auto py-4 px-3  bg_box_tab d:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
               <p className='text-center'>BE & MBA Strategy and Marketing
               (Indian Institute of Management, Calcutta)</p>
             </div>
