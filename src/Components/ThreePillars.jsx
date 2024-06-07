@@ -88,7 +88,7 @@ const ThreePillars = () => {
                       Fund backed model - 360 ONE as Strategic equity investor
                     </li>
                     <li>SEBI approved CAT II domestic equity AIF</li>
-                    <li>Amongst top developers of India</li>
+                    <li>Amongst top developers of <span className="tab_span">India</span></li>
                   </ul>
                 </div>
                 <NavLink
@@ -136,8 +136,8 @@ const ThreePillars = () => {
                     <li>
                       Futuristic tech-enabled consumer interface and solution
                     </li>
-                    <li>Product and quality excellence</li>
                     <li>Relationship mindset & long-term commitment</li>
+                    <li>Product and <span className="tab_span">quality</span> excellence</li>
                   </ul>
                 </div>
                 <NavLink

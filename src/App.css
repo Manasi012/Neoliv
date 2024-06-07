@@ -304,7 +304,7 @@ body {
 
 @media (min-width:1024px) and (max-width:1280px) {
   .banner_tab{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
   }
   .tablet_headline{
@@ -313,6 +313,9 @@ body {
   .tabp_2{
     padding: 5rem 0;
   }
+  .tab_span{
+    display: block;
+  }
   .tab_margin{
     margin: 0 2rem
   }
@@ -320,7 +323,7 @@ body {
     margin-left: 2rem;
   }
   .tab_pe{
-    padding-right: 0;
+    padding-right: 1rem;
   }
   .tablet_fixed{
     display: block;
