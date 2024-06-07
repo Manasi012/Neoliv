@@ -201,7 +201,7 @@ const Partners = () => {
   return (
     <>
       <div
-        className={`text-center md:my-2 md:mt-0 mt-12 relative ${
+        className={`text-center  md:mt-0 mt-12 relative ${
           clicked ? "fixed top-0 left-0 h-full w-full bg-white z-50" : ""
         }`}
       >
