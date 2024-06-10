@@ -54,7 +54,7 @@ const Team = () => {
 
 <div className="md:w-1/2 p-12 bg-white border border-indigo-300 shadow-lg md:z-20 z-10 -ml-4 space-y-9 text-blue-950"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
 <h2 className="md:text-[22px] text-3xl font-bold">Depth of Experience</h2>
-  <ul className='md:pt-10 md:pe-10 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
+  <ul className='md:pt-10 md:pe-5 pe-2 md:ml-0 ml-4 font-normal list-disc leading-8 space-y-7'>
   <li  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
     Held leadership positions in listed Indian and International real estate developers.
     </li>

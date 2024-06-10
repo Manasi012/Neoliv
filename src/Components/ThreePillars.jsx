@@ -45,7 +45,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/professionallybuilt"
-                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
+                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-8 text-lg"
                 >
                   Discover
                   <svg
@@ -54,7 +54,7 @@ const ThreePillars = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
+                    className="w-7 h-7 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
                   >
                     <path
                       strokeLinecap="round"
@@ -93,7 +93,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/financiallysecure"
-                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
+                  className="inline-flex items-center hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-8 text-lg"
                 >
                   Discover
                   <svg
@@ -102,7 +102,7 @@ const ThreePillars = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
+                    className="w-7 h-7 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
                   >
                     <path
                       strokeLinecap="round"
@@ -142,7 +142,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/customercentric"
-                  className="inline-flex items-center hover:text-white text-[#28285a] font-semibold pt-4 px-4 rounded md:absolute bottom-0"
+                  className="inline-flex items-center text-lg hover:text-white text-[#28285a] font-semibold pt-4 px-4 rounded md:absolute bottom-8"
                 >
                   Discover
                   <svg
@@ -151,7 +151,7 @@ const ThreePillars = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
+                    className="w-7 h-7 ml-2 transition-transform duration-6000 ease-in-out transform-gpu hover:scale-110"
                   >
                     <path
                       strokeLinecap="round"

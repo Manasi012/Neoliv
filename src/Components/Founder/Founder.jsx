@@ -29,7 +29,7 @@ const Founder = () => {
             <div className="bg-white md:h-[7rem] h-auto py-4 px-3 bg_box_tab md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
             <p className='text-center'>Executed 90+ projects and 200 Mn Sqft of pan India residential development</p>
             </div>
-            <div className="bg-white md:h-[7rem] h-auto py-4 px-3  bg_box_tab d:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
+            <div className="bg-white md:h-[7rem] h-auto py-4 px-3  bg_box_tab md:w-full shadow-xl rounded-lg my-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">
               <p className='text-center'>BE & MBA Strategy and Marketing
               (Indian Institute of Management, Calcutta)</p>
             </div>
