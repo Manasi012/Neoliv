@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Neoliv/static/css/main.ccdbb87a.css",
-    "main.js": "/Neoliv/static/js/main.92266011.js",
-    "static/media/banner.jpeg": "/Neoliv/static/media/banner.9fcd0039f62c96cbb390.jpeg",
+    "main.css": "/Neoliv/static/css/main.3bf4cc4e.css",
+    "main.js": "/Neoliv/static/js/main.2f8f3570.js",
     "static/media/founder_bg.png": "/Neoliv/static/media/founder_bg.c3c431b7fcc7ea4cbeca.png",
     "static/media/mohit-mob.png": "/Neoliv/static/media/mohit-mob.3d91a44ab0866c1ad829.png",
     "static/media/NeoLiv_Tracking.pdf": "/Neoliv/static/media/NeoLiv_Tracking.0f8367fa6cdd52496364.pdf",
@@ -13,7 +12,6 @@
     "static/media/leftshawdo.png": "/Neoliv/static/media/leftshawdo.33f89ac21e3759aed899.png",
     "static/media/careers.jpg": "/Neoliv/static/media/careers.611decc3e9a0f71215b6.jpg",
     "static/media/sustainability.jpg": "/Neoliv/static/media/sustainability.70db16f71056d547d9cc.jpg",
-    "static/media/bannerdesk.jpg": "/Neoliv/static/media/bannerdesk.80f0c5e4e223ec497ec2.jpg",
     "static/media/SEBI Certificate.pdf": "/Neoliv/static/media/SEBI Certificate.0e826ce775358aeca166.pdf",
     "static/media/sustainability-mob.jpg": "/Neoliv/static/media/sustainability-mob.884f63fee2ddd466db93.jpg",
     "static/media/pillarsbg-Black-overlay.jpg": "/Neoliv/static/media/pillarsbg-Black-overlay.4d487e3593147b201ca2.jpg",
@@ -31,11 +29,11 @@
     "static/media/slick.ttf": "/Neoliv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Neoliv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Neoliv/index.html",
-    "main.ccdbb87a.css.map": "/Neoliv/static/css/main.ccdbb87a.css.map",
-    "main.92266011.js.map": "/Neoliv/static/js/main.92266011.js.map"
+    "main.3bf4cc4e.css.map": "/Neoliv/static/css/main.3bf4cc4e.css.map",
+    "main.2f8f3570.js.map": "/Neoliv/static/js/main.2f8f3570.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccdbb87a.css",
-    "static/js/main.92266011.js"
+    "static/css/main.3bf4cc4e.css",
+    "static/js/main.2f8f3570.js"
   ]
 }
