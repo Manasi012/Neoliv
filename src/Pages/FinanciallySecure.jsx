@@ -55,11 +55,11 @@ const FinanciallySecure = () => {
         >
           <br />
           <h3 className="font-bold mb-4 text-[#112E50] text-sm">
-          HIGHEST DEGREE OF GOVERNANCE
+            HIGHEST DEGREE OF GOVERNANCE
           </h3>
           <p className="text-center font-medium text-[15px]">
-          100% assurance of transparent, SEBI regulated & monitored <br />
-funding.
+            100% assurance of transparent, SEBI regulated & monitored <br />
+            funding.
           </p>
         </div>
 
@@ -87,10 +87,11 @@ funding.
         >
           <br />
           <h3 className="font-bold mb-4 text-[#112E50] text-sm">
-          IN HOUSE DEVELOPMENT ARM
+            IN HOUSE DEVELOPMENT ARM
           </h3>
           <p className="text-center font-medium text-[15px]">
-            Management team of industry experts with execution expertise of 200 Mn Sq ft, 90 projects pan India.
+            Management team of industry experts with execution expertise of 200
+            Mn Sq ft, 90 projects pan India.
           </p>
         </div>
 
@@ -123,39 +124,6 @@ funding.
             className="desktop_image"
           />
         </div>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 md:w-2/4 pb-5">
-          <div className="bg_indigo1 text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-            <h3 className="font-semibold text-xl">
-              HIGHEST DEGREE OF GOVERNANCE
-            </h3>
-            <p>
-              100% assurance of transparent, SEBI regulated & monitored funding
-            </p>
-          </div>
-          <div className="bg_indigo1 text-white md:h-60 h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
-            <h3 className="font-semibold text-xl">SAFE & SECURE INVESTMENT</h3>
-            <p>
-              Funds can be invested only on licensed land parcels thus
-              eliminating approval risks
-            </p>
-          </div>
-          <div className="bg_indigo1 text-white md:h-[16rem] lg:h-[18rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
-            <h3 className="font-semibold text-xl">IN HOUSE DEVELOPMENT ARM</h3>
-            <p>
-              Management team of industry experts with execution expertise of
-              200 Mn Sq ft, 90 projects pan India.
-            </p>
-          </div>
-          <div className="bg_indigo1 text-white md:h-[16rem] lg:h-[18rem] h-auto p-5 space-y-4 hover:border-t-4 border-blue-950 transition-all" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
-            <h3 className="font-semibold text-xl">
-              ON TIME DELIVERY ASSURANCE
-            </h3>
-            <p>
-              Provision of higher equity funding (5X than market norms) for
-              timely, high-quality delivery of projects.
-            </p>
-          </div>
-        </div> */}
       </div>
 
       <div
@@ -201,19 +169,23 @@ funding.
         </h3>
 
         <div className="hidden md:block">
-          <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrn4j4qIcons-Merge-01.png" alt="mergeicons" className="w-full pt-6"/>
+          <img
+            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrn4j4qIcons-Merge-01.png"
+            alt="mergeicons"
+            className="w-full pt-6"
+          />
         </div>
 
-       <div className="md:hidden">
-       <div className="md:flex justify-evenly gap-0 py-5">
-          <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfdzgAmong-india.png"
-            alt="India"
-            className="w-80"
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="1000"
-          />
+        <div className="md:hidden">
+          <div className="md:flex justify-evenly gap-0 py-5">
+            <img
+              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfdzgAmong-india.png"
+              alt="India"
+              className="w-80"
+              data-aos="fade-down"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            />
             <img
               src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmfuwdResidentialSector.png"
               alt="India"
@@ -222,25 +194,25 @@ funding.
               data-aos-delay="700"
               data-aos-duration="1000"
             />
-          <img
-            src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmm1s1100Equity.png"
-            alt="India"
-            className="w-80 -mt-14"
-            data-aos="fade-down"
-            data-aos-delay="900"
-            data-aos-duration="1000"
-          />
-   
+            <img
+              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmm1s1100Equity.png"
+              alt="India"
+              className="w-80 -mt-14"
+              data-aos="fade-down"
+              data-aos-delay="900"
+              data-aos-duration="1000"
+            />
+
             <img
               src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwrmhhrmZeroLeverage.png"
               alt="India"
               className="w-80 -mt-14"
               data-aos="fade-down"
-            data-aos-delay="1100"
-            data-aos-duration="1000"
+              data-aos-delay="1100"
+              data-aos-duration="1000"
             />
+          </div>
         </div>
-       </div>
       </div>
     </>
   );

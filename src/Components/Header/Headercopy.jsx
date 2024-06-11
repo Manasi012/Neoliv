@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../../Assets/imgs/neoliv_logo.png";
 import { HashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
 
@@ -12,7 +11,10 @@ const Headercopy = () => {
         <div className="w-48 desktop_logo">
           <NavLink to="/" className="underline hover:underline cursor-pointer">
             {/* <img src={Logo} alt="Neoliv Logo" /> */}
-            <img src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwt7392bneoliv_logo%20%20white.png" alt="logo" />
+            <img
+              src="https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwt7392bneoliv_logo%20%20white.png"
+              alt="logo"
+            />
           </NavLink>
         </div>
 

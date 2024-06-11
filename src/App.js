@@ -1,8 +1,6 @@
 import "./App.css";
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Bluenavbar from "./Components/Header/Bluenavbar";
-import Bluenavbarcopy from "./Components/Header/Bluenavbarcopy";
 import Header from "./Components/Header/Header";
 import Headercopy from "./Components/Header/Headercopy";
 import Home from "./Components/Home";
@@ -26,7 +24,7 @@ function App() {
     <div className="App overflow-hidden scroll-smooth">
       {/* <Bluenavbar /> */}
       {/* {location.pathname === '/' ? <Bluenavbarcopy /> : <Bluenavbar />} */}
-      {location.pathname === '/' ? <Headercopy /> : <Header />}
+      {location.pathname === "/" ? <Headercopy /> : <Header />}
       <ModalDisclaimer />
       <ScrollToTopOnPageChange />
       <Routes>

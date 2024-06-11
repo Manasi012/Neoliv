@@ -1,37 +1,42 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import Card from './Card';
+import React, { useState } from "react";
+import Slider from "react-slick";
+import Card from "./Card";
 
 const cardData = [
-  { 
-    description: 'Mohit Malhotra’s official confirmationon....', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png', 
-    buttonText: 'News', 
-    pdfUrl: 'https://neoliv.in/docs/vccircle.pdf' 
+  {
+    description: "Mohit Malhotra’s official confirmationon....",
+    imageUrl:
+      "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png",
+    buttonText: "News",
+    pdfUrl: "https://neoliv.in/docs/vccircle.pdf",
   },
-  { 
-    description: 'Mohit Malhotra, sharing his expert opinion....', 
-    buttonText: 'News', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg', 
-    iframeUrl: 'https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4' // Add the iframe URL
+  {
+    description: "Mohit Malhotra, sharing his expert opinion....",
+    buttonText: "News",
+    imageUrl:
+      "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg",
+    iframeUrl: "https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4", // Add the iframe URL
   },
-  { 
-    description: 'Mohit Malhotra (ex MD and CEO of Godrej Prop....', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg', 
-    buttonText: 'News', 
-    iframeUrl: 'https://neoliv.in/dainik_bhaskar.mp4' 
+  {
+    description: "Mohit Malhotra (ex MD and CEO of Godrej Prop....",
+    imageUrl:
+      "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg",
+    buttonText: "News",
+    iframeUrl: "https://neoliv.in/dainik_bhaskar.mp4",
   },
-  { 
-    description: 'Mohit Malhotra’s official confirmation on....', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg', 
-    buttonText: 'News', 
-    iframeUrl: 'https://neoliv.in/MM_TV18.mp4' 
+  {
+    description: "Mohit Malhotra’s official confirmation on....",
+    imageUrl:
+      "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg",
+    buttonText: "News",
+    iframeUrl: "https://neoliv.in/MM_TV18.mp4",
   },
-  { 
-    description: 'Mohit Malhotra, the former managing director....', 
-    imageUrl: 'https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg', 
-    buttonText: 'News', 
-    pdfUrl: 'https://neoliv.in/docs/financial.pdf' 
+  {
+    description: "Mohit Malhotra, the former managing director....",
+    imageUrl:
+      "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg",
+    buttonText: "News",
+    pdfUrl: "https://neoliv.in/docs/financial.pdf",
   },
 ];
 
@@ -40,7 +45,7 @@ function News() {
 
   const handleCardClick = (pdfUrl, iframeUrl) => {
     // Open the PDF URL if it exists, otherwise open the iframe URL
-    window.open(pdfUrl ? pdfUrl : iframeUrl, '_blank');
+    window.open(pdfUrl ? pdfUrl : iframeUrl, "_blank");
     setSelectedUrl(pdfUrl ? pdfUrl : iframeUrl);
   };
 
@@ -50,8 +55,19 @@ function News() {
         className="absolute md:top-40 -inset-12 z-40 top-1/2 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center text-blue-950 items-center"
         onClick={onClick}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18"
+          />
         </svg>
       </button>
     </div>
@@ -63,8 +79,19 @@ function News() {
         className="absolute md:top-40 -right-12 z-40 transform -translate-y-1/2 hover:text-blue-950 rounded-full w-10 h-10 flex justify-center items-center"
         onClick={onClick}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-blue-950">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="1.5"
+          stroke="currentColor"
+          className="w-6 h-6 text-blue-950"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+          />
         </svg>
       </button>
     </div>
@@ -74,7 +101,7 @@ function News() {
     dots: true,
     infinite: true,
     speed: 500,
-    autoplay:true,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -85,44 +112,42 @@ function News() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 17/15,
+          slidesToShow: 17 / 15,
           slidesToScroll: 1,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 17/15,
-          slidesToScroll: 1
-        }
-      }
+          slidesToShow: 17 / 15,
+          slidesToScroll: 1,
+        },
+      },
     ],
     prevArrow: <CustomPrevArrow />, // Custom prev arrow
-    nextArrow: <CustomNextArrow /> // Custom next arrow
+    nextArrow: <CustomNextArrow />, // Custom next arrow
   };
   return (
     <div className="slider-container py-10 text-center relative">
-    <Slider className='md:mx-20' {...settings}>
-      {cardData.map((card, index) => (
-        <div className='md:px-2 my-6 md:ml-0 ml-8 px-3' key={index}>
-            <Card 
-              description={card.description} 
-              imageUrl={card.imageUrl} 
-              buttonText={card.buttonText} 
+      <Slider className="md:mx-20" {...settings}>
+        {cardData.map((card, index) => (
+          <div className="md:px-2 my-6 md:ml-0 ml-8 px-3" key={index}>
+            <Card
+              description={card.description}
+              imageUrl={card.imageUrl}
+              buttonText={card.buttonText}
               onClick={() => handleCardClick(card.pdfUrl, card.iframeUrl)} // Pass both URLs to the click handler
             />
           </div>
         ))}
       </Slider>
-
-     
     </div>
   );
 }

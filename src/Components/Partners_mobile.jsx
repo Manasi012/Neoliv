@@ -58,9 +58,9 @@ const Partners_mobile = () => {
   const tabContents = [
     {
       name: "Harshwardhan Prasad",
-      about:
-        `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential. Held leadership positions with Indian developers.`,
-        abouthobby:" He finds his yin-yang in playing tennis and enjoying delicious food.",
+      about: `Has successfully secured 15 projects in NCR with ~25 Mn Sqft of development potential. Held leadership positions with Indian developers.`,
+      abouthobby:
+        " He finds his yin-yang in playing tennis and enjoying delicious food.",
       progress: [
         { year: "2008", company: "MBA", completed: true },
         { year: "2011", company: "Godrej", completed: true },
@@ -72,9 +72,9 @@ const Partners_mobile = () => {
 
     {
       name: "Siddharth Kolte",
-      about:
-        `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
-        abouthobby:"He relishes playing badminton, finds joy in music, and cherishes quality time spent with his family.",
+      about: `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
+      abouthobby:
+        "He relishes playing badminton, finds joy in music, and cherishes quality time spent with his family.",
       progress: [
         { year: "1997", company: "MBA", completed: true },
         { year: "2000", company: "Exim Bank", completed: true },
@@ -100,7 +100,8 @@ const Partners_mobile = () => {
       name: "Chandan Kar",
       about:
         "Launched 3 new brands and 43 new projects, with a cumulative sales of 59 Mn Sqft. Held leadership positions with Indian and International developers.",
-        abouthobby:"His passion for cricket is unwavering, he thrives on travel adventures, and finds inspiration in the pages of marketing books.",
+      abouthobby:
+        "His passion for cricket is unwavering, he thrives on travel adventures, and finds inspiration in the pages of marketing books.",
       progress: [
         { year: "2003", company: "MBA", completed: true },
         { year: "2006", company: "Essar Holding", completed: true },
@@ -117,7 +118,8 @@ const Partners_mobile = () => {
       name: "Bhasker Jain",
       about:
         "Has managed sales of 30+ projects across asset classes with a sale value of USD 1.5 Bn+. In his last role as CBO, was managing P&L of USD 250 Mn.",
-        abouthobby:"He cherishes Ghazals and classical music, and exploring historical and cultural places fuels his wanderlust.",
+      abouthobby:
+        "He cherishes Ghazals and classical music, and exploring historical and cultural places fuels his wanderlust.",
       progress: [
         { year: "2006", company: "MBA", completed: true },
         { year: "2009", company: "Godrej", completed: true },
@@ -130,7 +132,8 @@ const Partners_mobile = () => {
       name: "Siddharth Jain",
       about:
         "Won ET 30under30 future business leaders in 2019. Has secured 15 projects across MMR, NCR and Pune with ~20 Mn Sqft of development potential.",
-        abouthobby:"He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
+      abouthobby:
+        "He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
         { year: "2011", company: "Future First", completed: true },
         { year: "2014", company: "MBA", completed: true },
@@ -143,7 +146,8 @@ const Partners_mobile = () => {
       name: "Tej Ingle",
       about:
         "Has successfully designed 48 Mn Sq ft of high quality residential, township, retail, commercial developments.",
-        abouthobby:"He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
+      abouthobby:
+        "He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
       progress: [
         { year: "1997", company: "Architect Reza Kabul", completed: true },
         { year: "1999", company: "Gayatri Construction", completed: true },
@@ -160,7 +164,8 @@ const Partners_mobile = () => {
       name: "Hariprakash Pandey",
       about:
         "Proven track record of 22 years in fund raise, financial business planning, risk management, compliance, taxation.​",
-        abouthobby:"Hari likes playing sports and reading books. He is also a coach on finance and investment strategies.",
+      abouthobby:
+        "Hari likes playing sports and reading books. He is also a coach on finance and investment strategies.",
       progress: [
         { year: "2000", company: "Goldstar Jewellery", completed: true },
         { year: "2003", company: "ICS Group ", completed: true },
@@ -173,7 +178,8 @@ const Partners_mobile = () => {
       name: "Viral P Vora",
       about:
         "Has experience of 32+ years as a retainer legal and advocate. He is on the Rolls of Solicitors in England & Wales, presently non-practising.",
-        abouthobby:"He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
+      abouthobby:
+        "He is an enthusiastic reader who finds joy in immersing himself in books and he seeks excitement through exploring new destinations and discovering new experiences.",
       progress: [
         {
           year: "1997",
@@ -192,7 +198,6 @@ const Partners_mobile = () => {
       ],
     },
   ];
-
 
   return (
     <div className="container mx-auto p-4 md:hidden">
@@ -219,10 +224,10 @@ const Partners_mobile = () => {
                   <div className="force-overflow">
                     {/* <p className="text-xl mb-3 font-semibold">About</p> */}
                     <img
-                src={image.src}
-                alt={image.name}
-                className="w-32 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4"
-              />
+                      src={image.src}
+                      alt={image.name}
+                      className="w-32 h-auto rounded-full border-4 border-indigo-800 mx-auto mb-4"
+                    />
                     <h4 className="mb-2 font-bold text-lg text-center">
                       {tabContents[index]?.name}
                     </h4>
@@ -230,8 +235,8 @@ const Partners_mobile = () => {
                       {tabContents[index]?.about}
                     </p>
                     <p className="text-md font-medium italic text-center ">
-                {tabContents[index]?.abouthobby}
-                </p>
+                      {tabContents[index]?.abouthobby}
+                    </p>
                     <p className="text-lg font-semibold pt-5">Journey</p>
                     <div className="v-progress font-medium">
                       <ul>

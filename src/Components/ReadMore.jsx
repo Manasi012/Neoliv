@@ -11,12 +11,14 @@ const ReadMore = ({ text, maxLength }) => {
 
   return (
     <div>
-      <p style={{ display: 'inline', whiteSpace: 'pre-line' }}>{truncatedText}</p>
+      <p style={{ display: "inline", whiteSpace: "pre-line" }}>
+        {truncatedText}
+      </p>
       {text.length > maxLength && (
         <button
           onClick={toggleTruncate}
           className="text-white font-medium cursor-pointer underline focus:outline-none"
-          style={{ display: 'inline', marginLeft: '5px' }}
+          style={{ display: "inline", marginLeft: "5px" }}
         >
           {isTruncated ? "Read More" : "Read Less"}
         </button>
