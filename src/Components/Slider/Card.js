@@ -4,7 +4,7 @@ const Card = ({ imageUrl, description, buttonText, onClick }) => {
 
   return (
     <div
-      className="max-w-sm cursor-pointer md:h-[19rem] h-[18rem] rounded hover:underline overflow-hidden shadow-lg relative"
+      className="max-w-sm cursor-pointer md:h-[19rem] h-[18rem] rounded  overflow-hidden shadow-lg relative"
       onClick={onClick}
       data-aos="zoom-in"
       data-aos-delay="800"
@@ -19,7 +19,7 @@ const Card = ({ imageUrl, description, buttonText, onClick }) => {
         {buttonText}
       </button>
       <div className="px-6 py-4">
-        <p className="font-medium">{description}</p>
+        <p className="font-medium hover:underline">{description}</p>
       </div>
     </div>
   );

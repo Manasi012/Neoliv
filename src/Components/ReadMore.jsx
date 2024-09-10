@@ -7,13 +7,13 @@ const ReadMore = ({ text, maxLength }) => {
     setIsTruncated(!isTruncated);
   };
 
-  const truncatedText = isTruncated ? text.slice(0, maxLength) + "..." : text;
+  const displayText = isTruncated ? text.slice(0, maxLength) + (text.length > maxLength ? "..." : "") : text;
 
   return (
     <div>
-      <p style={{ display: "inline", whiteSpace: "pre-line" }}>
-        {truncatedText}
-      </p>
+      <span style={{ whiteSpace: "pre-wrap" }}>
+        {displayText}
+      </span>
       {text.length > maxLength && (
         <button
           onClick={toggleTruncate}

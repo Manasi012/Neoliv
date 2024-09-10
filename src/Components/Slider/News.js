@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Card from "./Card";
+import pdfFile7 from '../../Assets/pdf/vccircle.pdf';
+import pdfFile8 from '../../Assets/pdf/financial.pdf';
+import pdfFile9 from '../../Assets/video/MohitMalhotraonNDTVPropertyShow.mp4';
+import pdfFile10 from '../../Assets/video/dainik_bhaskar.mp4';
+import pdfFile11 from '../../Assets/video/MM_TV18.mp4';
+
+
 
 const cardData = [
   {
@@ -8,35 +15,35 @@ const cardData = [
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png",
     buttonText: "News",
-    pdfUrl: "https://neoliv.in/docs/vccircle.pdf",
+    pdfUrl: pdfFile7,
   },
   {
     description: "Mohit Malhotra, sharing his expert opinion....",
     buttonText: "News",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg",
-    iframeUrl: "https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4", // Add the iframe URL
+    iframeUrl: pdfFile9, // Add the iframe URL
   },
   {
     description: "Mohit Malhotra (ex MD and CEO of Godrej Prop....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg",
     buttonText: "News",
-    iframeUrl: "https://neoliv.in/dainik_bhaskar.mp4",
+    iframeUrl: pdfFile10,
   },
   {
     description: "Mohit Malhotra’s official confirmation on....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg",
     buttonText: "News",
-    iframeUrl: "https://neoliv.in/MM_TV18.mp4",
+    iframeUrl: pdfFile11,
   },
   {
     description: "Mohit Malhotra, the former managing director....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg",
     buttonText: "News",
-    pdfUrl: "https://neoliv.in/docs/financial.pdf",
+    pdfUrl: pdfFile8,
   },
 ];
 

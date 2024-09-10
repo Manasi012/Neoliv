@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Card from "./Card";
+import pdfFile1 from '../../Assets/pdf/NeoLivUpdate-April2023.pdf';
+import pdfFile2 from '../../Assets/pdf/CEO_Letter_July2023.pdf';
+import pdfFile3 from '../../Assets/pdf/NeoLivCEOLetterNovember2023.pdf';
+
 
 const cardData = [
   {
@@ -8,21 +12,21 @@ const cardData = [
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg",
     buttonText: "Ceo NewsLetter",
-    pdfUrl: "https://neoliv.in/docs/NeoLivUpdate-April2023.pdf",
+    pdfUrl: pdfFile1,
   },
   {
     description: "July 2023",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg",
     buttonText: "Ceo NewsLetter",
-    pdfUrl: "https://neoliv.in/docs/CEO_Letter_July2023.pdf",
+    pdfUrl: pdfFile2,
   },
   {
     description: "November 2023",
     buttonText: "Ceo NewsLetter",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvxe1q7sceoletter.jpg",
-    pdfUrl: "https://neoliv.in/docs/NeoLivUpdate-April2023.pdf",
+    pdfUrl: pdfFile3,
   },
 ];
 

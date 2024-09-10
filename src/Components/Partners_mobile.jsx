@@ -15,43 +15,48 @@ const Partners_mobile = () => {
   const images = [
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3w9u8Harshwardhan%20Prasad_11zon.png",
-      name: "Harshwardhan Prasad",
-      Description: "Partner",
+      name: "Harshwardhan",
+      Description: "Prasad",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3xy0rSIDDHARTH%20KOLTE_11zon.png",
-      name: "Siddharth Kolte",
-      Description: "Partner",
+      name: "Siddharth",
+      Description: "Kolte",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3ycbcCHANDAN%20KAR_11zon.png",
-      name: "Chandan Kar",
-      Description: "Partner",
+      name: "Chandan",
+      Description: "Kar",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3yqteBHASKER%20JAIN_11zon.png",
-      name: "Bhasker Jain",
-      Description: "Partner",
+      name: "Bhasker",
+      Description: "Jain",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zkyaSIDDHARTH%20JAIN_11zon.png",
-      name: "Siddharth Jain",
-      Description: "Partner",
+      name: "Siddharth",
+      Description: "Jain",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwg3zc4bTEJ%20INGLE_11zon.png",
-      name: "Tej Ingle",
-      Description: "Partner",
+      name: "Tej",
+      Description: "Ingle",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmrn9Hariprakash.png",
-      name: "Hariprakash Pandey",
-      Description: "Partner",
+      name: "Hariprakash",
+      Description: "Pandey",
     },
     {
       src: "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilwivmwrsViral.png",
-      name: "Viral Vora",
-      Description: "Partner",
+      name: "Viral",
+      Description: "Vora",
+    },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4k8b9lye355fsWhatsApp%20Image%202024-07-09%20at%2012.48.22_c0f6df4b.jpg",
+      name: "Bhushan",
+      Description: "Saney",
     },
   ];
 
@@ -72,11 +77,11 @@ const Partners_mobile = () => {
 
     {
       name: "Siddharth Kolte",
-      about: `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
+      about: `Has 25+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
       abouthobby:
         "He relishes playing badminton, finds joy in music, and cherishes quality time spent with his family.",
       progress: [
-        { year: "1997", company: "MBA", completed: true },
+        { year: "1999", company: "MBA", completed: true },
         { year: "2000", company: "Exim Bank", completed: true },
         { year: "2001", company: "JM Morgan Stanley", completed: true },
         { year: "2003", company: "BNP Paribas", completed: true },
@@ -103,8 +108,8 @@ const Partners_mobile = () => {
       abouthobby:
         "His passion for cricket is unwavering, he thrives on travel adventures, and finds inspiration in the pages of marketing books.",
       progress: [
-        { year: "2003", company: "MBA", completed: true },
-        { year: "2006", company: "Essar Holding", completed: true },
+        { year: "2005", company: "MBA", completed: true },
+        { year: "2007", company: "Essar Holding", completed: true },
         { year: "2008", company: "Unitech", completed: true },
         { year: "2010", company: "Ireo", completed: true },
         { year: "2012", company: "Experion Holding", completed: true },
@@ -154,7 +159,7 @@ const Partners_mobile = () => {
         { year: "2001", company: "B Methalia", completed: true },
         { year: "2003", company: "Dalal Mott Macdonald ", completed: true },
         { year: "2005", company: "Mahindra Gesco Ltd ", completed: true },
-        { year: "2007", company: "Peninsula Land Ltd ", completed: true },
+        { year: "2007", company: "Peninsula Land ", completed: true },
         { year: "2008", company: "Godrej", completed: true },
         { year: "2015", company: "Raymond Realty", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
@@ -197,6 +202,55 @@ const Partners_mobile = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
+    {
+      name: "Bhushan Saney",
+      about:
+        "Bhushan has over 34 years of experience in Indian Real estate and has in depth and nuanced knowledge of Execution and operations with expertise on Contracts , Procurement, Estimation and Quality Control.",
+        abouthobby:
+        "He is an enthusiastic reader of books, loves to explore new destinations and experiment global food styles. His favourite sport is cricket and in his free time he likes to spend time with family.",
+
+      progress: [
+        {
+          year: "1990",
+          company: "Mokha Constructions",
+          completed: true,
+        },
+        // { year: "2001", company: "Independent Contractor", completed: true },
+        { year: "1993", company: "Gondawana Engineers", completed: true },
+        { year: "1995", company: "UB Engineering Ltd", completed: true },
+        {
+          year: "1999",
+          company: "Ultratech Cement Limited",
+          completed: true,
+        },
+        {
+          year: "2005",
+          company: "IVRCL Limited",
+          completed: true,
+        },
+        {
+          year: "2013",
+          company: "Sobha Develpoers",
+          completed: true,
+        },
+        {
+          year: "2014",
+          company: "Godrej Properties Limited",
+          completed: true,
+        },
+        {
+          year: "2019",
+          company: "Emaar India Limited",
+          completed: true,
+        },
+        {
+          year: "2020",
+          company: "Godrej Fund Management",
+          completed: true,
+        },
+        { year: "2024", company: "NeoLiv", completed: true },
+      ],
+    },
   ];
 
   return (
@@ -211,7 +265,7 @@ const Partners_mobile = () => {
           >
             <img src={image.src} alt={image.name} className="w-full h-auto" />
             <h3 className="text-center mt-2 font-medium">{image.name}</h3>
-            <p className="text-center">{image.Description}</p>
+            <p className="text-center font-medium">{image.Description}</p>
             {tooltip === index && (
               <div className="fixed top-0 left-1/2 md:w-[78%] w-96 transform z-50 h-screen pb-2 md:pb-24 -translate-x-1/2 bg-white border shadow-lg border-blue-950 p-8 rounded-lg">
                 <button
@@ -234,7 +288,7 @@ const Partners_mobile = () => {
                     <p className="text-md text-center font-medium">
                       {tabContents[index]?.about}
                     </p>
-                    <p className="text-md font-medium italic text-center ">
+                    <p className="text-md font-medium italic text-center pt-4 text-indigo-800">
                       {tabContents[index]?.abouthobby}
                     </p>
                     <p className="text-lg font-semibold pt-5">Journey</p>

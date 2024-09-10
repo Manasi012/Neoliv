@@ -4,7 +4,18 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { NavLink } from "react-router-dom";
 import Card from "./Card";
-import MyPDF from "../../Assets/pdf/NeoLiv_Tracking.pdf";
+import pdfFile1 from '../../Assets/pdf/NeoLivUpdate-April2023.pdf';
+import pdfFile2 from '../../Assets/pdf/CEO_Letter_July2023.pdf';
+import pdfFile3 from '../../Assets/pdf/NeoLivCEOLetterNovember2023.pdf';
+import pdfFile4 from '../../Assets/pdf/NeoLivPressRelease-March2024.pdf';
+import pdfFile5 from '../../Assets/pdf/NEOLIVLaunchEvent.pdf';
+import pdfFile7 from '../../Assets/pdf/vccircle.pdf';
+import pdfFile8 from '../../Assets/pdf/financial.pdf';
+import pdfFile9 from '../../Assets/video/MohitMalhotraonNDTVPropertyShow.mp4';
+import pdfFile10 from '../../Assets/video/dainik_bhaskar.mp4';
+import pdfFile11 from '../../Assets/video/MM_TV18.mp4';
+import pdfFile12 from '../../Assets/pdf/NeoLiv_Tracking.pdf';
+
 
 const newsData = [
   {
@@ -12,35 +23,35 @@ const newsData = [
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdejjvcccircle.png",
     buttonText: "News",
-    pdfUrl: "https://neoliv.in/docs/vccircle.pdf",
+    pdfUrl: pdfFile7,
   },
   {
     description: "Mohit Malhotra, sharing his expert opinion....",
     buttonText: "News",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdj34NDTV.jpg",
-    iframeUrl: "https://neoliv.in/MohitMalhotraonNDTVPropertyShow.mp4",
+    iframeUrl: pdfFile9,
   },
   {
     description: "Mohit Malhotra (ex MD and CEO of Godrej Prop....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbdw2yDainik-Bhaskar.jpg",
     buttonText: "News",
-    iframeUrl: "https://neoliv.in/dainik_bhaskar.mp4",
+    iframeUrl: pdfFile10,
   },
   {
     description: "Mohit Malhotra’s official confirmation on....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbe3liTV-18.jpg",
     buttonText: "News",
-    iframeUrl: "https://neoliv.in/MM_TV18.mp4",
+    iframeUrl: pdfFile11,
   },
   {
     description: "Mohit Malhotra, the former managing director....",
     imageUrl:
       "https://cdn.propstory.com/magicpages/NAME/16iwl4kl6ilvqbeb10Financial-Express.jpg",
     buttonText: "News",
-    pdfUrl: "https://neoliv.in/docs/financial.pdf",
+    pdfUrl: pdfFile8,
   },
 ];
 
@@ -150,7 +161,7 @@ function AllNewsComponent() {
     <div className="slider-container md:py-10 py-4 text-center relative">
       <Slider className="md:mx-20 md:pb-0 pb-10" {...settings}>
         <div
-          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded hover:underline overflow-hidden shadow-lg relative"
+          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded overflow-hidden shadow-lg relative"
           data-aos="zoom-in"
           data-aos-delay="800"
           data-aos-duration="800"
@@ -166,21 +177,21 @@ function AllNewsComponent() {
             </div>
             <div className="card-body h-10 font-medium block pt-3 space-y-11">
               <a
-                href="https://neoliv.in/docs/NeoLivUpdate-April2023.pdf"
+                href={pdfFile1}
                 target="_blank"
               >
                 April 2023
               </a>
               <br />
               <a
-                href="https://neoliv.in/docs/CEO_Letter_July2023.pdf"
+                 href={pdfFile2}
                 target="_blank"
               >
                 July 2023
               </a>
               <br />
               <a
-                href="https://neoliv.in/docs/NeoLivUpdate-April2023.pdf"
+                 href={pdfFile3}
                 target="_blank"
               >
                 November 2023
@@ -191,7 +202,7 @@ function AllNewsComponent() {
         </div>
 
         <div
-          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded hover:underline overflow-hidden shadow-lg relative"
+          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded  overflow-hidden shadow-lg relative"
           data-aos="zoom-in"
           data-aos-delay="800"
           data-aos-duration="800"
@@ -207,14 +218,14 @@ function AllNewsComponent() {
             </div>
             <div className="card-body h-10 font-medium block pt-3 space-y-11">
               <a
-                href="https://neoliv.in/docs/NeoLiv%20Press%20Release%20-%20March%202024.pdf"
+                href={pdfFile4}
                 target="_blank"
               >
                 March 2024- First close of USD 150 mn Fund
               </a>
               <br />
               <a
-                href="https://neoliv.in/docs/NEOLIVLaunchEvent.pdf"
+                href={pdfFile5}
                 target="_blank"
               >
                 June 2023: 360 ONE Launch event
@@ -235,7 +246,7 @@ function AllNewsComponent() {
         ))}
 
         <div
-          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded hover:underline overflow-hidden shadow-lg relative"
+          className="max-w-sm cursor-pointer md:ml-0 ml-8 md:h-[20.5rem] h-[19.4rem] rounded overflow-hidden shadow-lg relative"
           data-aos="zoom-in"
           data-aos-delay="800"
           data-aos-duration="800"
@@ -253,7 +264,7 @@ function AllNewsComponent() {
               <NavLink to="/Junemedia">June Media</NavLink>
               <br />
               <a
-                href="https://neoliv.in/docs/NeoLiv_Tracking.pdf"
+                href={pdfFile12}
                 target="_blank"
               >
                 October Media
@@ -267,5 +278,6 @@ function AllNewsComponent() {
     </div>
   );
 }
+
 
 export default AllNewsComponent;

@@ -84,7 +84,7 @@ const Team = () => {
               data-aos-delay="1700"
               data-aos-duration="1000"
             >
-              09 equity partners with vast industry experience in the business
+              10 equity partners with vast industry experience in the business
               to date.
             </li>
           </ul>

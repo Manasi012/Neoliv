@@ -1,5 +1,7 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
+import pdfFile2 from '../Assets/pdf/CEO_Letter_July2023.pdf';
+
 
 const ProfessionallyBuilt = () => {
   const cardData = [
@@ -12,7 +14,7 @@ const ProfessionallyBuilt = () => {
       description: "Strategic Advisor",
       imageUrl:
         "https://cdn.propstory.com/magicpages/NAME/16iwl4k1anlslotlfxAnarock-01.png",
-      pdfUrl: "https://neoliv.in/docs/CEO_Letter_July2023.pdf",
+        pdfUrl: pdfFile2,
     },
     {
       description: "Brand Strategy Partner",

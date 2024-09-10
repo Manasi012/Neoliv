@@ -43,7 +43,7 @@ const ThreePillars = () => {
                       100+ <span className="tab_span1">years</span> cumulative
                       experience
                     </li>
-                    <li>Key Managemenyt team with Equity Partnership</li>
+                    <li>Equity Partnership for Key Management</li>
                   </ul>
                 </div>
                 <NavLink
@@ -151,7 +151,7 @@ const ThreePillars = () => {
                 </div>
                 <NavLink
                   to="/customercentric"
-                  className="inline-flex items-center text-lg hover:text-white text-[#28285a] font-semibold pt-4 px-4 rounded md:absolute bottom-8"
+                  className="inline-flex items-center text-lg hover:text-white text-[#000088] font-semibold pt-4 px-4 rounded md:absolute bottom-8"
                 >
                   Discover
                   <svg

@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
+import video1 from '../Assets/imgs/CustomerCentricVideo.mp4';
 
 
 const CustomerCentric = () => {
@@ -83,7 +84,7 @@ const CustomerCentric = () => {
             style={videoStyle}
           >
             <source
-              src="https://neoliv.in/neoliv_new_video.mp4"
+              src={video1}
               type="video/mp4"
             />
           </video>

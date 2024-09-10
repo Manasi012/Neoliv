@@ -58,6 +58,11 @@ const Partners = () => {
       name: "Viral Vora",
       Description: "Partner",
     },
+    {
+      src: "https://cdn.propstory.com/magicpages/NAME/16iwl4k8b9lye355fsWhatsApp%20Image%202024-07-09%20at%2012.48.22_c0f6df4b.jpg",
+      name: "Bhushan Saney",
+      Description: "Partner",
+    },
   ];
 
   const tabContents = [
@@ -77,18 +82,16 @@ const Partners = () => {
 
     {
       name: "Siddharth Kolte",
-      about: `Has 24+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
+      about: `Has 25+ years of experience in fundraising, land acquisition, Indian & International real estate policy making.`,
       abouthobby:
         "He relishes playing badminton, finds joy in music, and cherishes quality time spent with his family.",
       progress: [
-        { year: "1997", company: "MBA", completed: true },
-        { year: "2000", company: "Exim Bank", completed: true },
+        { year: "1999", company: "MBA\u00A0\u00A0\u00A0\u00A0\u00A0", completed: true },
+        { year: "2000", company: "Exim Bank\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", completed: true },
         { year: "2001", company: "JM Morgan Stanley", completed: true },
         { year: "2003", company: "BNP Paribas", completed: true },
         {
-          year: "2005",
-          company: "Independent Financial Consultant",
-          completed: true,
+          year: "2005", company: "Independent Financial Consultant", completed: true,
         },
         {
           year: "2009",
@@ -108,8 +111,8 @@ const Partners = () => {
       abouthobby:
         "His passion for cricket is unwavering, he thrives on travel adventures, and finds inspiration in the pages of marketing books.",
       progress: [
-        { year: "2003", company: "MBA", completed: true },
-        { year: "2006", company: "Essar Holding", completed: true },
+        { year: "2005", company: "MBA", completed: true },
+        { year: "2007", company: "Essar Holding", completed: true },
         { year: "2008", company: "Unitech", completed: true },
         { year: "2010", company: "Ireo", completed: true },
         { year: "2012", company: "Experion Holding", completed: true },
@@ -128,7 +131,7 @@ const Partners = () => {
       progress: [
         { year: "2006", company: "MBA", completed: true },
         { year: "2009", company: "Godrej", completed: true },
-        { year: "2016", company: "The Wadhwa Group", completed: true },
+        { year: "2016", company: "The\u00A0Wadhwa\u00A0Group", completed: true },
         // { year: "2022", company: "Tribeca", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
@@ -140,10 +143,10 @@ const Partners = () => {
       abouthobby:
         "He finds fulfillment in sports, treasures moments with family, and seeks excitement in discovering new destinations.",
       progress: [
-        { year: "2011", company: "Future First", completed: true },
+        { year: "2011", company: "Future\u00A0First", completed: true },
         { year: "2014", company: "MBA", completed: true },
         { year: "2016", company: "Godrej", completed: true },
-        { year: "2022", company: "Macro Tech (LODHA)", completed: true },
+        { year: "2022", company: "Macro\u00A0Tech\u00A0(LODHA)", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
@@ -154,12 +157,12 @@ const Partners = () => {
       abouthobby:
         "He enjoys sketching, indulges in voracious reading, and loves immersing himself in movies and cricket matches.",
       progress: [
-        { year: "1997", company: "Architect Reza Kabul", completed: true },
+        { year: "1997", company: "Architect Reza\u00A0Kabul", completed: true },
         { year: "1999", company: "Gayatri Construction", completed: true },
-        { year: "2001", company: "B Methalia", completed: true },
-        { year: "2003", company: "Dalal Mott Macdonald ", completed: true },
-        { year: "2005", company: "Mahindra Gesco Ltd ", completed: true },
-        { year: "2007", company: "Peninsula Land Ltd ", completed: true },
+        { year: "2001", company: "B\u00A0Methalia", completed: true },
+        { year: "2003", company: "Dalal\u00A0Mott Macdonald ", completed: true },
+        { year: "2005", company: "Mahindra Gesco\u00A0Ltd ", completed: true },
+        { year: "2007", company: "Peninsula Land", completed: true },
         { year: "2008", company: "Godrej", completed: true },
         { year: "2015", company: "Raymond Realty", completed: true },
         { year: "2023", company: "NeoLiv", completed: true },
@@ -172,7 +175,7 @@ const Partners = () => {
       abouthobby:
         "Hari likes playing sports and reading books. He is also a coach on finance and investment strategies.",
       progress: [
-        { year: "2000", company: "Goldstar Jewellery", completed: true },
+        { year: "2000", company: "Goldstar\u00A0Jewellery", completed: true },
         { year: "2003", company: "ICS Group ", completed: true },
         { year: "2005", company: "HDIL", completed: true },
         { year: "2014", company: "Runwal", completed: true },
@@ -188,7 +191,7 @@ const Partners = () => {
       progress: [
         {
           year: "1997",
-          company: "Strategic Consultant with STATE PWD, MES, CCW AIR etc",
+          company: "Strategic Consultant\u00A0with STATE\u00A0PWD,\u00A0MES, CCW\u00A0AIR\u00A0etc",
           completed: true,
         },
         // { year: "2001", company: "Independent Contractor", completed: true },
@@ -202,7 +205,65 @@ const Partners = () => {
         { year: "2023", company: "NeoLiv", completed: true },
       ],
     },
+    {
+      name: "Bhushan Saney",
+      about:
+        "Bhushan has over 34 years of experience in Indian Real estate and has in depth and nuanced knowledge of Execution and operations with expertise on Contracts , Procurement, Estimation and Quality Control.",
+        abouthobby:
+        "He is an enthusiastic reader of books, loves to explore new destinations and experiment global food styles. His favourite sport is cricket and in his free time he likes to spend time with family.",
+     
+      progress: [
+        {
+          year: "1990",
+          company: "Mokha Constructions",
+          completed: true,
+        },
+        // { year: "2001", company: "Independent Contractor", completed: true },
+        { year: "1993", company: "Gondawana Engineers", completed: true },
+        { year: "1995", company: "UB Engineering Ltd", completed: true },
+        {
+          year: "1999",
+          company: "Ultratech Cement Limited",
+          completed: true,
+        },
+        {
+          year: "2005",
+          company: "IVRCL Limited",
+          completed: true,
+        },
+        {
+          year: "2013",
+          company: "Sobha Develpoers",
+          completed: true,
+        },
+        {
+          year: "2014",
+          company: "Godrej Properties Limited",
+          completed: true,
+        },
+        {
+          year: "2019",
+          company: "Emaar India Limited",
+          completed: true,
+        },
+        {
+          year: "2020",
+          company: "Godrej Fund Management",
+          completed: true,
+        },
+        { year: "2024", company: "NeoLiv", completed: true },
+      ],
+    },
   ];
+
+  const addLineBreaks = (text) => {
+    return text.split(" ").map((word, index) => (
+      <React.Fragment key={index}>
+        {word}
+        <br />
+      </React.Fragment>
+    ));
+  };
 
   return (
     <>
@@ -217,11 +278,11 @@ const Partners = () => {
       </div>
 
       <div
-        className={`mx-auto p-4 hidden md:block ${
+        className={`mx-auto py-4 hidden md:block ${
           clicked ? "fixed top-0 left-0 h-full w-screen z-50 bg-white" : ""
         }`}
       >
-        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-8 gap-0 mx-20">
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-9 gap-0 mx-10">
           {images.map((image, index) => (
             <div
               key={index}
@@ -241,12 +302,12 @@ const Partners = () => {
                 alt={image.name}
                 className="w-36 h-auto cursor-pointer rounded-full mb-2"
               />
-              <h3 className="text-center mt-2 font-bold text-[12px]">
+              <h3 className="text-center mt-2 font-bold text_size">
                 {image.name}
               </h3>
 
               {tooltip === index && (
-                <div className="fixed tab_fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-[450px]  py-8 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
+                <div className="fixed tab_fixed bottom-0 left-1/2 md:w-[98%] mb-5 transform z-50 h-[500px]  py-8 px-32 -translate-x-1/2 bg_light border shadow-lg border-blue-950 rounded-lg">
                   <button
                     onClick={handleCloseTooltip}
                     className="absolute top-8 right-16 text-5xl font-bold"
@@ -269,7 +330,7 @@ const Partners = () => {
                       <h6 className="text-lg font-medium leading-7">
                         {tabContents[index]?.about}
                       </h6>
-                      <h6 className="text-lg font-medium italic leading-7">
+                      <h6 className="text-lg pt-8 text-blue-950 font-medium italic leading-7">
                         {tabContents[index]?.abouthobby}
                       </h6>
                     </div>
@@ -296,9 +357,9 @@ const Partners = () => {
                               <p className="text-[13px]  font-semibold">
                                 {progressItem.year}
                               </p>
-                              <p className="text-[14px] font-semibold md:pe-0 ">
-                                {progressItem.company + " "}
-                              </p>
+                              <p className="text-[14px] font-semibold md:pe-0">
+                          {addLineBreaks(progressItem.company)}
+                        </p>
                               {progressIndex !==
                                 tabContents[index].progress.length - 1 && (
                                 <div

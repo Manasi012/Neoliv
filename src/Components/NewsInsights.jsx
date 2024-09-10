@@ -11,13 +11,13 @@ const NewsInsights = () => {
   return (
     <>
       <div
-        className="text-center mt-16 pb-3 md:mt-32"
-        data-aos="zoom-in"
-        data-aos-delay="800"
-        data-aos-duration="1000"
+        className="text-center mt-4 pb-3 md:mt-32"
         id="news&insights"
       >
-        <h4 className="md:text-4xl text-4xl text-blue-950 font-medium">
+        {/* <h4 className="md:text-4xl text-4xl text-blue-950 font-medium">
+          News & Insights
+        </h4> */}
+        <h4 className="md:text-3xl text-4xl text-blue-950 font-medium pt-5">
           News & Insights
         </h4>
       </div>
